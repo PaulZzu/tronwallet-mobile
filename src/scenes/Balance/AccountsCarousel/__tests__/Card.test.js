@@ -4,7 +4,7 @@ import { shallow } from 'enzyme'
 import Card from './../Card'
 import { BtnTrash } from './../elements'
 
-jest.mock('./../../../../utils/__mocks__/i18n')
+jest.mock('../../../../utils/i18n')
 
 describe('Balance <Card>', () => {
   const defaultProps = {
@@ -22,6 +22,7 @@ describe('Balance <Card>', () => {
     onDelete: jest.fn(),
     onCurrencyPress: jest.fn()
   }
+
   const setup = (propOverrides = {}) => {
     const props = { ...defaultProps, ...propOverrides }
 
@@ -30,22 +31,20 @@ describe('Balance <Card>', () => {
     )
   }
 
-  let wrapper = null
-  beforeEach(() => {
-    wrapper = setup()
-  })
-
   test('renders without crashing', () => {
+    const wrapper = setup()
     expect(wrapper).toBeDefined()
   })
 
   test('renders one button when showDeleteBtn is true', () => {
+    const wrapper = setup()
     wrapper.setProps({ showDeleteBtn: true })
     const btn = wrapper.find(BtnTrash)
     expect(btn).toHaveLength(1)
   })
 
   test('hide trash button when showDeleteBtn is false', () => {
+    const wrapper = setup()
     wrapper.setProps({ showDeleteBtn: false })
     expect(wrapper.find(BtnTrash)).toHaveLength(0)
   })

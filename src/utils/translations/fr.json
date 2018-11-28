@@ -563,7 +563,7 @@
       "title": "Vérifier votre biométrie"
     },
     "auth": {
-      "title": "Save Biometry",
+      "title": "Sauver la biométrie",
       "error": "Accès refusé"
     }
   },

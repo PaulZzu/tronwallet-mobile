@@ -1,100 +1,100 @@
 {
   "relativeTime": {
-    "future": "in %s",
-    "past": "%s ago",
-    "s": "a few seconds",
-    "ss": "%d seconds",
-    "m": "a minute",
-    "mm": "%d minutes",
-    "h": "an hour",
-    "hh": "%d hours",
-    "d": "a day",
-    "dd": "%d days",
-    "M": "a month",
-    "MM": "%d months",
-    "y": "a year",
-    "yy": "%d years"
+    "future": "i %s",
+    "past": "%s siden",
+    "s": "noen få sekunder",
+    "ss": "%d sekunder",
+    "m": "et minutt",
+    "mm": "%d minutter",
+    "h": "en time",
+    "hh": "%d timer",
+    "d": "en dag",
+    "dd": "%d dager",
+    "M": "en måned",
+    "MM": "%d måneder",
+    "y": "et år",
+    "yy": "%d år"
   },
-  "success": "Success",
-  "warning": "Warning",
-  "cancel": "Cancel",
+  "success": "Suksess",
+  "warning": "Advarsel",
+  "cancel": "Avbryt",
   "address": "Adresse",
-  "message": "Message",
+  "message": "Melding",
   "ok": "OK",
-  "actionModalTitle": "Would you like to",
+  "actionModalTitle": "Vil du gjerne",
   "account": "Konto",
-  "restore": "Restaurere",
+  "restore": "Gjenopprette",
   "error": {
-    "default": "Woops something went wrong. Try again later, If the error persist try to update the network settings.",
-    "buildingTransaction": "Error while building transaction, try again.",
-    "gettingTransaction": "Error while getting transaction.",
-    "clipboardCopied": "Something wrong while copying",
-    "hideAccount": "Noe gikk galt ved å slette konto, prøv igjen '"
+    "default": "Woops noe gikk galt. Prøv igjen senere, \nhvis feilen vedvarer, prøv å oppdatere nettverksinnstillingene.",
+    "buildingTransaction": "Feil under opprettelse av transaksjon, prøv igjen.",
+    "gettingTransaction": "Feil under henting av transaksjon.",
+    "clipboardCopied": "Noe gikk galt under kopiering",
+    "hideAccount": "Noe gikk galt ved å slette konto, prøv igjen'"
   },
-  "avaliable": "AVAILABLE",
-  "frozen": "FROZEN",
-  "tronPower": "TRON POWER",
-  "trxPrice": "TRX PRICE",
-  "confirmed": "Confirmed",
-  "unconfirmed": "Unconfirmed",
-  "copyAddress": "COPY ADDRESS",
+  "avaliable": "TILGJENGELIG",
+  "frozen": "FROSSET",
+  "tronPower": "TRON MAKT",
+  "trxPrice": "TRX PRIS",
+  "confirmed": "Bekreftet",
+  "unconfirmed": "Ubekreftet",
+  "copyAddress": "KOPIER ADRESSEN",
   "transactionType": {
-    "transfer": "Transfer",
-    "transferAsset": "Transfer Asset",
-    "freeze": "Freeze",
-    "unfreeze": "Unfreeze",
-    "vote": "Vote",
-    "participate": "Participate",
-    "create": "Create",
-    "undefined": "Undefined Type"
+    "transfer": "Overføre",
+    "transferAsset": "Overføre Eiendel",
+    "freeze": "Fryse",
+    "unfreeze": "Frigi",
+    "vote": "Stemme",
+    "participate": "Delta",
+    "create": "Opprette",
+    "undefined": "Udefinert Type"
   },
-  "close": "Close",
-  "ends": "Ends",
-  "clear": "Clear",
-  "allIn": "All In",
-  "skip": "Skip",
+  "close": "Lukk",
+  "ends": "Slutter",
+  "clear": "Klar",
+  "allIn": "Alt I",
+  "skip": "Hopp over",
   "privateKey": "Privat nøkkel",
-  "results": "Results",
-  "buy": "Buy",
+  "results": "Resultater",
+  "buy": "Kjøpe",
   "filter": "Filter",
-  "txs": "Transactions",
+  "txs": "Transaksjoner",
   "balance": {
     "title": "KONTOER",
     "error": {
       "loadingData": "Det oppstod en feil under lasting av data.",
       "savingCurrency": "Feil under lagring av foretrukket valuta"
     },
-    "chooseCurrency": "Vennligst velg din foretrukne valuta.",
-    "confirmSeed": "Vennligst Trykk for å bekrefte dine 12 frø ord",
+    "chooseCurrency": "Vennligst, velg din foretrukne valuta.",
+    "confirmSeed": "Vennligst trykk for å bekrefte dine 12 frø ord",
     "bandwidth": "BÅNDBREDDE",
     "tokens": "TOKENS",
     "holdings": "BEHOLDNING"
   },
-  "hideAccount": "Du er ferd med å fjerne denne kontoen. Du kan gjenopprette den senere i innstillingene",
+  "hideAccount": "Du er i ferd med å fjerne denne kontoen. Du kan gjenopprette det senere i innstillingene",
   "components": {
     "share": {
       "title": "Del TronWallet adresse",
       "message": "Dette er min TronWallet-adresse:\n\n {{address}}\n\nTips: Når du har kopiert den, kan du lime den inn i TronWallet-appen din med den spesielle knappen på Sende skjermbildet.",
-      "dialogTitle": "Del med:"
+      "dialogTitle": "Dele med:"
     },
     "QRScanner": {
       "title": "Adresseskanner",
-      "scan": "Skanning",
+      "scan": "Skann",
       "explanation": "Skann QR koden for å identifisere målbrukeren",
       "permissionMessage": "For å skanne offentlig nøkkel trenger appen din tillatelse for å få tilgang til kameraet."
     },
     "vote": {
       "enterVote": "ANGI VERDIEN FOR DIN STEMME",
-      "votesRemaining": "STEMMER IGJEN",
+      "votesRemaining": "GJENVÆRENDE STEMMER",
       "setVote": "ANGI STEMME",
       "moreVotes": "Hvis du trenger flere stemmer, kan du fryse mer TRX.",
       "confirmVotes": "BEKREFT STEMMER",
-      "yourVotes": "Dine stemmer",
-      "myVotes": "MIN STEMMER",
+      "yourVotes": "Dine Stemmer",
+      "myVotes": "MINE STEMMER",
       "confirm": "BEKREFTE",
-      "freeze": "Frys",
+      "freeze": "Fryse",
       "totalVotes": "Totalt antall stemmer tilgjengelig:",
-      "delete": "SLETT",
+      "delete": "SLETTE",
       "set": "SETT",
       "freezeOrLower": "Du har ikke nok frossen TRX. Frys mer TRX eller senk stemmebeløpet",
       "freezeToContinue": "Du har ikke nok fryst TRX. Frys mer TRX for å fortsette"
@@ -102,58 +102,58 @@
   },
   "firstTime": {
     "button": {
-      "create": "LAG LOMMEBOK",
+      "create": "OPPRETTE LOMMEBOK",
       "restore": "GJENOPPRETT LOMMEBOK",
-      "import": "IMPORT WALLET"
+      "import": "IMPORTER LOMMEBOK"
     },
     "swiper": {
       "welcome": {
-        "title": "Welcome to \nTRONWALLET",
-        "body": "The most secure wallet for TRON"
+        "title": "Velkommen til \nTRONWALLET",
+        "body": "Den sikreste lommeboken for TRON"
       },
       "security": {
-        "title": "SECURITY",
-        "body": "Privacy and security for \n your transactions"
+        "title": "SIKKERHET",
+        "body": "Personvern og sikkerhet for\n dine transaksjoner"
       },
       "votes": {
-        "title": "VOTES",
-        "body": "Freezing and vote for Super \n Representatives"
+        "title": "STEMMER",
+        "body": "Frysing og stemme for Super \n representanter"
       },
       "addressbook": {
-        "title": "ADDRESS BOOK",
-        "body": "Save the addresses of your friends \n and contacts."
+        "title": "ADRESSEBOK",
+        "body": "Lagre adresser til dine venner og kontakter."
       },
       "multipleaccounts": {
-        "title": "MULTIPLE ACCOUNTS",
-        "body": "You can manage multiple accounts \n in your wallet"
+        "title": "FLERE KONTOER",
+        "body": "Du kan administrere flere kontoer i lommeboken din"
       }
     }
   },
   "addressBook": {
-    "title": "ADDRESS BOOK",
+    "title": "ADRESSEBOK",
     "shared": {
       "add": "LEGG TIL",
-      "edit": "REDIGERE",
+      "edit": "REDIGER",
       "delete": "SLETT",
       "send": "SENDE"
     },
     "contacts": {
-      "title": "CONTACTS",
+      "title": "KONTAKTER",
       "delete": {
-        "title": "Slett kontakt",
+        "title": "Slett Kontakt",
         "message": "Vil du virkelig slette denne kontakten?",
         "cancelButton": "Avbryt",
         "okButton": "OK"
       },
       "empty": "Din adressebok er tom, legg til en ny kontakt ved hjelp av knappen nedenfor.",
-      "loadError": "Det oppstod et problem under innlasting kontaktene. Prøv på nytt.",
+      "loadError": "Det oppstod et problem med å laste inn kontaktene. Vennligst prøv på nytt.",
       "addContact": "LEGG TIL KONTAKT",
       "addToContacts": "LEGG TIL I KONTAKTER"
     },
     "form": {
       "generalError": "Det oppsto et problem med å sende inn dette skjemaet. Ta kontakt med en administrator.",
-      "nameError": "Navnefeltet må starte med et brev, inneholde maksimalt 32 tegn, og det vil bare akseptere bokstaver, tall og hvite mellomrom.",
-      "addressError": "Noe er ikke riktig med adressen. Vennligst dobbeltklikk for typoer.",
+      "nameError": "Navnefeltet må starte med en bokstav, inneholde maksimalt 32 tegn, og det vil bare akseptere bokstaver, tall og hvite mellomrom.",
+      "addressError": "Noe er ikke riktig med adressen. Vennligst dobbel sjekk for skrivefeil.",
       "uniqueAddressError": "Nøkkelen må være unik. Vennligst velg en annen adresse.",
       "uniqueAliasError": "Navn i adresseboken må være unikt. Vennligst velg en annen.",
       "name": "NAVN",
@@ -161,7 +161,7 @@
     }
   },
   "importWallet": {
-    "title": "IMPORTVALLET",
+    "title": "IMPORTER LOMMEBOK",
     "message": "Hvis du har den private nøkkelen og adressen til lommeboken, kan du gjenopprette den her, men husk at TronWallet opererer med mnemonics først og fremst. Denne gjenopprettingsmetoden deaktiverer noen funksjoner i App.",
     "button": "IMPORT",
     "error": {
@@ -171,39 +171,39 @@
   "freeze": {
     "title": "FRYSE",
     "unfreeze": {
-      "title": "frigi",
-      "inXTime": "You can unfreeze your TRX",
-      "inThreeDays": "Etter en tre dagers periode kan du fryse din TRX",
-      "inXMinutes": "Du kan frigjøre TRX på {{minutes}} minutter.",
+      "title": "FRIGI",
+      "inXTime": "Du kan frigjøre dine TRX",
+      "inThreeDays": "Etter en tre dagers periode kan du frigi dine TRX",
+      "inXMinutes": "Du kan frigjøre dine TRX om {{minutes}} minutter.",
       "inXHours": "Du kan frigjøre TRX om {{hours}} timer.",
-      "inXDays": "Du kan frigjøre TRX på {{days}} dager.",
-      "now": "Du kan frigjøre din TRX nå."
+      "inXDays": "Du kan frigjøre dine TRX om {{days}} dager.",
+      "now": "Du kan frigjøre dine TRX nå."
     },
     "error": {
       "minimumAmount": "Minimumsbeløpet for enhver fryse-transaksjon er 1.",
-      "insufficientBalance": "Mangelfull TRX-balanse",
-      "roundNumbers": "Can only freeze round numbers"
+      "insufficientBalance": "Utilstrekkelig TRX saldo",
+      "roundNumbers": "Kan bare fryse runde tall"
     },
-    "amount": "FREEZE AMOUNT",
-    "balance": "Balansere"
+    "amount": "FRYSE BELØP",
+    "balance": "Saldo"
   },
   "getVault": {
-    "notInstalled": "Det ser ut til at du ikke har Tron Vault installert på telefonen din for å fortsette med transaksjonen din.",
+    "notInstalled": "Det ser ut til at du ikke har TronWallet installert på telefonen din for å fortsette med transaksjonen din.",
     "downloadHere": "Du kan laste den ned her"
   },
   "market": {
     "time": {
-      "hour": "1H",
+      "hour": "1T",
       "day": "1D",
-      "week": "1W",
+      "week": "1U",
       "month": "1M",
       "all": "ALLE"
     },
     "highest": "HØYESTE",
-    "lowest": "LAVEST",
-    "volume": "VOLUME 24H",
-    "cap": "MARKED CAP",
-    "supply": "KIRKULERINGSFORSIKRING"
+    "lowest": "LAVESTE",
+    "volume": "VOLUM 24T",
+    "cap": "MARKEDSVERDI",
+    "supply": "SIRKULERENDE FORSYNING"
   },
   "participate": {
     "title": "DELTA",
@@ -219,20 +219,20 @@
         "title": "Du må kjøpe minst en TRX verdi på {{token}}.",
         "message": "For tiden kjøper du bare {{amount}}."
       },
-      "notFound": "Asset(s) not found"
+      "notFound": "Ressurs(er) ikke funnet"
     },
     "warning": "Du har ikke nok TRX til å kjøpe så mange {{token}}",
-    "enterAmountToBuy": "ENTER THE AMOUNT TO BUY",
+    "enterAmountToBuy": "SKRIV INN BELØPET SOM SKAL KJØPES",
     "amountToBuy": "BELØP Å KJØPE",
     "pricePerToken": "PRIS PER TOKEN",
     "tokenDescription": "TOKEN BESKRIVELSE",
     "tokenInfo": "TOKEN INFO",
     "token": "TOKEN",
     "tokens": "TOKENS",
-    "frozen": "FROSSEN",
+    "frozen": "FROSSET",
     "percentage": "PROSENTDEL",
     "issued": "UTSTEDT",
-    "totalSupply": "TOTAL SUPPLY",
+    "totalSupply": "TOTAL FORSYNING",
     "startTime": "STARTTID",
     "endTime": "SLUTTID",
     "description": "BESKRIVELSE",
@@ -241,15 +241,15 @@
     "trxNum": "TRX NUM",
     "num": "NUM",
     "block": "BLOKKERE",
-    "balance": "BALANCE",
-    "searchPreview": "Featured Tokens"
+    "balance": "SALDO",
+    "searchPreview": "Utvalgte Tokens"
   },
   "pin": {
     "title": "SIKKERHETSKONTROLL",
     "enter": "Skriv inn PIN-kode",
     "new": "Skriv inn ny PIN-kode",
     "reenter": "Skriv inn PIN-kode på nytt",
-    "biometrics": "Biometric Check"
+    "biometrics": "Biometrisk Kontroll"
   },
   "receive": {
     "title": "MOTTA",
@@ -291,11 +291,11 @@
         "newSeed": "Få nytt frø",
         "later": "Bekreft senere"
       },
-      "backupMessage": "You can always access your words by accessing the backup on the app settings      ",
-      "seedExplanation": "The seed key is a human-readable representation of your wallet. Those words, in that exact order, can be used to re-create your wallet."
+      "backupMessage": "Du kan alltid få tilgang til ordene dine ved å få tilgang til sikkerhetskopien på appinnstillingene      ",
+      "seedExplanation": "Frø nøkkelen er en menneskelig lesbar representasjon av lommeboken din. Disse ordene, kan i den eksakte rekkefølgen, brukes til å gjenopprette din lommebok."
     },
     "restore": {
-      "title": "RESTORE WALLET",
+      "title": "GJENOPPRETTE LOMMEBOK",
       "explanation": "For å gjenopprette lommeboken, vennligst oppgi de samme 12 ordene du skrev på papir når du opprettet lommeboken din for første gang. Hvis du skriver inn en annen ordsekvens, vil en ny tom lommebok bli opprettet.",
       "placeholder": "Vennligst skriv inn 12 frøordene dine her",
       "success": "Wallet restaurert med suksess!",
@@ -336,7 +336,7 @@
       "title": "Varsler"
     },
     "network": {
-      "title": "Network",
+      "title": "Nettverk",
       "modal": {
         "title": "NETTVERK",
         "explanation": "Med dette alternativet kan du velge noden som bedre passer dine behov og preferanser. Vær forsiktig når du oppdaterer noden IP mens feil IP kan føre til funksjonsfeil i lommeboken din. Eksempel: 35.231.121.122:50051",
@@ -367,7 +367,7 @@
       }
     },
     "backup": {
-      "title": "Backup Wallet"
+      "title": "Backup Lommebok"
     },
     "restore": {
       "title": "Gjenopprett lommeboken"
@@ -409,7 +409,7 @@
       "title": "Hvem aksepterer TRX?"
     },
     "helpCenter": {
-      "title": "Help Center"
+      "title": "Brukerstøtte"
     },
     "accounts": {
       "title": "kontoer",
@@ -417,10 +417,10 @@
       "restoreAccounts": "Gjenopprett kontoene",
       "noAccounts": "Ingen kontoer for å gjenopprette"
     },
-    "partners": "PARTNERS",
+    "partners": "PARTNERE",
     "askPin": "Spør alltid PIN-kode",
-    "askBiometry": "Activate Biometry",
-    "verifiedTokensOnly": "Verified tokens only"
+    "askBiometry": "Aktivere Biometri",
+    "verifiedTokensOnly": "Bare bekreftet tokens"
   },
   "submitTransaction": {
     "title": "TRANSAKSJON DETALJER",
@@ -433,12 +433,12 @@
       "submit": "SEND TRANSAKSJON"
     },
     "error": {
-      "noData": "Couldn't load transaction data"
+      "noData": "Kunne ikke laste transaksjonsdata"
     },
     "exchange": {
-      "send": "Sending {{sendtoken}}",
-      "receive": "Receiving {{receivetoken}}",
-      "error": "Check your latest transactions to confirm the received amount."
+      "send": "Sende {{sendtoken}}",
+      "receive": "Mottar {{receivetoken}}",
+      "error": "Sjekk de siste transaksjonene dine for å bekrefte mottatt beløp."
     },
     "disconnectedMessage": "Det ser ut til at du er koblet fra. Koble til Internett igjen før du fortsetter med transaksjonen.",
     "dic": {
@@ -491,9 +491,9 @@
     "amount": "BELØP",
     "to": "TIL",
     "from": "FRA",
-    "tokenName": "TOKEN NAME",
-    "unityValue": "UNITY VALUE",
-    "totalSupply": "TOTAL SUPPLY",
+    "tokenName": "TOKEN NAVN",
+    "unityValue": "ENHET VERDIEN",
+    "totalSupply": "TOTAL FORSYNING",
     "startTime": "STARTTID",
     "endTime": "SLUTTID",
     "description": "BESKRIVELSE",
@@ -510,10 +510,10 @@
     "search": "Søke",
     "searchPreview": "Suggestions - Most Voted",
     "error": "Ups, noe lastet ikke riktig. Prøv å laste på nytt",
-    "notFound": "Super Representative not found"
+    "notFound": "Super Representant ikke funnet"
   },
   "scanPayment": {
-    "scan": "SCAN",
+    "scan": "SKANNE",
     "error": {
       "receiver": "Mottakeradressen er ugyldig",
       "token": "Token er ikke gyldig",
@@ -555,79 +555,79 @@
     }
   },
   "balanceToken": {
-    "updating": "Updating token information. Please wait a few seconds.",
-    "notAvailable": "Token information not available"
+    "updating": "Oppdaterer token informasjon. Vennligst vent noen sekunder.",
+    "notAvailable": "Token informasjon ikke tilgjengelig"
   },
   "biometry": {
     "register": {
-      "title": "Check your biometry"
+      "title": "Sjekk din utgave"
     },
     "auth": {
-      "title": "Save Biometry",
-      "error": "Access denied"
+      "title": "Lagre utgave",
+      "error": "Ingen tilgang"
     }
   },
   "privacyPolicy": {
-    "title": "PRIVACY POLICY",
-    "subtitle": "You must read and accept our privacy terms to continue.",
-    "error": "You need to accept of privacy terms before to continue. ",
-    "acceptTerms": "I have read and agree to the terms",
-    "continue": "CONTINUE",
-    "docTitle": "Privacy Policy",
-    "introduction": "Your privacy is important to us.\nIt is TronWallet's policy to respect your privacy regarding any information we may collect from you across our website, http://tronwallet.me, and other sites we own and operate.\nWe only ask for personal information when we truly need it to provide a service to you. We collect it by fair and lawful means, with your knowledge and consent.\nWe also let you know why we're collecting it and how it will be used.\nWe only retain collected information for as long as necessary to provide you with your requested service.\nWhat data we store, we'll protect within commercially acceptable means to prevent loss and theft, as well as unauthorised access, disclosure, copying, use or modification.\nWe don't share any personally identifying information publicly or with third-parties, except when required to by law.\nOur website may link to external sites that are not operated by us.\nPlease be aware that we have no control over the content and practices of these sites, and cannot accept responsibility or liability for their respective privacy policies.\nYou are free to refuse our request for your personal information, with the understanding that we may be unable to provide you with some of your desired services.\nYour continued use of our website will be regarded as acceptance of our practices around privacy and personal information.\nIf you have any questions about how we handle user data and personal information, feel free to contact us.\nThis policy is effective as of 1 July 2018.",
+    "title": "PERSONVERN",
+    "subtitle": "Du må lese og godta våre personvernvilkår for å fortsette.",
+    "error": "Du må godta personvernregler før du fortsetter. ",
+    "acceptTerms": "Jeg har lest og godkjent vilkårene",
+    "continue": "FORTSETT",
+    "docTitle": "Personvern",
+    "introduction": "Ditt privatliv er viktig for oss.\nDet er TronWallets politikk å respektere personvernet ditt om all informasjon vi kan samle inn fra deg på nettstedet vårt, http://tronwallet.me og andre nettsteder vi eier og driver.\nVi ber bare om personlig informasjon når vi virkelig trenger det for å gi deg en tjeneste. Vi samler det på rettferdige og lovlige måter, med din kunnskap og samtykke.\nVi lar deg også få vite hvorfor vi samler det og hvordan det blir brukt.\nVi beholder innhentet informasjon kun så lenge som nødvendig for å gi deg den forespurte tjenesten.\nHvilke data vi lagrer, vil vi beskytte innenfor kommersielt akseptable metoder for å forhindre tap og tyveri, samt uautorisert tilgang, avsløring, kopiering, bruk eller modifikasjon.\nVi deler ikke personlig identifiserende informasjon offentlig eller med tredjeparter, unntatt når det kreves ved lov.\nVår nettside kan koble til eksterne nettsteder som ikke drives av oss.\nVær oppmerksom på at vi ikke har kontroll over innhold og praksis på disse nettstedene, og kan ikke akseptere ansvar eller ansvar for deres respektive retningslinjer.\nDu er fri til å nekte vår forespørsel om dine personlige opplysninger, med forståelse for at vi kanskje ikke kan gi deg noen av dine ønskede tjenester.\nDin fortsatte bruk av nettstedet vårt vil bli ansett som aksept av vår praksis rundt personvern og personlig informasjon.\nHvis du har spørsmål om hvordan vi håndterer brukerdata og personlig informasjon, kan du kontakte oss.\nDenne retningslinjene gjelder fra 1. juli 2018.",
     "termsOfService": {
-      "title": "TronWallet Terms of Service",
+      "title": "TronWallet Vilkår for bruk",
       "section1": {
-        "title": "1. Terms",
+        "title": "1. Vilkår",
         "body": "By accessing the website at http://tronwallet.me, you are agreeing to be bound by these terms of service, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. If you do not agree with any of these terms, you are prohibited from using or accessing this site. The materials contained in this website are protected by applicable copyright and trademark law."
       },
       "section2": {
-        "title": "2. Use License",
-        "body": "Permission is granted to temporarily download one copy of the materials (information or software) on TronWallet's website for personal, non-commercial transitory viewing only.\nThis is the grant of a license, not a transfer of title, and under this license you may not:\nmodify or copy the materials;\nuse the materials for any commercial purpose, or for any public display (commercial or non-commercial);\nattempt to decompile or reverse engineer any software contained on TronWallet's website;\nremove any copyright or other proprietary notations from the materials;\nor transfer the materials to another person or \"mirror\" the materials on any other server.\nThis license shall automatically terminate if you violate any of these restrictions and may be terminated by TronWallet at any time. Upon terminating your viewing of these materials or upon the termination of this license, you must destroy any downloaded materials in your possession whether in electronic or printed format.\n"
+        "title": "2. Bruk lisens",
+        "body": "Tillatelse gis midlertidig å laste ned en kopi av materialene (informasjon eller programvare) på TronWallets nettsted for personlig, ikke-kommersiell midlertidig visning.\nDette er tildeling av en lisens, ikke en overføring av tittel, og under dette lisensen kan du ikke:\nendre eller kopiere materialene;\nbruk materialene til kommersiell bruk, eller for offentlig visning (kommersiell eller ikke-kommersiell);\nforsøk på å dekompilere eller omvendt konstruere programvare som finnes på TronWallets nettsted;\nFjern all opphavsrett eller andre proprietære notater fra materialene;\neller overfør materialene til en annen person eller \"speile\" materialene på en annen server.\nDenne lisensen avsluttes automatisk hvis du bryter noen av disse restriksjonene, og kan opphøre av TronWallet når som helst. Når du avslutter visning av disse materialene eller ved oppsigelsen av dette lisensen, du må ødelegge alle nedlastede materialer i din besittelse, enten i elektronisk eller trykt format.\n"
       },
       "section3": {
-        "title": "3. Disclaimer",
-        "body": "The materials on TronWallet's website are provided on an 'as is' basis. TronWallet makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including, without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights.\nFurther, TronWallet does not warrant or make any representations concerning the accuracy, likely results, or reliability of the use of the materials on its website or otherwise relating to such materials or on any sites linked to this site.n"
+        "title": "3. Ansvarsfraskrivelse",
+        "body": "Materiale på TronWallets nettsted er gitt på en \"som er\" basis. TronWallet gir ingen garantier, uttrykt eller underforstått, og frasier seg og negerer alle andre garantier, inkludert, uten begrensning, underforståtte garantier eller vilkår for salgbarhet, egnethet til et bestemt formål eller ikke-brudd på immaterielle rettigheter eller annet brudd på rettighetene.\nVidere garanterer TronWallet ikke eller gir noen beskjed om nøyaktigheten, de sannsynlige resultatene eller påliteligheten av bruken av materialene på nettstedet eller på annen måte knyttet til slike materialer eller på nettsteder som er knyttet til dette nettstedet."
       },
       "section4": {
-        "title": "4. Limitations",
-        "body": "In no event shall TronWallet or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use the materials on TronWallet's website, even if TronWallet or a TronWallet authorized representative has been notified orally or in writing of the possibility of such damage. Because some jurisdictions do not allow limitations on implied warranties, or limitations of liability for consequential or incidental damages, these limitations may not apply to you.\n"
+        "title": "4. Begrensninger",
+        "body": "TronWallet eller dets leverandører skal under ingen omstendigheter holdes ansvarlige for eventuelle skader (inkludert, uten begrensning, skader på tap av data eller fortjeneste eller på grunn av driftsavbrudd) som skyldes bruk eller manglende evne til å bruke materialene på TronWallets nettsted, selv om TronWallet eller en TronWallet-autorisert representant er varslet muntlig eller skriftlig om muligheten for slik skade. Fordi noen jurisdiksjoner ikke tillater begrensninger på underforståtte garantier eller begrensninger av ansvar for følgeskader eller tilfeldige skader, gjelder disse begrensningene kanskje ikke for deg.\n"
       },
       "section5": {
-        "title": "5. Accuracy of materials",
-        "body": "The materials appearing on TronWallet's website could include technical, typographical, or photographic errors. TronWallet does not warrant that any of the materials on its website are accurate, complete or current. TronWallet may make changes to the materials contained on its website at any time without notice. However TronWallet does not make any commitment to update the materials.\n"
+        "title": "5. Nøyaktighet av materialer",
+        "body": "Materialene som vises på TronWallets nettsted kan inneholde tekniske, typografiske eller fotografiske feil. TronWallet garanterer ikke at noe av materialene på nettsiden er korrekt, komplett eller aktuelt. TronWallet kan til enhver tid gjøre endringer i materialet på nettstedet sitt uten varsel. TronWallet forplikter seg imidlertid ikke til å oppdatere materialene.\n"
       },
       "section6": {
-        "title": "6. Links",
-        "body": "TronWallet has not reviewed all of the sites linked to its website and is not responsible for the contents of any such linked site. The inclusion of any link does not imply endorsement by TronWallet of the site. Use of any such linked website is at the user's own risk.\n"
+        "title": "6. Lenker",
+        "body": "TronWallet har ikke gjennomgått alle områder som er knyttet til sitt nettsted, og er ikke ansvarlig for innholdet på et slikt nettsted. Inkluderingen av en lenke innebærer ikke godkjenning av TronWallet på nettstedet. Bruk av slike tilknyttede nettsteder er på brukerens eget ansvar.\n"
       },
       "section7": {
-        "title": "7. Modifications",
-        "body": "TronWallet may revise these terms of service for its website at any time without notice. By using this website you are agreeing to be bound by the then current version of these terms of service.\n"
+        "title": "7. Modifikasjoner",
+        "body": "TronWallet kan revidere disse vilkårene for tjenesten for sin nettside når som helst uten varsel. Ved å bruke dette nettstedet aksepterer du å være bundet av den gjeldende versjonen av disse tjenestevilkårene.\n"
       },
       "section8": {
-        "title": "8. Governing Law",
-        "body": "These terms and conditions are governed by and construed in accordance with the laws of Vancouver, Canada and you irrevocably submit to the exclusive jurisdiction of the courts in that State or location.\n"
+        "title": "8. Gjeldende lov",
+        "body": "Disse betingelsene og vilkårene er underlagt og tolkes i samsvar med lovene i Vancouver, Canada og du påkaller ugjenkallelig til den eksklusive jurisdiksjonen til domstolene i staten eller plassering.\n"
       },
       "section9": {
-        "title": "9. CRYPTOCURRENCY RISKS",
-        "body": "Cryptocurrency assets are subject to high market risks and volatility. Past performance is not indicative of future results. Investments in blockchain assets may result in loss of part or all of your investment. Please do your own research and use caution. You are solely responsible for your actions on the TRONWALLET. TRONWALLET Team is not responsible for your investment losses.\n"
+        "title": "9. KRYPTOVALUTA RISIKO",
+        "body": "Kryptovaluta eiendeler er utsatt for høy markedsrisiko og volatilitet. Tidligere resultater er ikke en indikasjon på fremtidige resultater. Investeringer i felt som blockchain kan føre til tap av deler eller hele investeringen. Vennligst gjør din egen forskning og vær forsiktig. Du er selv ansvarlig for dine handlinger på TRONWALLET. TRONWALLET Team er ikke ansvarlig for tapene dine.\n"
       },
       "section10": {
-        "title": "10. THE TRON NETWORK (SEPARATE FROM TRONWALLET)",
-        "body": "TronWallet is only a user interface to TRON and does not operate the TRON NETWORK. TronWallet is unable to control the actions of others on the TRON NETWORK. When using TRONWALLET, you are directly communicating with the TRON PUBLIC API operated by TRON Foundation. Transactions on the TRONWALLET are irreversible.\n"
+        "title": "10. TRON NETTVERK (ATSKILT FRA TRONWALLET)",
+        "body": "TronWallet er bare et brukergrensesnitt til TRON og bruker ikke TRON NETWORK. TronWallet kan ikke kontrollere andre handlinger på TRON NETWORK. Når du bruker TRONWALLET, kommuniserer du direkte med TRON PUBLIC API som drives av TRON Foundation. Transaksjoner på TRONWALLET er irreversible.\n"
       },
       "section11": {
-        "title": "11. TRONWALLET DOES NOT ENDORSE ANYTHING",
-        "body": "TRONWALLET does NOT endorse ANY asset on the TRON NETWORK. Asset \"listings\" on TRONWALLET are NOT endorsements. TRONWALLET is a software client ONLY and does NOT conduct any independent diligence or review of any asset. TRON is an open system meaning that scams and market manipulators may exist. Prices shown on TRONWALLET are for informational purposes and do not imply that they can actually be redeemed for a certain price.\n"
+        "title": "11. TRONWALLET GJELDER IKKE ANVENDELSE",
+        "body": "TRONWALLET støtter IKKE NOE eiendel på TRON NETWORK. Eiendel \"oppføringer\" på TRONWALLET er IKKE påtegninger. TRONWALLET er BARE en programvare klient og utfører ikke noen uavhengig omhu eller gjennomgang av noen formue. TRON er et åpent system som betyr at svindel og markedsmanipulatorer kan eksistere. Prisene som vises på TRONWALLET er til informasjonsformål og betyr ikke at de faktisk kan innløses til en viss pris.\n"
       },
       "section12": {
-        "title": "12. YOUR OWN RESPONSIBILITIES",
-        "body": "You, the user, are solely responsible for ensuring your own compliance with laws and taxes in your jurisdiction. Cryptocurrencies may be illegal in your area. You, are solely responsible for your own security including keeping your account secret keys safe and backed up.\n"
+        "title": "12. DIN EGEN ANSVAR",
+        "body": "Du, brukeren, er alene ansvarlig for å sikre din egen overholdelse av lover og skatt i din jurisdiksjon. Kryptovaluta kan være ulovlig i ditt område. Du er selv ansvarlig for din egen sikkerhet, inkludert å holde kontoens hemmelige nøkler trygge og sikkerhetskopiert.\n"
       },
       "section13": {
-        "title": "13. DISCLAIMER OF WARRANTY",
-        "body": "TRONWALLET is provided free of charge and on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND.\n"
+        "title": "13. ANSVARSFRASKRIVELSE",
+        "body": "TRONWALLET tilbys gratis og på en \"SOM DEN ER\" BASIS, UTEN GARANTIER ELLER BETINGELSER AV NOEN SLAG.\n"
       }
     }
   }

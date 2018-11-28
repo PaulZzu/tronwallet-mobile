@@ -40,7 +40,7 @@ jobs:
           command: touch config.js
       - run:
           name: jest test
-          command: yarn test
+          command: yarn test-all
 
   ios_deploy:
     working_directory: ~/project

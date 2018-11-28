@@ -19,7 +19,7 @@
   "warning": "Varning",
   "cancel": "Avbryt",
   "address": "Adress",
-  "message": "Message",
+  "message": "Meddelande",
   "ok": "Ok",
   "actionModalTitle": "Skulle du vilja",
   "account": "konto",
@@ -31,8 +31,8 @@
     "clipboardCopied": "Något fel med kopiering",
     "hideAccount": "Något gick fel med att ta bort konto, försök igen \""
   },
-  "avaliable": "AVAILABLE",
-  "frozen": "FROZEN",
+  "avaliable": "TILLGÄNGLIG",
+  "frozen": "FRUSNA",
   "tronPower": "TRON KRAFT",
   "trxPrice": "TRX PRIS",
   "confirmed": "Avklarat",
@@ -54,10 +54,10 @@
   "allIn": "Alt In",
   "skip": "Hoppa Över",
   "privateKey": "Privat nyckel",
-  "results": "Results",
-  "buy": "Buy",
+  "results": "Resultat",
+  "buy": "Köp",
   "filter": "Filter",
-  "txs": "Transactions",
+  "txs": "Transaktioner",
   "balance": {
     "title": "Konton",
     "error": {
@@ -80,12 +80,12 @@
     "QRScanner": {
       "title": "Adress skannare",
       "scan": "Skanna",
-      "explanation": "Scan the QRCode to identify the target user",
-      "permissionMessage": "To scan the public key the app needs your permission to access the camera."
+      "explanation": "Skanna QR koden för att identifiera målanvandaren",
+      "permissionMessage": "För att kunna skanna den offentliga nyckeln måste du ge appen tillgång till kameran."
     },
     "vote": {
       "enterVote": "ENTER THE VOTE VALUE",
-      "votesRemaining": "VOTES REMAINING",
+      "votesRemaining": "ÅTERSTÅENDE RÖSTER",
       "setVote": "SET VOTE",
       "moreVotes": "If you need more votes you can Freeze more TRX.",
       "confirmVotes": "CONFIRM VOTES",

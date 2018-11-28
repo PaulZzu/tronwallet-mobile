@@ -96,25 +96,32 @@ export class TransactionsScene extends Component {
     const currentAlias = foundAlias ? foundAlias.alias : this.props.context.publicKey
     const contact = this.props.navigation.getParam('contact', null)
 
-    this.setState({ currentAlias, contacts, contact, refreshing: true }, async () => {
-      try {
-        await updateTransactions(this.props.context.publicKey)
-        if (contact) {
-          this._setFilteredContact(contact)
-        } else {
-          const transactionRef = isRefreshing
-            ? this._allTransactions()
-            : this._firstTransactions()
-          this._updateData(transactionRef, isRefreshing)
-        }
-      } catch (error) {
-        logSentry(error, 'On Refresh - Transactions')
-      }
-    })
+    try {
+      await updateTransactions(this.props.context.publicKey)
+    } catch (error) {
+      logSentry(error, 'On Refresh - Transactions')
+    }
+
+    const transactionRef = this._getTransactionsByContactOrRefreshing(contact, isRefreshing)
+
+    this.setState({ currentAlias, contacts, contact, refreshing: true },
+      () => this._updateData(transactionRef, isRefreshing, contact))
   }
 
-  _setFilteredContact = contact => {
-    const transactionsFiltered = this.state.transactionStoreRef
+  _getTransactionsByContactOrRefreshing = (contact, isRefreshing) => {
+    if (contact) {
+      return this._setFilteredContact(contact)
+    }
+
+    if (isRefreshing) {
+      return this._allTransactions()
+    }
+
+    return this._firstTransactions()
+  }
+
+  _setFilteredContact = contact =>
+    this.state.transactionStoreRef
       .objects('Transaction')
       .filtered(
         'contractData.transferFromAddress = $0 OR contractData.transferToAddress = $0',
@@ -122,15 +129,12 @@ export class TransactionsScene extends Component {
       )
       .sorted([['timestamp', true]])
 
-    this._updateData(transactionsFiltered)
-  }
-
   _removeFilteredContact = () => {
     this.props.navigation.setParams({ contact: null })
     this.setState({ contact: null }, () => this._loadData())
   }
 
-  _updateData = async (transactionsRef, isRefreshing = false) => {
+  _updateData = async (transactionsRef, isRefreshing = false, contact = null) => {
     try {
       const allTransactions = transactionsRef.map(item => Object.assign({}, item))
       const transactionsWithParticipate = this._updateParticipateTransactions(
@@ -139,7 +143,7 @@ export class TransactionsScene extends Component {
       )
       let transactions = this._getTransactionByAddress(transactionsWithParticipate)
 
-      if (isRefreshing) {
+      if (!!contact && isRefreshing) {
         transactions = this._mergeNewTransactions(transactions)
       }
 

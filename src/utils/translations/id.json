@@ -31,6 +31,8 @@
     "clipboardCopied": "Ada yang salah saat menyalin",
     "hideAccount": "Terjadi kesalahan saat menghapus akun, coba lagi '"
   },
+  "avaliable": "AVAILABLE",
+  "frozen": "FROZEN",
   "tronPower": "TRON POWER",
   "trxPrice": "HARGA TRX",
   "confirmed": "Dikonfirmasi",
@@ -170,6 +172,7 @@
     "title": "MEMBEKUKAN",
     "unfreeze": {
       "title": "UNFREEZE",
+      "inXTime": "You can unfreeze your TRX",
       "inThreeDays": "Setelah tiga hari, Anda dapat mencairkan TRX Anda",
       "inXMinutes": "Anda dapat mencairkan TRX Anda dalam {{minutes}} menit.",
       "inXHours": "Anda dapat mencairkan TRX Anda dalam {{hours}} jam.",
@@ -560,6 +563,7 @@
       "title": "Check your biometry"
     },
     "auth": {
+      "title": "Save Biometry",
       "error": "Access denied"
     }
   },

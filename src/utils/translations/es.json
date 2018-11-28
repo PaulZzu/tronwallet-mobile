@@ -20,8 +20,8 @@
   "cancel": "Cancelar",
   "address": "Dirección",
   "message": "Mensaje",
-  "ok": "Vale",
-  "actionModalTitle": "Te gustaría",
+  "ok": "Ok",
+  "actionModalTitle": "Le gustaría",
   "account": "Cuenta",
   "restore": "Restaurar",
   "error": {
@@ -65,12 +65,12 @@
       "savingCurrency": "Error al guardar la moneda preferida"
     },
     "chooseCurrency": "Por favor, seleccione su moneda preferida.",
-    "confirmSeed": "Por favor, presione para confirmar sus 12 palabras semilla",
+    "confirmSeed": "Por favor, presione para confirmar sus 12 palabras clave",
     "bandwidth": "ANCHO DE BANDA",
     "tokens": "FICHAS",
     "holdings": "VALORES EN CARTERA"
   },
-  "hideAccount": "Estás a punto de eliminar esta cuenta. Puedes restaurarlo más tarde en la configuración",
+  "hideAccount": "Estás a punto de eliminar esta cuenta. Puedes restaurarla más tarde en la configuración",
   "components": {
     "share": {
       "title": "Comparta la dirección de TronWallet",
@@ -563,7 +563,7 @@
       "title": "Compruebe su biometría"
     },
     "auth": {
-      "title": "Save Biometry",
+      "title": "Guardar Huella Digital",
       "error": "Acceso denegado"
     }
   },

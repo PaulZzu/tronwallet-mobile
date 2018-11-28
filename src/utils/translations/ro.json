@@ -583,43 +583,43 @@
       },
       "section2": {
         "title": "2. Licențe de utilizare",
-        "body": "Permission is granted to temporarily download one copy of the materials (information or software) on TronWallet's website for personal, non-commercial transitory viewing only.\nThis is the grant of a license, not a transfer of title, and under this license you may not:\nmodify or copy the materials;\nuse the materials for any commercial purpose, or for any public display (commercial or non-commercial);\nattempt to decompile or reverse engineer any software contained on TronWallet's website;\nremove any copyright or other proprietary notations from the materials;\nor transfer the materials to another person or \"mirror\" the materials on any other server.\nThis license shall automatically terminate if you violate any of these restrictions and may be terminated by TronWallet at any time. Upon terminating your viewing of these materials or upon the termination of this license, you must destroy any downloaded materials in your possession whether in electronic or printed format.\n"
+        "body": "Permisiunea de a descărca o copie a materialelor (informații sau software) de pe site-ul web al TronWallet se acordă temporar și doar in scopuri personale și non-comerciale.\nAceasta este acordarea unei licențe, și nu un transfer de titlu, iar în temeiul acestei licențe, nu puteți:\nmodifica sau copia materialele;\nutiliza materialele în orice scop comercial sau pentru orice afișaj public (comercial sau necomercial);\nîncerca decompilarea sau \"reverse engineer\" al software-urilor incluse pe site-ul TronWallet;\nelimina drepturile de autor sau alte denumiri de proprietate din materiale;\nsau transfera materialele către o altă persoană sau \"oglindi (mirror)\" materialele pe orice alt server.\nAceastă licență se va încheia automat dacă se va încalcă oricare dintre aceste restricții și poate fi terminată de TronWallet în orice moment. La terminarea vizualizării acestor materiale sau la încetarea acestei licențe, trebuie să distrugeți toate materialele descărcate deținute, fie în format electronic sau tipărit.\n"
       },
       "section3": {
-        "title": "3. Disclaimer",
-        "body": "The materials on TronWallet's website are provided on an 'as is' basis. TronWallet makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including, without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights.\nFurther, TronWallet does not warrant or make any representations concerning the accuracy, likely results, or reliability of the use of the materials on its website or otherwise relating to such materials or on any sites linked to this site.n"
+        "title": "3. Act de renunțare",
+        "body": "Materialele furnizate pe site-ul web al TronWallet trebuie tratate \"ca atare\". TronWallet nu oferă nicio garanție, exprimată sau implicită, și respinge și anulează toate garanțiile, inclusiv, fără limitare, garanțiile implicite sau condițiile de vandabilitate, adecvarea pentru un anumit scop sau neîncălcarea drepturilor de proprietate intelectuală sau alte încălcări de drepturi.\nÎn plus, TronWallet nu garantează și nu face nicio declarație cu privire la exactitatea, rezultatele probabile sau fiabilitatea utilizării materialelor de pe site-ul său sau în legătură cu aceste materiale sau oricarui site legat de acest site"
       },
       "section4": {
-        "title": "4. Limitations",
-        "body": "In no event shall TronWallet or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use the materials on TronWallet's website, even if TronWallet or a TronWallet authorized representative has been notified orally or in writing of the possibility of such damage. Because some jurisdictions do not allow limitations on implied warranties, or limitations of liability for consequential or incidental damages, these limitations may not apply to you.\n"
+        "title": "4. Limitări",
+        "body": "În nici un caz TronWallet sau furnizorii săi nu vor fi răspunzători pentru niciun fel de daune (inclusiv, fără limitare, daune pentru pierderea datelor sau a profitului din cauza întreruperii afacerii) care rezultă din utilizarea sau incapacitatea de a utiliza materialele pe site-ul web al TronWallet, chiar dacă TronWallet sau un reprezentant autorizat al TronWallet a fost notificat oral sau în scris cu privire la posibilitatea producerii unor astfel de daune. Deoarece anumite jurisdicții nu permit limitări ale garanțiilor implicite sau limitări ale răspunderii pentru daune secundare sau accidentale, este posibil ca aceste limitări să nu vi se aplice.\n"
       },
       "section5": {
-        "title": "5. Accuracy of materials",
-        "body": "The materials appearing on TronWallet's website could include technical, typographical, or photographic errors. TronWallet does not warrant that any of the materials on its website are accurate, complete or current. TronWallet may make changes to the materials contained on its website at any time without notice. However TronWallet does not make any commitment to update the materials.\n"
+        "title": "5. Acurateţea materialelor",
+        "body": "Materialele care apar pe site-ul TronWallet pot include erori tehnice, tipografice sau fotografice. \nTronWallet nu garantează că oricare dintre materialele de pe site-ul său web sunt corecte, complete sau curente.\nTronWallet poate modifica materialele conținute pe site-ul său web în orice moment fără notificare. Cu toate acestea, TronWallet nu se angajează să actualizeze materialele.\n"
       },
       "section6": {
-        "title": "6. Links",
-        "body": "TronWallet has not reviewed all of the sites linked to its website and is not responsible for the contents of any such linked site. The inclusion of any link does not imply endorsement by TronWallet of the site. Use of any such linked website is at the user's own risk.\n"
+        "title": "6. Link-uri",
+        "body": "TronWallet nu a revizuit toate site-urile legate de site-ul său și nu este responsabil pentru conținutul acestor site-uri. Includerea oricărei legături nu implică aprobarea de către TronWallet a site-ului. Utilizarea oricărui astfel de site este la riscul utilizatorului.\n"
       },
       "section7": {
-        "title": "7. Modifications",
-        "body": "TronWallet may revise these terms of service for its website at any time without notice. By using this website you are agreeing to be bound by the then current version of these terms of service.\n"
+        "title": "7. Modificări",
+        "body": "TronWallet poate revizui acești termeni de utilizare a site-ul său Web în orice moment, fără notificare. Prin utilizarea acestui site sunteți de acord să acceptati versiunea curentă a acestor termeni și condiții.\n"
       },
       "section8": {
-        "title": "8. Governing Law",
-        "body": "These terms and conditions are governed by and construed in accordance with the laws of Vancouver, Canada and you irrevocably submit to the exclusive jurisdiction of the courts in that State or location.\n"
+        "title": "8. Legea aplicabilă",
+        "body": "Acești termeni și condiții sunt guvernate și interpretate în conformitate cu legile din Vancouver, Canada și vă supuneți în mod irevocabil jurisdicției exclusive a instanțelor din acel stat sau locație.\n"
       },
       "section9": {
-        "title": "9. CRYPTOCURRENCY RISKS",
-        "body": "Cryptocurrency assets are subject to high market risks and volatility. Past performance is not indicative of future results. Investments in blockchain assets may result in loss of part or all of your investment. Please do your own research and use caution. You are solely responsible for your actions on the TRONWALLET. TRONWALLET Team is not responsible for your investment losses.\n"
+        "title": "9. RISCURILE CRYPTO-MONEDELOR",
+        "body": "Crypto-monedele sunt supuse unor riscuri ridicate de piață și volatilitate. Performanțele anterioare nu indică rezultatele viitoare. Investițiile în active de blockchain pot duce la pierderea unei părți sau a întregii investiții. Faceți-vă propriile cercetări și folosiți prudență. Sunteți singurul responsabil pentru acțiunile dvs. pe TRONWALLET. Echipa TRONWALLET nu este responsabilă pentru pierderile dvs.\n"
       },
       "section10": {
-        "title": "10. THE TRON NETWORK (SEPARATE FROM TRONWALLET)",
-        "body": "TronWallet is only a user interface to TRON and does not operate the TRON NETWORK. TronWallet is unable to control the actions of others on the TRON NETWORK. When using TRONWALLET, you are directly communicating with the TRON PUBLIC API operated by TRON Foundation. Transactions on the TRONWALLET are irreversible.\n"
+        "title": "10. REȚEAUA TRON (SPERATĂ DE TRONWALLET)",
+        "body": "TronWallet este doar o interfață de utilizator pentru TRON și nu operează REȚEAUA TRON. TronWallet nu poate controla acțiunile altora pe REȚEAUA TRON. Când utilizați TRONWALLET, comunicați direct cu API-ul PUBLIC TRON administrat de Fundația TRON. Tranzacțiile pe TRONWALLET sunt ireversibile.\n"
       },
       "section11": {
-        "title": "11. TRONWALLET DOES NOT ENDORSE ANYTHING",
-        "body": "TRONWALLET does NOT endorse ANY asset on the TRON NETWORK. Asset \"listings\" on TRONWALLET are NOT endorsements. TRONWALLET is a software client ONLY and does NOT conduct any independent diligence or review of any asset. TRON is an open system meaning that scams and market manipulators may exist. Prices shown on TRONWALLET are for informational purposes and do not imply that they can actually be redeemed for a certain price.\n"
+        "title": "11. TRONWALLET NU APROBA NIMIC",
+        "body": "TRONWALLET NU aprobă ORICE token pe RETEAUA TRON. \"Listările\" token-urilor pe TRONWALLET NU sunt aprobari. TRONWALLET este DOAR un software și NU efectuează nici o diligență independentă sau revizuiește token-uri. TRON este un sistem deschis, ceea ce înseamnă că pot exista escrocherii și manipulatori de piață. Prețurile afișate pe TRONWALLET au scopuri informative și nu implică faptul că pot fi efectiv răscumpărate pentru un anumit preț.\n"
       },
       "section12": {
         "title": "12. RESPONSABILITĂȚILE DUMNEAVOASTRĂ",

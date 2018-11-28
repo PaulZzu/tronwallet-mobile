@@ -34,6 +34,7 @@ export const Colors = {
   secondaryText: '#66688F',
   summaryText: '#999bb5',
   titleLabel: '#7476A2',
+  strongBlue: '#501eec',
   primaryGradient: ['#FF4465', '#F6CA1D'],
   buttonGradient: ['#FF4465', '#f8a92f', '#fc734b', '#f7b329', '#F4BC3A'],
   transactionCardGradient: ['#444663', '#2d2e46'],

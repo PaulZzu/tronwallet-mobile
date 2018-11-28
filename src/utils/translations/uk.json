@@ -19,7 +19,7 @@
   "warning": "УВАГА",
   "cancel": "Скасувати",
   "address": "Адреса",
-  "message": "Message",
+  "message": "Повідомлення",
   "ok": "ОК",
   "actionModalTitle": "Чи хотіли б Ви",
   "account": "Обліковий запис",
@@ -31,8 +31,8 @@
     "clipboardCopied": "Щось пішло не так під час копіювання",
     "hideAccount": "Щось пішло не так під час видалення облікового запису, спробуйте знову"
   },
-  "avaliable": "AVAILABLE",
-  "frozen": "FROZEN",
+  "avaliable": "НАЯВНІ",
+  "frozen": "ЗАМОРОЖЕНІ",
   "tronPower": "TRON POWER",
   "trxPrice": "TRX ЦІНА",
   "confirmed": "Підтверджено",
@@ -55,7 +55,7 @@
   "skip": "Пропустити",
   "privateKey": "Приватний ключ",
   "results": "Результати",
-  "buy": "Buy",
+  "buy": "Купити",
   "filter": "Фільтр",
   "txs": "Транзакції",
   "balance": {
@@ -172,7 +172,7 @@
     "title": "ЗАМОРОЖУВАННЯ",
     "unfreeze": {
       "title": "РОЗМОРОЗИТИ",
-      "inXTime": "You can unfreeze your TRX",
+      "inXTime": "Ви можете розморозити ваші TRX",
       "inThreeDays": "Через три дні ви зможете розморозити свої TRX",
       "inXMinutes": "Ви можете розморозити свої TRX через {{minutes}} хвилин.",
       "inXHours": "Ви можете розморозити свої TRX через {{hours}} годин.",
@@ -222,7 +222,7 @@
       "notFound": "Активи не знайдені"
     },
     "warning": "Вам не вистачає TRX, щоб придбати так багато {{token}}",
-    "enterAmountToBuy": "ENTER THE AMOUNT TO BUY",
+    "enterAmountToBuy": "ВВЕДІТЬ КІЛЬКІСТЬ",
     "amountToBuy": "СУМА ДО КУПІВЛІ",
     "pricePerToken": "ЦІНА ЗА ТОКЕН",
     "tokenDescription": "ОПИС ТОКЕНУ",
@@ -241,7 +241,7 @@
     "trxNum": "КІЛЬКІСТЬ TRX",
     "num": "КІЛЬКІСТЬ",
     "block": "БЛОК",
-    "balance": "BALANCE",
+    "balance": "БАЛАНС",
     "searchPreview": "Рекомендовані токени"
   },
   "pin": {
@@ -409,7 +409,7 @@
       "title": "Хто приймає TRX?"
     },
     "helpCenter": {
-      "title": "Help Center"
+      "title": "Довідковий центр"
     },
     "accounts": {
       "title": "Обліковий запис",
@@ -420,7 +420,7 @@
     "partners": "ПАРТНЕРИ",
     "askPin": "Завжди запитувати PIN-код",
     "askBiometry": "Активувати біометрію",
-    "verifiedTokensOnly": "Verified tokens only"
+    "verifiedTokensOnly": "Тільки перевірені токени"
   },
   "submitTransaction": {
     "title": "ДЕТАЛІ ТРАНЗАКЦІЇ",
@@ -436,9 +436,9 @@
       "noData": "Не вдалося завантажити дані транзакції"
     },
     "exchange": {
-      "send": "Sending {{sendtoken}}",
-      "receive": "Receiving {{receivetoken}}",
-      "error": "Check your latest transactions to confirm the received amount."
+      "send": "Відправлення {{sendtoken}}",
+      "receive": "Отримання {{receivetoken}}",
+      "error": "Перевірте ваші останні операції щодо підтвердження отриманої кількості."
     },
     "disconnectedMessage": "Здається, що ви відключені. Підключіться до Інтернету, перш ніж продовжувати транзакцію.",
     "dic": {
@@ -481,7 +481,7 @@
       "tronscanUrl": "Tronscan url для цієї транзакції скопійовано в буфер обміну",
       "publicKey": "Публічний ключ скопійовано в буфер обміну"
     },
-    "hash": "HASH",
+    "hash": "ХЕШ",
     "status": "СТАТУС",
     "time": "ЧАС",
     "block": "БЛОК",
@@ -510,7 +510,7 @@
     "search": "Пошук",
     "searchPreview": "Пропозиції - Найбільш вибрані",
     "error": "На жаль, щось завантажено неправильно. Спробуйте перезавантажити",
-    "notFound": "Super Representative not found"
+    "notFound": "Супер представник не знайдений"
   },
   "scanPayment": {
     "scan": "СКАНУВАННЯ",
@@ -563,46 +563,46 @@
       "title": "Перевірте свою біометрию"
     },
     "auth": {
-      "title": "Save Biometry",
+      "title": "Зберегти Biometry",
       "error": "Доступ заборонено"
     }
   },
   "privacyPolicy": {
-    "title": "PRIVACY POLICY",
-    "subtitle": "You must read and accept our privacy terms to continue.",
-    "error": "You need to accept of privacy terms before to continue. ",
-    "acceptTerms": "I have read and agree to the terms",
-    "continue": "CONTINUE",
-    "docTitle": "Privacy Policy",
-    "introduction": "Your privacy is important to us.\nIt is TronWallet's policy to respect your privacy regarding any information we may collect from you across our website, http://tronwallet.me, and other sites we own and operate.\nWe only ask for personal information when we truly need it to provide a service to you. We collect it by fair and lawful means, with your knowledge and consent.\nWe also let you know why we're collecting it and how it will be used.\nWe only retain collected information for as long as necessary to provide you with your requested service.\nWhat data we store, we'll protect within commercially acceptable means to prevent loss and theft, as well as unauthorised access, disclosure, copying, use or modification.\nWe don't share any personally identifying information publicly or with third-parties, except when required to by law.\nOur website may link to external sites that are not operated by us.\nPlease be aware that we have no control over the content and practices of these sites, and cannot accept responsibility or liability for their respective privacy policies.\nYou are free to refuse our request for your personal information, with the understanding that we may be unable to provide you with some of your desired services.\nYour continued use of our website will be regarded as acceptance of our practices around privacy and personal information.\nIf you have any questions about how we handle user data and personal information, feel free to contact us.\nThis policy is effective as of 1 July 2018.",
+    "title": "ПОЛІТИКА КОНФІДЕНЦІЙНОСТІ",
+    "subtitle": "Ви повинні прочитати і прийняти наші умови конфіденційності для продовження.",
+    "error": "Ви повинні погодитися з умовами конфіденційності, перш ніж продовжити. ",
+    "acceptTerms": "Я прочитав і згоден з умовами",
+    "continue": "ПРОДОВЖИТИ",
+    "docTitle": "Політика конфіденційності",
+    "introduction": "Ваша конфіденційність є важливою для нас.\nПолітикою TronWallet є поважання Ваших особистих даних та іншої інформації, яку ми збираємо від Вас через наш веб-сайт, http://tronwallet.me та за допомогою інших сайтів якими ми володіємо або використовуємо.\nМи просимо надати особисту інформацію тільки коли ми справді її потребуємо задля надання Вам наших послуг. Ми збираємо її законними засобами, і тільки з Вашою згодою.\nТакож ми повідомляємо Вас, чому ми її збираємо, і як будемо використовувати.\nМи зберігаємо зібрану інформацію до тих пір, поки це необхідно для надання вам запитаних Вами послуг.\nДані, які ми зберігаємо, ми будемо захищати в межах комерційно прийнятних засобів, запобігаючи втрати та її крадіжки, а також несанкційованого доступу, розголошення, копіювання, використання або модифікації.\nМи не передаємо жодну особисту інформацію публічно чи третій стороні, за винятком коли це передбачено законом.\nНаш веб-сайт може містити посилання на зовнішні сайти, які не належать нам.\nБудь ласка пам'ятайте, що ми не маємо контролю над змістом і роботою цих сайтів і не може приймати відповідальність або відповідальності за їх відповідні політики конфіденційності.\nВи можете відмовитися від наших запитів особистих відомостей, з розумінням, що ми можемо бути не в змозі надати вам деякі бажані Вам послуги.\nПродовження використання нашого веб-сайту буде розглядатися як визнання нашої практики щодо конфіденційності та збору особистої інформації.\nЯкщо у вас є запитання про те, як ми обробляємо дані користувача та особисті відомості, не соромтеся звертатися до нас.\nЦя політика є ефективною, станом на 1 липня 2018.",
     "termsOfService": {
-      "title": "TronWallet Terms of Service",
+      "title": "Умови використання TronWallet",
       "section1": {
-        "title": "1. Terms",
+        "title": "1. Умови",
         "body": "By accessing the website at http://tronwallet.me, you are agreeing to be bound by these terms of service, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. If you do not agree with any of these terms, you are prohibited from using or accessing this site. The materials contained in this website are protected by applicable copyright and trademark law."
       },
       "section2": {
-        "title": "2. Use License",
-        "body": "Permission is granted to temporarily download one copy of the materials (information or software) on TronWallet's website for personal, non-commercial transitory viewing only.\nThis is the grant of a license, not a transfer of title, and under this license you may not:\nmodify or copy the materials;\nuse the materials for any commercial purpose, or for any public display (commercial or non-commercial);\nattempt to decompile or reverse engineer any software contained on TronWallet's website;\nremove any copyright or other proprietary notations from the materials;\nor transfer the materials to another person or \"mirror\" the materials on any other server.\nThis license shall automatically terminate if you violate any of these restrictions and may be terminated by TronWallet at any time. Upon terminating your viewing of these materials or upon the termination of this license, you must destroy any downloaded materials in your possession whether in electronic or printed format.\n"
+        "title": "2. Ліцензія користувача",
+        "body": "Дозволяється тимчасово завантажувати одну копію матеріалів (інформації або програмного забезпечення) веб-сайту TronWallet для особистого, некомерційного тимчасового перегляду. Це надання ліцензії, а не передача права власності, і за цією ліцензією ви не можете: \nзмінювати чи копіювати матеріали; \nвикористовувати матеріали для будь-яких комерційних цілей або для будь якого публічного показу (комерційного або некомерційного); \nспробувати декомпілювати або перепроектувати будь-яке програмне забезпечення, яке міститься на веб-сайті TronWallet; \nвидалити будь-які авторські права чи інші авторські позначення з матеріалів; \nабо передавати матеріали іншим персонам або \"віддзеркалювати\" матеріали на будь-якому іншому сервері. Ця ліцензія автоматично припиняється, якщо ви порушуєте будь-яке з цих обмежень і може бути припинена TronWallet у будь-який час. Після припинення перегляду цих матеріалів або припинення дії цієї ліцензії ви повинні знищити будь-які завантажені матеріали які є у вашому розпорядженні в електронному або друкованому форматі."
       },
       "section3": {
-        "title": "3. Disclaimer",
-        "body": "The materials on TronWallet's website are provided on an 'as is' basis. TronWallet makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including, without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights.\nFurther, TronWallet does not warrant or make any representations concerning the accuracy, likely results, or reliability of the use of the materials on its website or otherwise relating to such materials or on any sites linked to this site.n"
+        "title": "3. Опис",
+        "body": "Матеріали на веб-сайті TronWallet надаються \"як є\". TronWallet не надає жодних гарантій, явних або неявних, і тим самим відмовляється від будь-яких інших гарантій, включаючи, без обмежень, передбачувані гарантії або умови комерційної придатності, придатності для певної мети або порушення права інтелектуальної власності чи іншого порушення прав. Крім того, TronWallet не надає жодних гарантій щодо точності, вірогідних результатів або надійності використання матеріалів на своєму веб-сайті або на будь-якому сайті, пов'язаному з цією сторінкою"
       },
       "section4": {
-        "title": "4. Limitations",
+        "title": "4. Обмеження",
         "body": "In no event shall TronWallet or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use the materials on TronWallet's website, even if TronWallet or a TronWallet authorized representative has been notified orally or in writing of the possibility of such damage. Because some jurisdictions do not allow limitations on implied warranties, or limitations of liability for consequential or incidental damages, these limitations may not apply to you.\n"
       },
       "section5": {
-        "title": "5. Accuracy of materials",
+        "title": "5. Точність матеріалів",
         "body": "The materials appearing on TronWallet's website could include technical, typographical, or photographic errors. TronWallet does not warrant that any of the materials on its website are accurate, complete or current. TronWallet may make changes to the materials contained on its website at any time without notice. However TronWallet does not make any commitment to update the materials.\n"
       },
       "section6": {
-        "title": "6. Links",
+        "title": "6. Посилання",
         "body": "TronWallet has not reviewed all of the sites linked to its website and is not responsible for the contents of any such linked site. The inclusion of any link does not imply endorsement by TronWallet of the site. Use of any such linked website is at the user's own risk.\n"
       },
       "section7": {
-        "title": "7. Modifications",
+        "title": "7. Зміни",
         "body": "TronWallet may revise these terms of service for its website at any time without notice. By using this website you are agreeing to be bound by the then current version of these terms of service.\n"
       },
       "section8": {
@@ -610,11 +610,11 @@
         "body": "These terms and conditions are governed by and construed in accordance with the laws of Vancouver, Canada and you irrevocably submit to the exclusive jurisdiction of the courts in that State or location.\n"
       },
       "section9": {
-        "title": "9. CRYPTOCURRENCY RISKS",
+        "title": "9. Криптовалютні ризики",
         "body": "Cryptocurrency assets are subject to high market risks and volatility. Past performance is not indicative of future results. Investments in blockchain assets may result in loss of part or all of your investment. Please do your own research and use caution. You are solely responsible for your actions on the TRONWALLET. TRONWALLET Team is not responsible for your investment losses.\n"
       },
       "section10": {
-        "title": "10. THE TRON NETWORK (SEPARATE FROM TRONWALLET)",
+        "title": "10. МЕРЕЖА ТРОН (ВІДОКРЕМЛЕНО ВІД TRONWALLET)",
         "body": "TronWallet is only a user interface to TRON and does not operate the TRON NETWORK. TronWallet is unable to control the actions of others on the TRON NETWORK. When using TRONWALLET, you are directly communicating with the TRON PUBLIC API operated by TRON Foundation. Transactions on the TRONWALLET are irreversible.\n"
       },
       "section11": {
@@ -622,7 +622,7 @@
         "body": "TRONWALLET does NOT endorse ANY asset on the TRON NETWORK. Asset \"listings\" on TRONWALLET are NOT endorsements. TRONWALLET is a software client ONLY and does NOT conduct any independent diligence or review of any asset. TRON is an open system meaning that scams and market manipulators may exist. Prices shown on TRONWALLET are for informational purposes and do not imply that they can actually be redeemed for a certain price.\n"
       },
       "section12": {
-        "title": "12. YOUR OWN RESPONSIBILITIES",
+        "title": "12. ВІДПОВІДАЛЬНІСТЬ КОРИСТУВАЧА",
         "body": "You, the user, are solely responsible for ensuring your own compliance with laws and taxes in your jurisdiction. Cryptocurrencies may be illegal in your area. You, are solely responsible for your own security including keeping your account secret keys safe and backed up.\n"
       },
       "section13": {
