@@ -1,0 +1,424 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Account Carousel Snapshot Should match snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <AccountsCarousel
+    context={
+      Object {
+        "accounts": Array [
+          Object {
+            "balance": 150,
+            "bandwidth": 1,
+            "tronPower": 50,
+          },
+        ],
+        "currency": "TRX",
+        "price": Object {
+          "TRX": Object {
+            "price": 1,
+          },
+          "TWX": Object {
+            "price": 2,
+          },
+        },
+        "setCurrency": [MockFunction],
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <Carousel
+          activeAnimationOptions={null}
+          activeAnimationType="timing"
+          activeSlideAlignment="center"
+          activeSlideOffset={20}
+          apparitionDelay={0}
+          autoplay={false}
+          autoplayDelay={5000}
+          autoplayInterval={3000}
+          callbackOffsetMargin={5}
+          containerCustomStyle={Object {}}
+          contentContainerCustomStyle={Object {}}
+          data={
+            Array [
+              Object {
+                "balance": 150,
+                "bandwidth": 1,
+                "tronPower": 50,
+              },
+            ]
+          }
+          decelerationRate={0.9}
+          enableMomentum={true}
+          enableSnap={true}
+          firstItem={0}
+          hasParallaxImages={false}
+          inactiveSlideOpacity={0.7}
+          inactiveSlideScale={0.9}
+          inactiveSlideShift={0}
+          itemWidth={300}
+          layout="default"
+          lockScrollTimeoutDuration={1000}
+          lockScrollWhileSnapping={false}
+          loop={false}
+          loopClonesPerSide={3}
+          onSnapToItem={[Function]}
+          renderItem={[Function]}
+          shouldOptimizeUpdates={true}
+          slideStyle={
+            Object {
+              "paddingHorizontal": 6,
+            }
+          }
+          sliderWidth={750}
+          swipeThreshold={20}
+          useScrollView={false}
+          vertical={false}
+        />,
+        <ActionSheet
+          cancelButtonIndex={0}
+          onPress={[Function]}
+          options={
+            Array [
+              "cancel",
+              "TRX",
+              "USD",
+              "EUR",
+              "AUD",
+              "GBP",
+              "BTC",
+              "ETH",
+            ]
+          }
+          title="balance.chooseCurrency"
+        />,
+        <Toast
+          fadeInDuration={750}
+          fadeOutDuration={1000}
+          opacity={0.8}
+          position="center"
+          positionValue={120}
+          textStyle={
+            Object {
+              "color": "white",
+            }
+          }
+        />,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "activeAnimationOptions": null,
+          "activeAnimationType": "timing",
+          "activeSlideAlignment": "center",
+          "activeSlideOffset": 20,
+          "apparitionDelay": 0,
+          "autoplay": false,
+          "autoplayDelay": 5000,
+          "autoplayInterval": 3000,
+          "callbackOffsetMargin": 5,
+          "containerCustomStyle": Object {},
+          "contentContainerCustomStyle": Object {},
+          "data": Array [
+            Object {
+              "balance": 150,
+              "bandwidth": 1,
+              "tronPower": 50,
+            },
+          ],
+          "decelerationRate": 0.9,
+          "enableMomentum": true,
+          "enableSnap": true,
+          "firstItem": 0,
+          "hasParallaxImages": false,
+          "inactiveSlideOpacity": 0.7,
+          "inactiveSlideScale": 0.9,
+          "inactiveSlideShift": 0,
+          "itemWidth": 300,
+          "layout": "default",
+          "lockScrollTimeoutDuration": 1000,
+          "lockScrollWhileSnapping": false,
+          "loop": false,
+          "loopClonesPerSide": 3,
+          "onSnapToItem": [Function],
+          "renderItem": [Function],
+          "shouldOptimizeUpdates": true,
+          "slideStyle": Object {
+            "paddingHorizontal": 6,
+          },
+          "sliderWidth": 750,
+          "swipeThreshold": 20,
+          "useScrollView": false,
+          "vertical": false,
+        },
+        "ref": [Function],
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "cancelButtonIndex": 0,
+          "onPress": [Function],
+          "options": Array [
+            "cancel",
+            "TRX",
+            "USD",
+            "EUR",
+            "AUD",
+            "GBP",
+            "BTC",
+            "ETH",
+          ],
+          "title": "balance.chooseCurrency",
+        },
+        "ref": [Function],
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "fadeInDuration": 750,
+          "fadeOutDuration": 1000,
+          "opacity": 0.8,
+          "position": "center",
+          "positionValue": 120,
+          "textStyle": Object {
+            "color": "white",
+          },
+        },
+        "ref": "toast",
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": Symbol(react.fragment),
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <Carousel
+            activeAnimationOptions={null}
+            activeAnimationType="timing"
+            activeSlideAlignment="center"
+            activeSlideOffset={20}
+            apparitionDelay={0}
+            autoplay={false}
+            autoplayDelay={5000}
+            autoplayInterval={3000}
+            callbackOffsetMargin={5}
+            containerCustomStyle={Object {}}
+            contentContainerCustomStyle={Object {}}
+            data={
+              Array [
+                Object {
+                  "balance": 150,
+                  "bandwidth": 1,
+                  "tronPower": 50,
+                },
+              ]
+            }
+            decelerationRate={0.9}
+            enableMomentum={true}
+            enableSnap={true}
+            firstItem={0}
+            hasParallaxImages={false}
+            inactiveSlideOpacity={0.7}
+            inactiveSlideScale={0.9}
+            inactiveSlideShift={0}
+            itemWidth={300}
+            layout="default"
+            lockScrollTimeoutDuration={1000}
+            lockScrollWhileSnapping={false}
+            loop={false}
+            loopClonesPerSide={3}
+            onSnapToItem={[Function]}
+            renderItem={[Function]}
+            shouldOptimizeUpdates={true}
+            slideStyle={
+              Object {
+                "paddingHorizontal": 6,
+              }
+            }
+            sliderWidth={750}
+            swipeThreshold={20}
+            useScrollView={false}
+            vertical={false}
+          />,
+          <ActionSheet
+            cancelButtonIndex={0}
+            onPress={[Function]}
+            options={
+              Array [
+                "cancel",
+                "TRX",
+                "USD",
+                "EUR",
+                "AUD",
+                "GBP",
+                "BTC",
+                "ETH",
+              ]
+            }
+            title="balance.chooseCurrency"
+          />,
+          <Toast
+            fadeInDuration={750}
+            fadeOutDuration={1000}
+            opacity={0.8}
+            position="center"
+            positionValue={120}
+            textStyle={
+              Object {
+                "color": "white",
+              }
+            }
+          />,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "activeAnimationOptions": null,
+            "activeAnimationType": "timing",
+            "activeSlideAlignment": "center",
+            "activeSlideOffset": 20,
+            "apparitionDelay": 0,
+            "autoplay": false,
+            "autoplayDelay": 5000,
+            "autoplayInterval": 3000,
+            "callbackOffsetMargin": 5,
+            "containerCustomStyle": Object {},
+            "contentContainerCustomStyle": Object {},
+            "data": Array [
+              Object {
+                "balance": 150,
+                "bandwidth": 1,
+                "tronPower": 50,
+              },
+            ],
+            "decelerationRate": 0.9,
+            "enableMomentum": true,
+            "enableSnap": true,
+            "firstItem": 0,
+            "hasParallaxImages": false,
+            "inactiveSlideOpacity": 0.7,
+            "inactiveSlideScale": 0.9,
+            "inactiveSlideShift": 0,
+            "itemWidth": 300,
+            "layout": "default",
+            "lockScrollTimeoutDuration": 1000,
+            "lockScrollWhileSnapping": false,
+            "loop": false,
+            "loopClonesPerSide": 3,
+            "onSnapToItem": [Function],
+            "renderItem": [Function],
+            "shouldOptimizeUpdates": true,
+            "slideStyle": Object {
+              "paddingHorizontal": 6,
+            },
+            "sliderWidth": 750,
+            "swipeThreshold": 20,
+            "useScrollView": false,
+            "vertical": false,
+          },
+          "ref": [Function],
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "cancelButtonIndex": 0,
+            "onPress": [Function],
+            "options": Array [
+              "cancel",
+              "TRX",
+              "USD",
+              "EUR",
+              "AUD",
+              "GBP",
+              "BTC",
+              "ETH",
+            ],
+            "title": "balance.chooseCurrency",
+          },
+          "ref": [Function],
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "fadeInDuration": 750,
+            "fadeOutDuration": 1000,
+            "opacity": 0.8,
+            "position": "center",
+            "positionValue": 120,
+            "textStyle": Object {
+              "color": "white",
+            },
+          },
+          "ref": "toast",
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": Symbol(react.fragment),
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenThreeAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "disableLifecycleMethods": true,
+  },
+}
+`;

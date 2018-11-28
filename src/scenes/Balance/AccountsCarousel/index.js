@@ -97,10 +97,15 @@ class AccountsCarousel extends React.Component {
       .concat(address.substring(25, address.length))
 
   _renderItem = ({ item, index }) => {
+    if (!item) {
+      return null
+    }
+
     const { currency } = this.props.context
-    const balance = get(item, 'balance', 0)
-    const tronPower = get(item, 'tronPower', 0)
-    const bandwidth = get(item, 'bandwidth', 0)
+
+    const balance = item.balance || 0
+    const tronPower = item.tronPower || 0
+    const bandwidth = item.bandwidth || 0
     return (
       <Card
         name={item.name}
