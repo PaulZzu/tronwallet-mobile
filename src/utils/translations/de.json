@@ -10,7 +10,7 @@
     "hh": "%d Stunden",
     "d": "ein Tag",
     "dd": "%d Tage",
-    "M": "einen Monat",
+    "M": "ein Monat",
     "MM": "%d Monate",
     "y": "ein Jahr",
     "yy": "%d Jahre"
@@ -19,8 +19,8 @@
   "warning": "Warnung",
   "cancel": "Abbrechen",
   "address": "Adresse",
-  "message": "Message",
-  "ok": "OK",
+  "message": "Nachricht",
+  "ok": "Ok",
   "actionModalTitle": "Würden Sie gerne",
   "account": "Konto",
   "restore": "Wiederherstellen",
@@ -28,11 +28,11 @@
     "default": "Es tut uns leid, etwas ist schief gelaufen. Bitte versuchen Sie es später noch mal. Wenn der Fehler weiterhin auftrit, versuchen Sie die Netzwerk-Einstellungen zu aktualisieren.",
     "buildingTransaction": "Fehler beim Erstellen der Transaktion, bitte versuchen Sie es erneut.",
     "gettingTransaction": "Fehler beim Abrufen der Transaktion.",
-    "clipboardCopied": "Beim Kopieren ist ein Fehler aufgetreten",
-    "hideAccount": "Beim Löschen des Kontos ist ein Fehler aufgetreten. Versuche es erneut"
+    "clipboardCopied": "Bei dem Kopiervorgang ist ein Fehler aufgetreten",
+    "hideAccount": "Beim Löschen des Kontos ist ein Fehler aufgetreten. Versuchen Sie es erneut"
   },
-  "avaliable": "AVAILABLE",
-  "frozen": "FROZEN",
+  "avaliable": "VERFÜGBAR",
+  "frozen": "EINGEFROREN",
   "tronPower": "TRON-POWER",
   "trxPrice": "TRX PREIS",
   "confirmed": "Bestätigt",
@@ -40,7 +40,7 @@
   "copyAddress": "ADRESSE KOPIEREN",
   "transactionType": {
     "transfer": "Übertragung",
-    "transferAsset": "Asset-Übertragen",
+    "transferAsset": "Vermögenswert übertragen",
     "freeze": "Einfrieren",
     "unfreeze": "Auftauen",
     "vote": "Abstimmen",
@@ -66,37 +66,37 @@
     },
     "chooseCurrency": "Bitte wählen Sie Ihre bevorzugte Währung.",
     "confirmSeed": "Bitte tippen Sie, um Ihre 12 geheimen Wörter zu bestätigen",
-    "bandwidth": "Bandbreite",
+    "bandwidth": "BANDBREITE",
     "tokens": "TOKEN",
-    "holdings": "AUFBEWAHREN"
+    "holdings": "BESTÄNDE"
   },
   "hideAccount": "Sie sind dabei, dieses Konto zu entfernen. Sie können es später in den Einstellungen wiederherstellen",
   "components": {
     "share": {
       "title": "TronWallet Adresse teilen",
-      "message": "Dies ist meine TronWallet Adresse:\n\n {{address}}\n\nTipp: Sobald Sie diese kopiert haben, können Sie sie in Ihrer TronWallet-app, über die spezielle Taste einfügen.",
+      "message": "Dies ist meine TronWallet Adresse:\n\n {{address}}\n\nTipp: Nachdem Sie diese kopiert haben, können Sie diese in Ihrer TronWallet-App, über die Spezial-Taste einfügen.",
       "dialogTitle": "Teilen Sie mit:"
     },
     "QRScanner": {
       "title": "Adressen-Scanner",
       "scan": "Scannen",
-      "explanation": "Scannen Sie den QRCode um den Empfänger zu verifizieren",
+      "explanation": "Scannen Sie den QRCode um den Empfänger zu identifizieren",
       "permissionMessage": "Um den öffentlichen Schlüssel zu scannen benötigt die App Ihre Berechtigung um auf die Kamera zugreifen zu können."
     },
     "vote": {
-      "enterVote": "ABSTIMMUNGWERT EINGEBEN",
+      "enterVote": "STIMMENANZAHL EINGEBEN",
       "votesRemaining": "VERFÜGBARE STIMMEN",
-      "setVote": "STiMMEN EINSTELLEN",
+      "setVote": "STIMMEN ABGEBEN",
       "moreVotes": "Wenn Sie mehr Stimmen benötigen, können Sie mehr TRX einfrieren.",
-      "confirmVotes": "ABSTIMMUNGEN BESTÄTIGEN",
+      "confirmVotes": "STIMMEN BESTÄTIGEN",
       "yourVotes": "Deine Stimmen",
-      "myVotes": "Meine Abstimmungen",
+      "myVotes": "Meine Stimmen",
       "confirm": "BESTÄTIGEN",
       "freeze": "Einfrieren",
       "totalVotes": "Anzahl verfügbarer Stimmen:",
       "delete": "Löschen",
       "set": "EINSTELLEN",
-      "freezeOrLower": "Sie haben nicht genug eingefrorene TRX. Frieren Sie mehr TRX ein, oder senken Sie den Stimmenbetrag",
+      "freezeOrLower": "Sie haben nicht genug eingefrorene TRX. Frieren Sie mehr TRX ein, oder reduzieren Sie die Anzahl der Stimmen",
       "freezeToContinue": "Sie haben nicht genug eingefrorene TRX. Um fortzufahren, frieren Sie mehr TRX ein"
     }
   },
@@ -117,15 +117,15 @@
       },
       "votes": {
         "title": "STIMMEN",
-        "body": "Einfrieren und stimmen Sie für Super Repräsentanten"
+        "body": "Frieren Sie ein und stimmen für Super \n Repräsentanten"
       },
       "addressbook": {
         "title": "ADRESSBUCH",
         "body": "Speichern Sie die Adressen Ihrer Freunde \n und Kontakte."
       },
       "multipleaccounts": {
-        "title": "MEHRFACHEN KONTEN",
-        "body": "Sie können mehrfachen Konten in Ihrer Wallet verwalten"
+        "title": "MEHRFACH KONTEN",
+        "body": "Sie können mehrere Konten \n in Ihrer Wallet verwalten"
       }
     }
   },
@@ -143,27 +143,27 @@
         "title": "Kontakt löschen",
         "message": "Möchten Sie diesen Kontakt wirklich löschen?",
         "cancelButton": "Abbrechen",
-        "okButton": "OK"
+        "okButton": "Bestätigen"
       },
-      "empty": "Ihr Adressbuch ist leer, fügen Sie einen neuen Kontakt über den Button unten hinzu.",
-      "loadError": "Es gab ein Problem beim laden Ihrer Kontakte, Bitte versuchen Sie es erneut.",
+      "empty": "Ihr Adressbuch ist leer, fügen Sie einen neuen Kontakt über den Button folgenden hinzu.",
+      "loadError": "Es gab ein Problem beim Laden Ihrer Kontakte. Bitte versuchen Sie es erneut.",
       "addContact": "KONTAKT HINZUFÜGEN",
       "addToContacts": "ZU KONTAKTEN HINZUFÜGEN"
     },
     "form": {
       "generalError": "Es gab ein Problem bei der Übermittlung des Formulars. Bitte kontaktieren Sie einen Administrator.",
       "nameError": "Das Namensfeld muss mit einem Buchstaben beginnen, darf maximal 32 Zeichen enthalten und akzeptiert nur Buchstaben, Zahlen und Leerzeichen.",
-      "addressError": "Etwas stimmt nicht mit der Adresse. Bitte überprüfen Sie diese auf Tippfehler.",
+      "addressError": "Etwas stimmt nicht mit der Adresse. Bitte kontrollieren Sie diese auf Tippfehler.",
       "uniqueAddressError": "Der Schlüssel muss einzigartig sein. Bitte wählen Sie eine andere Adresse.",
-      "uniqueAliasError": "Namen in Ihrem Adressbuch müssen einzig sein. Bitte wählen Sie einen anderen aus.",
-      "name": "NAME",
+      "uniqueAliasError": "Namen in Ihrem Adressbuch müssen einzigartig sein. Bitte wählen Sie einen anderen aus.",
+      "name": "Name",
       "address": "ADRESSE"
     }
   },
   "importWallet": {
-    "title": "IMPORTIERE WALLET",
-    "message": "Wenn Sie den privaten Schlüssel und die Adresse Ihrer Wallet haben, können Sie sie hier wiederherstellen, bedenken Sie jedoch, dass TronWallet hauptsächlich mit Mnemotechniken arbeitet. Diese Wiederherstellungsmethode wird einige Funktionen innerhalb der App deaktivieren.",
-    "button": "IMPORTIERE",
+    "title": "WALLET IMPORTIEREN",
+    "message": "Wenn Sie den privaten Schlüssel und die Adresse Ihrer Wallet haben, können Sie diese hier wiederherstellen. Bedenken Sie jedoch, dass TronWallet hauptsächlich mit Mnemotechniken arbeitet. Die von Ihnen gewählte Wiederherstellungsmethode wird einige Funktionen innerhalb der App deaktivieren.",
+    "button": "IMPORTIEREN",
     "error": {
       "privateKey": "Privater Schlüssel ist ungültig oder unvollständig"
     }
@@ -172,7 +172,7 @@
     "title": "EINFRIEREN",
     "unfreeze": {
       "title": "FREIGEBEN",
-      "inXTime": "You can unfreeze your TRX",
+      "inXTime": "Die Freigabe Ihrer TRX kann jetzt erfolgen.",
       "inThreeDays": "Nach einem Zeitraum von drei Tagen können Sie Ihre TRX auftauen und freigeben",
       "inXMinutes": "Sie können Ihre TRX in {{minutes}} Minuten freigeben.",
       "inXHours": "Sie können Ihre TRX in {{hours}} Stunden freigeben.",
@@ -182,7 +182,7 @@
     "error": {
       "minimumAmount": "Der Mindestbetrag für die Transaktion Einfrieren beträgt 1.",
       "insufficientBalance": "Unzureichendes TRX Guthaben",
-      "roundNumbers": "Sie können nur Runde Zahlen einfrieren"
+      "roundNumbers": "Sie können nur glatte Zahlen einfrieren"
     },
     "amount": "BETRAG EINFRIEREN",
     "balance": "Guthaben"
@@ -193,21 +193,21 @@
   },
   "market": {
     "time": {
-      "hour": "1H",
-      "day": "1T",
-      "week": "1W",
-      "month": "1M",
+      "hour": "1 Std.",
+      "day": "1T.",
+      "week": "1 WO.",
+      "month": "1 MO.",
       "all": "ALLES"
     },
-    "highest": "HÖCHSTEN",
-    "lowest": "NIEDRIGSTEN",
-    "volume": "VOLUMEN 24H",
+    "highest": "HÖCHSTE",
+    "lowest": "NIEDRIGSTE",
+    "volume": "VOLUMEN 24Std.",
     "cap": "MARKTKAPITALISIERUNG",
-    "supply": "MENGE IM UMLAUF"
+    "supply": "UMLAUFMENGE"
   },
   "participate": {
     "title": "TEILNEHMEN",
-    "featured": "IM VORDERGRUND",
+    "featured": "AUSGEZEICHNET",
     "button": {
       "confirm": "BESTÄTIGEN",
       "moreInfo": "MEHR INFO",
@@ -216,19 +216,19 @@
     "error": {
       "insufficientBalance": "Nicht genügend Guthaben (TRX) verfügbar um teilzunehmen.",
       "insufficientTrx": {
-        "title": "Sie müssen mindestens einen TRX Wert {{token}} kaufen.",
+        "title": "Sie müssen mindestens im Werte von einen TRX {{token}} kaufen.",
         "message": "Derzeit kaufen Sie nur {{amount}}."
       },
-      "notFound": "Asset(s) nicht gefunden"
+      "notFound": "Vermögenswert(e) nicht gefunden"
     },
     "warning": "Sie haben nicht genügend TRX, um diese Menge {{token}} zu kaufen",
     "enterAmountToBuy": "KAUFBETRAG EINFÜGEN",
     "amountToBuy": "BETRAG ZU KAUFEN",
     "pricePerToken": "PREIS PRO TOKEN",
-    "tokenDescription": "TOKEN BESCHREIBUNG",
-    "tokenInfo": "TOKEN INFO",
+    "tokenDescription": "TOKENBESCHREIBUNG",
+    "tokenInfo": "TOKENINFORMATION",
     "token": "TOKEN",
-    "tokens": "DIE TOKEN",
+    "tokens": "TOKEN",
     "frozen": "EINGEFROREN",
     "percentage": "PROZENTSATZ",
     "issued": "AUSGESTELLT",
@@ -237,12 +237,12 @@
     "endTime": "ENDZEIT",
     "description": "BESCHREIBUNG",
     "transaction": "TRANSAKTION",
-    "ownerAddress": "INHABER ADRESSE",
-    "trxNum": "TRX NUM",
-    "num": "NUM",
-    "block": "BLOCK",
+    "ownerAddress": "INHABERADRESSE",
+    "trxNum": "ANZAHL TRX",
+    "num": "ANZAHL",
+    "block": "Block",
     "balance": "GUTHABEN",
-    "searchPreview": "Token in Vordergrund"
+    "searchPreview": "Ausgezeichnete Tokens"
   },
   "pin": {
     "title": "SICHERHEITS-CHECK",
@@ -275,32 +275,32 @@
         "message": "Ausgewählte Worte stimmen nicht überein. Stellen Sie sicher, dass Sie die Wörter in der richtigen Reihenfolge geschrieben haben."
       },
       "success": "Wallet erfolgreich bestätigt",
-      "explanation": "Markieren Sie die Wörter unten in der richtigen Reihenfolge, um Ihre geheime Phrase zu bestätigen.",
+      "explanation": "Markieren Sie die Wörter unten in der richtigen Reihenfolge, um Ihre geheime Wortverbindung zu bestätigen.",
       "button": {
-        "reset": "ZURÜCKSETZEN DER WORTE",
+        "reset": "WORTE ZURÜCKSETZEN",
         "confirm": "BESTÄTIGE GEHEIME WÖRTER"
       }
     },
     "create": {
-      "title": "ERSTELLEN DER GEHEIMEN WÖRTER",
+      "title": "GEHEIME WÖRTER ERSTELLEN",
       "titleConfirm": "GEHEIME WÖRTER DER WALLET BESTÄTIGEN",
       "error": "Hoppla, wir haben ein Problem. Bitte starten Sie die Anwendung erneut.",
-      "generateNew": "Dies erzeugt eine völlig neue Wallet.",
+      "generateNew": "Dies erzeugt ein komplett neues Wallet.",
       "button": {
         "written": "ICH HABE ES AUFGESCHRIEBEN",
-        "newSeed": "NEUE GEHEIME WÖRTER ERHALTEN",
+        "newSeed": "NEUE GEHEIMWÖRTER ERHALTEN",
         "later": "Später bestätigen"
       },
-      "backupMessage": "Sie können jederzeit auf Ihre Wörter zugreifen, indem Sie in den App-Einstellungen auf das Backup zugreifen      ",
-      "seedExplanation": "Der Wörter-Schlüssel ist eine lesbare Darstellung Ihrer Wallet. Diese Worte können in dieser Reihenfolge verwendet werden, um Ihre Wallet wieder herzustellen."
+      "backupMessage": "Sie habe jederzeit Zugriff auf Ihre Wörter, indem Sie in den App-Einstellungen auf das Backup zugreifen      ",
+      "seedExplanation": "Die Schlüsselwörter sind eine lesbare Darstellung Ihrer Wallet. Diese Worte können in exakt dieser Reihenfolge verwendet werden, um Ihre Wallet wiederherzustellen."
     },
     "restore": {
       "title": "WALLET WIEDERHERSTELLEN",
-      "explanation": "Um Ihren Wallet zu wiederherzustellen, geben Sie bitte die gleichen 12 Wörter, die Sie auf Papier geschrieben haben ein, als Sie Ihre Wallet zum ersten Mal erstellt haben. Wenn Sie eine andere Reihenfolge der Wörter eingeben, wird eine neue leere Wallet erstellt.",
-      "placeholder": "Bitte schreiben Sie hier Ihre 12 geheimen Wörter",
+      "explanation": "Um Ihre Wallet wiederherzustellen, geben Sie bitte die gleichen 12 Wörter, die Sie auf Papier geschrieben haben ein, als Sie ihr Wallet zum ersten Mal erstellt haben. Wenn Sie eine andere Reihenfolge der Wörter eingeben, wird eine neue leere Wallet erstellt.",
+      "placeholder": "Bitte schreiben Sie hier Ihre 12 Geheimwörter",
       "success": "Wallet erfolgreich wiederhergestellt!",
-      "warning": "Die geheimen Wörter werden alle Daten auf diesem Gerät löschen und synchronisiert mit die Daten aus dem Internet für das wiederhergestellte Konto.",
-      "error": "Oops. Es scheint, die Worte die Sie eingegeben haben, ergeben kein gültiges mnemonisches geheimes Wort. Überprüfen Sie, ob Sie einen Tippfehler haben und versuchen Sie es bitte erneut.",
+      "warning": "Das Zurücksetzen der Geheimwörter löscht alle Daten von diesem Gerät und synchronisiert das wiederhergestellte Wallet mit Daten aus dem Netzwerk.",
+      "error": "Oops. Es scheint, dass die Worte die Sie eingegeben haben kein gültiges mnemonisches Geheimwort ergeben. Überprüfen Sie ob ein Tippfehler vorliegt und versuchen Sie es bitte erneut.",
       "button": "WIEDERHERSTELLEN"
     }
   },
@@ -316,13 +316,13 @@
     },
     "input": {
       "token": "TOKEN",
-      "to": "An",
+      "to": "AN",
       "amount": "BETRAG",
       "description": "BESCHREIBUNG (OPTIONAL)"
     },
-    "available": "zur Verfügung",
-    "chooseToken": "Bitte wählen Sie einen Token von unten.",
-    "minimumAmount": "Der Mindestbetrag für jede Sendetransaktion ist 0,000001."
+    "available": "verfügbar",
+    "chooseToken": "Bitte wählen Sie von unten einen Token.",
+    "minimumAmount": "Der Mindestbetrag für jede Sendetransaktion beträgt 0,000001."
   },
   "settings": {
     "title": "EINSTELLUNGEN",
@@ -339,9 +339,9 @@
       "title": "Netzwerk",
       "modal": {
         "title": "NETZWERK",
-        "explanation": "Mit dieser Option können Sie einen speziellen Knoten auswählen, der Ihren Bedürfnissen und Vorlieben besser gerecht wird. Bitte seien Sie vorsichtig beim Aktualisieren der Knoten IP-Adresse. Falsche IP-Adressen können zu Fehlfunktionen innerhalb Ihrer Wallet führen. Beispiel: 35.231.121.122:50051",
+        "explanation": "Mit dieser Option können Sie einen Knoten auswählen, der Ihren Bedürfnissen und Vorlieben besser gerecht wird. Bitte seien Sie vorsichtig beim Aktualisieren der Knoten IP. Falsche IP-Adressen können zu Fehlfunktionen innerhalb Ihrer Wallet führen. Beispiel: 35.231.121.122:50051",
         "error": {
-          "storage": "Fehler beim Abrufen der Knoten IP-Adresse aus dem lokalen Speicher",
+          "storage": "Fehler beim Abrufen der Knoten IP aus dem lokalen Speicher",
           "invalidIp": "Bitte geben Sie eine gültige IP-Adresse an",
           "update": "Etwas ging schief beim Aktualisieren der Knoten IP-Adresse",
           "reset": "Etwas ging schief beim Zurücksetzen der Knoten IP"
@@ -351,7 +351,7 @@
           "updatedIp": "Knoten IP Aderesse aktualisiert!",
           "switchTest": "Knoten IP Adresse auf Testnet umgeschalten",
           "switchMain": "Knoten IP Adresse auf Mainnet umgeschalten",
-          "reset": "Knoten IP Adresse aktualisiert!"
+          "reset": "Knoten IP Adresse zurückgesetzt!"
         },
         "placeholder": {
           "loadingIp": "IP Adresse laden",
@@ -362,20 +362,20 @@
           "reset": "Zurücksetzen"
         },
         "mainNode": "Hauptknoten",
-        "solidityNode": "Stabilität Knoten",
-        "testNet": "TestNet"
+        "solidityNode": "Stabilitäts Knoten",
+        "testNet": "Test-Netzwerk"
       }
     },
     "backup": {
-      "title": "Backup Wallet"
+      "title": "Wallet Sicherheitskopie"
     },
     "restore": {
-      "title": "Wallet Wiederherstellen"
+      "title": "Wallet wiederherstellen"
     },
     "reset": {
-      "title": "Wallet Zurücksetzen",
-      "warning": "Achtung: Diese Aktion löscht alle gespeicherte Daten, einschließlich Ihrer 12 geheimen Wörter. Wenn Sie Ihre geheimen Wörter nicht gespeichert haben, tun Sie dies bitte, bevor Sie fortfahren.",
-      "button": "Ok, Ich habe verstanden"
+      "title": "Wallet zurücksetzen",
+      "warning": "Achtung: Diese Aktion löscht alle gespeicherten Daten, einschließlich Ihrer 12 Geheimwörter. Wenn Sie Ihre geheimen Wörter nicht gespeichert haben, tun Sie dies bitte bevor Sie fortfahren.",
+      "button": "Ok, ich habe verstanden"
     },
     "pin": {
       "title": "Pin ändern",
@@ -383,10 +383,10 @@
     },
     "language": {
       "title": "Sprache",
-      "choose": "Bitte wählen Sie eine Sprache unten aus:",
+      "choose": "Bitte wählen Sie unten eine Sprache aus:",
       "success": {
         "title": "Sprache auf {{language}} geändert",
-        "description": "Sie müssen Ihre App sowieso neu starten das die Änderungen wirksam werden. Wollen Sie dies jetzt tun?"
+        "description": "Sie müssen Ihre App neu starten damit die Änderungen wirksam werden. Wollen Sie dies jetzt tun?"
       },
       "button": {
         "confirm": "Ja, jetzt Neustarten!",
@@ -395,7 +395,7 @@
       "error": "Fehler beim Speichern der bevorzugten Sprache"
     },
     "token": {
-      "title": "Token Filter",
+      "title": "Token-Filter",
       "search": "Token-Suche",
       "confirm": "Speichern",
       "noResult": "Keine Ergebnisse..."
@@ -436,9 +436,9 @@
       "noData": "Transaktionsdaten konnten nicht geladen werden"
     },
     "exchange": {
-      "send": "Sending {{sendtoken}}",
-      "receive": "Receiving {{receivetoken}}",
-      "error": "Check your latest transactions to confirm the received amount."
+      "send": "Versenden {{sendtoken}}",
+      "receive": "Erhalten {{receivetoken}}",
+      "error": "Überprüfe Deine letzte Transaktion um Deinen erhaltenen Betrag zu bestätigen."
     },
     "disconnectedMessage": "Es scheint, dass Sie keine Internetverbindung haben. Verbinden Sie sich mit dem Internet bevor Sie mit der Transaktion fortfahren.",
     "dic": {
@@ -481,10 +481,10 @@
       "tronscanUrl": "Tronscan Url für diese Transaktion in die Zwischenablage kopiert",
       "publicKey": "Öffentlicher Schlüssel in die Zwischenablage kopiert"
     },
-    "hash": "HASH",
-    "status": "STATUS",
+    "hash": "Rautenzeichen",
+    "status": "Status",
     "time": "ZEIT",
-    "block": "BLOCK",
+    "block": "Block",
     "frozenBalance": "EINGEFRORENES GUTHABEN",
     "unfrozenBalance": "VERFÜGBARES GUTHABEN",
     "totalVotes": "STIMMEN INSGESAMT",
@@ -513,7 +513,7 @@
     "notFound": "Super Repräsentant nich gefunden"
   },
   "scanPayment": {
-    "scan": "SCAN",
+    "scan": "Überprüfen",
     "error": {
       "receiver": "Empfängeradresse ungültig",
       "token": "Token nicht gültig",
@@ -563,71 +563,71 @@
       "title": "Überprüfen Sie Ihren Biometrie"
     },
     "auth": {
-      "title": "Save Biometry",
+      "title": "Biometrie speichern",
       "error": "Zugriff verweigert"
     }
   },
   "privacyPolicy": {
-    "title": "PRIVACY POLICY",
-    "subtitle": "You must read and accept our privacy terms to continue.",
-    "error": "You need to accept of privacy terms before to continue. ",
-    "acceptTerms": "I have read and agree to the terms",
-    "continue": "CONTINUE",
-    "docTitle": "Privacy Policy",
-    "introduction": "Your privacy is important to us.\nIt is TronWallet's policy to respect your privacy regarding any information we may collect from you across our website, http://tronwallet.me, and other sites we own and operate.\nWe only ask for personal information when we truly need it to provide a service to you. We collect it by fair and lawful means, with your knowledge and consent.\nWe also let you know why we're collecting it and how it will be used.\nWe only retain collected information for as long as necessary to provide you with your requested service.\nWhat data we store, we'll protect within commercially acceptable means to prevent loss and theft, as well as unauthorised access, disclosure, copying, use or modification.\nWe don't share any personally identifying information publicly or with third-parties, except when required to by law.\nOur website may link to external sites that are not operated by us.\nPlease be aware that we have no control over the content and practices of these sites, and cannot accept responsibility or liability for their respective privacy policies.\nYou are free to refuse our request for your personal information, with the understanding that we may be unable to provide you with some of your desired services.\nYour continued use of our website will be regarded as acceptance of our practices around privacy and personal information.\nIf you have any questions about how we handle user data and personal information, feel free to contact us.\nThis policy is effective as of 1 July 2018.",
+    "title": "Datenschutzrichtlinie",
+    "subtitle": "Sie müssen die Datenschutzrichtlinien lesen und akzeptierten um fortfahren zu können.",
+    "error": "Sie müssen die Datenschutzrichtlinien akzeptierten bevor Sie fortfahren können. ",
+    "acceptTerms": "Ich habe die Bedingungen gelesen und akzeptiere diese.",
+    "continue": "Weiter",
+    "docTitle": "Datenschutzrichtlinien",
+    "introduction": "Der Schutz Ihrer Privatsphäre ist uns sehr wichtig.\nDer Schutz und das respektieren Ihrer Privatsphäre ist ein Grundsatz von TronWallet. Dies betrifft alle persönlichen Informationen die wir über Sie auf unserer Webseite http://tronwallet.me sowie weiteren von uns betriebenen Seiten sammeln. \nWir bitten Sie nur um persönliche Informationen, wenn wir diese benötigen um Ihnen einen gewünschten Service anzubieten. Wir sammeln Informationen fair und unter Beachtung gültiger Gesetze. \nDas Sammeln von persönlichen Informationen geschieht nicht ohne Ihre Kenntnisnahme und Ihre Zustimmung. Darüber hinaus informieren wir Sie, warum wir Informationen sammeln und für welchen Zweck wir diese verwenden. \nWir speichern Ihre Daten nur für die Zeit, in der Sie den von Ihnen gewünschten Service nutzen. \nUnter Berücksichtigung akzeptabler und wirtschaftlicher Gegebenheiten werden wir Ihr Daten vor Verlust, Diebstahl, unbefugtem Zugriff, Vervielfältigung sowie unsachgemäßer Verwendung und Veränderung schützen. \nWir werden keine personenbezogenen Daten veröffentlichen und mit Dritten teilen. Ausgenommen ist hiervon die durch gesetzliche Verpflichtungen bedingte Weitergabe.\nUnsere Webseite ist ggf. mit externen, nicht von uns betriebenen Webseiten verlinkt. \nBitte beachten Sie, dass wir keinen Einfluss auf die Inhalte und Praktiken dieser Webseiten haben. Wir übernehmen keine Verantwortung und Haftung für deren Datenschutzrichtlinien. \nEs obliegt Ihnen, die Weitergabe Ihrer persönlichen Daten zu verweigern. Einer Verweigerung kann zur Folge haben, dass wir Ihnen unter Umständen nicht den von Ihnen gewünschten Service anbieten können.\nMit der weiteren Nutzung unserer Webseite, akzeptieren Sie unsere Vorgehensweise und unsere Datenschutzrichtlinien rund um Ihre persönlichen Informationen. \nZögern Sie nicht uns zu kontaktieren, wenn Sie weitere Fragen bezüglich dem Umgang mit Daten und persönlichen Informationen haben.\nDiese Richtlinie ist ab dem 01.07.2018 gültig.",
     "termsOfService": {
-      "title": "TronWallet Terms of Service",
+      "title": "TronWallet Dienstleistungsbedingung",
       "section1": {
-        "title": "1. Terms",
+        "title": "1. Allgemeine Geschäftsbedingungen",
         "body": "By accessing the website at http://tronwallet.me, you are agreeing to be bound by these terms of service, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. If you do not agree with any of these terms, you are prohibited from using or accessing this site. The materials contained in this website are protected by applicable copyright and trademark law."
       },
       "section2": {
-        "title": "2. Use License",
-        "body": "Permission is granted to temporarily download one copy of the materials (information or software) on TronWallet's website for personal, non-commercial transitory viewing only.\nThis is the grant of a license, not a transfer of title, and under this license you may not:\nmodify or copy the materials;\nuse the materials for any commercial purpose, or for any public display (commercial or non-commercial);\nattempt to decompile or reverse engineer any software contained on TronWallet's website;\nremove any copyright or other proprietary notations from the materials;\nor transfer the materials to another person or \"mirror\" the materials on any other server.\nThis license shall automatically terminate if you violate any of these restrictions and may be terminated by TronWallet at any time. Upon terminating your viewing of these materials or upon the termination of this license, you must destroy any downloaded materials in your possession whether in electronic or printed format.\n"
+        "title": "2. Nutzungslinzenz",
+        "body": "Eine Kopie der Materialien (Informationen oder Software) auf der Webseite von TronWallet herunterzuladen, ist für den persönlichen, nicht kommerziellen Gebrauch vorübergehend gestattet. \nEs handelt sich um die Gewährung einer Lizenz, nicht eine Übertragung des Eigentums. Sie dürfen die Materialien nicht abändern oder vervielfältigen und die Materialien nicht für kommerzielle Zwecke oder für eine öffentliche Darstellung (kommerziell oder nicht kommerziell) verwenden. Sie dürfen die auf der Website von TronWallet angebotene Software, nicht dekompilieren oder durch Reverse-Engineering zurückentwickeln, Urheberrechte oder andere geschützte Bezeichnungen von den Materialien entfernen, die Materialien auf eine andere Person übertragen oder die Materialien auf einem anderen Server \"spiegeln\". Diese Lizenz endet automatisch, wenn Sie gegen eine dieser Einschränkungen verstoßen. Die Lizenzen können durch TronWallet jederzeit gekündigt werden. Nach Nutzungsbeendigung dieser Materialien oder nach Beendigung der Lizenz müssen Sie alle heruntergeladenen Materialien in elektronischer oder gedruckter Form vernichten.\n"
       },
       "section3": {
-        "title": "3. Disclaimer",
-        "body": "The materials on TronWallet's website are provided on an 'as is' basis. TronWallet makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including, without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights.\nFurther, TronWallet does not warrant or make any representations concerning the accuracy, likely results, or reliability of the use of the materials on its website or otherwise relating to such materials or on any sites linked to this site.n"
+        "title": "3. Haftungsausschluss",
+        "body": "Die Materialien auf der Webseite von TronWallet werden in gegenwärtigem Ist-Zustand bereitgestellt. TronWallet gibt keine ausdrücklichen oder stillschweigenden Garantien ab. Es werden darüber hinaus alle anderen Garantien abgelehnt, einschließlich, aber nicht beschränkt auf stillschweigende Garantien oder marktübliche Bedingungen, der Eignung für einen bestimmten Zweck oder der Nichtverletzung geistigen Eigentums oder anderer Rechtsverletzungen. Darüber hinaus garantiert oder gibt TronWallet keine Gewähr bezüglich der Genauigkeit, der wahrscheinlichen Ergebnisse oder der Zuverlässigkeit der bereitgestellten Materialien auf seiner Website. Dies gilt auch für den Bezug von Materialien auf Webseiten, die mit dieser Webseite verknüpft sind."
       },
       "section4": {
-        "title": "4. Limitations",
-        "body": "In no event shall TronWallet or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use the materials on TronWallet's website, even if TronWallet or a TronWallet authorized representative has been notified orally or in writing of the possibility of such damage. Because some jurisdictions do not allow limitations on implied warranties, or limitations of liability for consequential or incidental damages, these limitations may not apply to you.\n"
+        "title": "4. Einschränkungen",
+        "body": "In keinem Fall haften TronWallet oder seine Leistungserbringer für Schäden (einschließlich und ohne Einschränkung durch Schäden, bedingt durch Daten- oder Gewinnverlust oder einem gestörten Geschäftsbetrieb), die sich aus der Nutzung oder nicht möglichen Nutzung der Materialien auf der Webseite von TronWallet ergeben. Es besteht keine Haftung, selbst wenn TronWallet oder ein autorisierter Vertreter von TronWallet mündlich oder schriftlich über die Möglichkeit eines solchen Schadens informiert wurde. Da einige Gerichtsbarkeiten, Einschränkungen von stillschweigenden Garantien oder der Haftung für Folge- oder Nebenschäden nicht zulassen, gelten diese Einschränkungen möglicherweise nicht für Sie.\n"
       },
       "section5": {
-        "title": "5. Accuracy of materials",
-        "body": "The materials appearing on TronWallet's website could include technical, typographical, or photographic errors. TronWallet does not warrant that any of the materials on its website are accurate, complete or current. TronWallet may make changes to the materials contained on its website at any time without notice. However TronWallet does not make any commitment to update the materials.\n"
+        "title": "5. Richtigkeit von Unterlagen",
+        "body": "Materialien und Unterlagen auf der TronWallet Homepage können technische, drucktechnische und bildtechnische Fehler enthalten. TronWallet garantiert nicht, dass Materialien und Unterlagen richtig, komplett und aktuell sind. TronWallet kann jederzeit Unterlagen und Materialien auf deren Homepage verändern ohne einen vorherigen Hinweis zu geben. TronWallet verpflichtet sich nicht, Unterlagen und Materialien zu aktualisieren.\n"
       },
       "section6": {
         "title": "6. Links",
-        "body": "TronWallet has not reviewed all of the sites linked to its website and is not responsible for the contents of any such linked site. The inclusion of any link does not imply endorsement by TronWallet of the site. Use of any such linked website is at the user's own risk.\n"
+        "body": "TronWallet überprüft nicht alle mit seiner Webseite verlinkten Webseiten und ist nicht verantwortlich für den Inhalt einer solchen. Die Verlinkung bedeutet nicht, dass TronWallet die Webseite billigt. Die Nutzung einer solchen verlinkten Webseite erfolgt auf eigene Gefahr.\n"
       },
       "section7": {
-        "title": "7. Modifications",
-        "body": "TronWallet may revise these terms of service for its website at any time without notice. By using this website you are agreeing to be bound by the then current version of these terms of service.\n"
+        "title": "7. Änderungen",
+        "body": "TronWallet kann die Allgemeinen Geschäftsbedingungen seiner Webseite jederzeit und ohne Vorankündigung ändern. Mit der Nutzung dieser Webseite akzeptieren Sie die jeweils gültige Fassung unserer Allgemeinen Geschäftsverbindungen und binden sich an diese.\n"
       },
       "section8": {
-        "title": "8. Governing Law",
-        "body": "These terms and conditions are governed by and construed in accordance with the laws of Vancouver, Canada and you irrevocably submit to the exclusive jurisdiction of the courts in that State or location.\n"
+        "title": "8. Herrschendes Recht",
+        "body": "Diese Allgemeinen Geschäftsbedingungen unterliegen den Gesetzen von Vancouver, Kanada. Sie unterwerfen sich unwiderruflich der ausschließlichen Zuständigkeit der Gerichte in diesem Staat oder Stadt.\n"
       },
       "section9": {
-        "title": "9. CRYPTOCURRENCY RISKS",
-        "body": "Cryptocurrency assets are subject to high market risks and volatility. Past performance is not indicative of future results. Investments in blockchain assets may result in loss of part or all of your investment. Please do your own research and use caution. You are solely responsible for your actions on the TRONWALLET. TRONWALLET Team is not responsible for your investment losses.\n"
+        "title": "Kryptowährungsrisiken",
+        "body": "Kryptowährungen sind hohen Marktrisiken und Volatilitäten ausgesetzt. Wertentwicklungen der Vergangenheit sind keine Indikatoren für zukünftig eintretende Ergebnisse. Investitionen in Blockchain-Wertanlagen können zu einem Teilverlust oder dem Verlust der gesamten Investition führen. Bitte seien Sie daher vorsichtig und führen Sie vor einer Investition Ihre eigenen Recherchen durch. Für Ihre Handlungen auf TronWallet sind Sie alleinverantwortlich. Das Team von TronWallet ist für Ihre Investitionsverluste nicht verantwortlich.\n"
       },
       "section10": {
-        "title": "10. THE TRON NETWORK (SEPARATE FROM TRONWALLET)",
-        "body": "TronWallet is only a user interface to TRON and does not operate the TRON NETWORK. TronWallet is unable to control the actions of others on the TRON NETWORK. When using TRONWALLET, you are directly communicating with the TRON PUBLIC API operated by TRON Foundation. Transactions on the TRONWALLET are irreversible.\n"
+        "title": "10. Das TRON Netzwerk (getrennt von TronWallet)",
+        "body": "TronWallet ist lediglich eine Benutzeroberfläche zu TRON und betreibt nicht das TRON NETZWERK. TronWallet ist nicht in der Lage die Aktionen von Dritten im TRON NETZWERK zu kontrollieren. Wenn Sie TRONWALLET verwenden, kommunizieren Sie direkt mit der von der TRON Foundation zur Verfügung gestellten TRON PUBLIC API. Getätigte Transaktionen über TRONWALLET sind unwiderruflich.\n"
       },
       "section11": {
-        "title": "11. TRONWALLET DOES NOT ENDORSE ANYTHING",
-        "body": "TRONWALLET does NOT endorse ANY asset on the TRON NETWORK. Asset \"listings\" on TRONWALLET are NOT endorsements. TRONWALLET is a software client ONLY and does NOT conduct any independent diligence or review of any asset. TRON is an open system meaning that scams and market manipulators may exist. Prices shown on TRONWALLET are for informational purposes and do not imply that they can actually be redeemed for a certain price.\n"
+        "title": "11. TronWallet befürwortet nichts",
+        "body": "TRONWALLET unterstützt KEINE Vermögenswerte im TRON-NETZWERK. Das Listen von Vermögenswerten auf TRONWALLET bedeutet NICHT deren Befürwortung. TRONWALLET ist LEDIGLICH ein Software-Client und führt KEINE unabhängige Sorgfaltsprüfung oder generelle Überprüfung von Vermögenswerten durch. TRON ist ein offenes System, in dem Betrug und Marktmanipulationen auftreten können. Die auf der TRONWALLET angegebenen Preise zu Vermögenswerten dienen lediglich zu Informationszwecken und bedeuten nicht, dass sie tatsächlich zu dem angegebenen Preis monetarisiert werden können.\n"
       },
       "section12": {
-        "title": "12. YOUR OWN RESPONSIBILITIES",
-        "body": "You, the user, are solely responsible for ensuring your own compliance with laws and taxes in your jurisdiction. Cryptocurrencies may be illegal in your area. You, are solely responsible for your own security including keeping your account secret keys safe and backed up.\n"
+        "title": "12. Ihre eigene Verantwortung",
+        "body": "Als Nutzer sind Sie für die Einhaltung der gesetzlichen und steuerrechtlichen Bestimmungen in Ihrem Land verantwortlich. Kryptowährungen könnten in Ihrem Land illegal sein. Sie sind verantwortlich für Ihre eigene Sicherheit, einschließlich der Speicherung und Sicherung Ihrer geheimen Kontoschlüssel.\n"
       },
       "section13": {
-        "title": "13. DISCLAIMER OF WARRANTY",
-        "body": "TRONWALLET is provided free of charge and on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND.\n"
+        "title": "13. Haftungsausschluss",
+        "body": "TRONWALLET wird kostenfrei SO WIE SIE ES VORFINDEN, OHNE GARANTIEN ODER ANDEREN BEDINGUNGEN JEGLICHER ART, zur Verfügung gestellt.\n"
       }
     }
   }

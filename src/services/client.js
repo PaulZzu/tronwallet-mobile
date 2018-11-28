@@ -2,6 +2,7 @@ import axios from 'axios'
 import Config from 'react-native-config'
 import NodesIp from '../utils/nodeIp'
 import { AUTH_ID } from '../../config'
+import { getExchangesAvailable } from './contentful'
 
 export const ONE_TRX = 1000000
 
@@ -12,6 +13,8 @@ class ClientWallet {
     this.notifier = Config.NOTIFIER_API_URL
     this.tronwalletApi = Config.TRONWALLET_API
     this.tronwalletDB = Config.TRONWALLET_DB
+    this.tronwalletExApi = Config.TRONWALLET_EX
+    this.apiVersion = 3.0
   }
 
   //* ============TronScan Api============*//
@@ -65,7 +68,7 @@ class ClientWallet {
   }
 
   async getTransactionsList (address) {
-    const reqBody = { '$or': [{ 'toAddress': address }, { 'ownerAddress': address }] }
+    const reqBody = { '$or': [{ 'toAddress': address }, { 'ownerAddress': address }], 'version': this.apiVersion }
     const { data: result } = await axios.post(`${this.tronwalletDB}/transactions/find`, reqBody)
     return result.map(tx =>
       tx.contractType <= 2
@@ -76,7 +79,6 @@ class ClientWallet {
   async getTransactionByHash (hash, address) {
     const reqBody = { hash }
     const { data: result } = await axios.post(`${this.tronwalletDB}/transactions/find/`, reqBody)
-
     if (result.length) {
       const transactionDetail = result[0]
       return transactionDetail.contractType <= 2
@@ -105,6 +107,25 @@ class ClientWallet {
     const apiUrl = this.tronwalletApi
     const { data: { totalVotes, voteList } } = await axios.get(`${apiUrl}/vote/list`)
     return { voteList, totalVotes }
+  }
+
+  async getExchangesList () {
+    const [fullExchangeList, selectedExchangeList] = await Promise.all([
+      axios.get(`${this.tronwalletExApi}/list`),
+      getExchangesAvailable()
+    ])
+
+    let { data: exchangeList } = fullExchangeList
+    return exchangeList.reduce((filtered, ex) => {
+      let avlb = selectedExchangeList.find(aex => aex.exchangeId === ex.exchangeId)
+      if (avlb) filtered.push({...ex, ...avlb})
+      return filtered
+    }, [])
+  }
+
+  async getExchangeById (id) {
+    const { data: exchange } = await axios.post(`${this.tronwalletExApi}`, {id})
+    return exchange
   }
 
   async getTransactionDetails (tx) {
@@ -205,6 +226,12 @@ class ClientWallet {
     return transaction
   }
 
+  async getExchangeTransaction ({address, tokenId, exchangeId, quant, expected}) {
+    const reqBody = { address, tokenId, exchangeId, quant, expected }
+    const { data: { transaction } } = await axios.post(`${this.tronwalletExApi}/unsigned`, reqBody)
+    return transaction
+  }
+
   async registerDeviceForNotifications (deviceId, publicKey, removeExtraDeviceIds) {
     return axios.post(`${this.tronwalletApi}/user/put`, { deviceId, publicKey, refresh: removeExtraDeviceIds })
   }
@@ -233,6 +260,8 @@ class ClientWallet {
         return 'Freeze'
       case 12:
         return 'Unfreeze'
+      case 44:
+        return 'Exchange'
       default:
         return 'Unregistred Name'
     }

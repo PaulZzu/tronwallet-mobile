@@ -4,6 +4,7 @@ import fontelloConfig from '../../assets/icons/config.json'
 import { createIconSetFromFontello } from 'react-native-vector-icons'
 import { ONE_TRX } from '../../services/client'
 import { formatNumber } from '../../utils/numberUtils'
+import { Colors } from '../../components/DesignSystem'
 const Icon = createIconSetFromFontello(fontelloConfig, 'tronwallet')
 
 /* Functions that format the amount information to be displayed on screen. */
@@ -15,7 +16,7 @@ const transferAmount = ({ tokenName, amount }) => {
 }
 const freezeAmount = ({frozenBalance}) => `${frozenBalance / ONE_TRX} TRX`
 const participateAmount = ({amount, tokenName}, tokenPrice) => `${(amount) / (tokenPrice)} ${tokenName}`
-
+const exchangeAmount = (amount, tokenName) => `${amount} ${tokenName}`
 /* Configures the object used to hidrate the render components with the proper
 texts and icons. */
 export const configureTransaction = (item, { topRow, addressRow, publicKey, currentAlias }) => {
@@ -98,7 +99,27 @@ export const configureTransaction = (item, { topRow, addressRow, publicKey, curr
         badgeColor: '#94c047'
       })
       break
-    default:break
+    case 'Exchange':
+      config.topRow = () => topRow({
+        amount: exchangeAmount(formatNumber(contractData.amount), contractData.tokenName),
+        icon: {
+          Type: Icon,
+          name: 'exchange',
+          size: 18
+        },
+        badgeColor: Colors.strongBlue
+      })
+      break
+    default:
+      config.topRow = () => topRow({
+        icon: {
+          Type: Icon,
+          name: 'magnifier,-search,-discover,-zoom,-lens',
+          size: 18
+        },
+        badgeColor: '#4a69e2'
+      })
+      break
   }
   return config
 }

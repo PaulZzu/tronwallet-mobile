@@ -77,3 +77,17 @@ export const getSystemStatus = async () => {
     systemAddress
   }
 }
+
+export const getExchangesAvailable = async () => {
+  const queryEntry = { content_type: 'exchange' }
+  const { items: exchangesAvailable } = await contentfulClient.getEntries(queryEntry)
+  return exchangesAvailable.map(({fields: ex}) => {
+    const firstTokenImage = ex.firstTokenImage ? `https:${ex.firstTokenImage.fields.file.url}` : null
+    const secondTokenImage = ex.secondTokenImage ? `https:${ex.secondTokenImage.fields.file.url}` : null
+    return ({
+      exchangeId: ex.exchangeId,
+      firstTokenImage,
+      secondTokenImage
+    })
+  })
+}

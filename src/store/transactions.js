@@ -40,20 +40,22 @@ const TransactionSchema = {
   }
 }
 
-export default async () => {
-  this.transactions = this.transactions ? this.transactions : await Realm.open({
-    path: 'Realm.transactions',
-    schema: [TransactionSchema, ContractDataSchema, VoteSchema],
-    schemaVersion: 15,
-    migration: (oldRealm, newRealm) => {
-      if (oldRealm.schemaVersion < 15) {
-        const transactions = newRealm.objects('Transaction')
+export const createNewTransactionStore = () => Realm.open({
+  path: 'Realm.transactions',
+  schema: [TransactionSchema, ContractDataSchema, VoteSchema],
+  schemaVersion: 15,
+  migration: (oldRealm, newRealm) => {
+    if (oldRealm.schemaVersion < 15) {
+      const transactions = newRealm.objects('Transaction')
 
-        for (let i = 0; i < transactions.length; i++) {
-          transactions[i].notified = true
-        }
+      for (let i = 0; i < transactions.length; i++) {
+        transactions[i].notified = true
       }
     }
-  })
+  }
+})
+
+export default async () => {
+  this.transactions = this.transactions ? this.transactions : await createNewTransactionStore()
   return this.transactions
 }

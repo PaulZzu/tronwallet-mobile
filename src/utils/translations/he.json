@@ -1,266 +1,266 @@
 {
   "relativeTime": {
-    "future": "in %s",
-    "past": "%s ago",
-    "s": "a few seconds",
-    "ss": "%d seconds",
-    "m": "a minute",
-    "mm": "%d minutes",
-    "h": "an hour",
-    "hh": "%d hours",
-    "d": "a day",
-    "dd": "%d days",
-    "M": "a month",
-    "MM": "%d months",
-    "y": "a year",
-    "yy": "%d years"
+    "future": "בעוד %s",
+    "past": "לפני %s",
+    "s": "כמה שניות",
+    "ss": "%d שניות",
+    "m": "דקה",
+    "mm": "%d דקות",
+    "h": "שעה",
+    "hh": "%d שעות",
+    "d": "יום",
+    "dd": "%d ימים",
+    "M": "חודש",
+    "MM": "%d חודשים",
+    "y": "שנה",
+    "yy": "%d שנים"
   },
-  "success": "Success",
-  "warning": "Warning",
-  "cancel": "Cancel",
+  "success": "הצלחה",
+  "warning": "אזהרה",
+  "cancel": "ביטול",
   "address": "כתובת",
-  "message": "Message",
-  "ok": "OK",
-  "actionModalTitle": "Would you like to",
-  "account": "חֶשְׁבּוֹן",
-  "restore": "לשחזר",
+  "message": "הודעה",
+  "ok": "אוקיי",
+  "actionModalTitle": "האם תרצה",
+  "account": "חשבון",
+  "restore": "שחזר",
   "error": {
-    "default": "Woops something went wrong. Try again later, If the error persist try to update the network settings.",
-    "buildingTransaction": "Error while building transaction, try again.",
-    "gettingTransaction": "Error while getting transaction.",
-    "clipboardCopied": "Something wrong while copying",
-    "hideAccount": "משהו השתבש מחיקת החשבון, נסה שוב '"
+    "default": "אופס משהו השתבש, נסה שוב מאוחר יותר. אם השגיאה נמשכת נסה לעדכן את הגדרות הרשת.",
+    "buildingTransaction": "קרתה שגיאה בעת בניית הטרנזקציה, נסה שוב.",
+    "gettingTransaction": "אירעה שגיאה בעת קבלת טרנזקציה.",
+    "clipboardCopied": "משהו השתבש במהלך העתקה",
+    "hideAccount": "משהו השתבש במחיקת החשבון, נסה שוב"
   },
-  "avaliable": "AVAILABLE",
-  "frozen": "FROZEN",
+  "avaliable": "זמין",
+  "frozen": "קפוא",
   "tronPower": "TRON POWER",
-  "trxPrice": "TRX PRICE",
-  "confirmed": "Confirmed",
-  "unconfirmed": "Unconfirmed",
-  "copyAddress": "COPY ADDRESS",
+  "trxPrice": "מחיר TRX",
+  "confirmed": "מאושרת",
+  "unconfirmed": "לא מאושרת",
+  "copyAddress": "העתק כתובת",
   "transactionType": {
-    "transfer": "Transfer",
-    "transferAsset": "Transfer Asset",
-    "freeze": "Freeze",
-    "unfreeze": "Unfreeze",
-    "vote": "Vote",
-    "participate": "Participate",
-    "create": "Create",
-    "undefined": "Undefined Type"
+    "transfer": "העבר",
+    "transferAsset": "העבר נכס",
+    "freeze": "נעל",
+    "unfreeze": "לשחרר",
+    "vote": "בחירה",
+    "participate": "השתתף",
+    "create": "צור",
+    "undefined": "סוג לא מוגדר"
   },
-  "close": "Close",
-  "ends": "Ends",
-  "clear": "Clear",
-  "allIn": "All In",
-  "skip": "Skip",
+  "close": "סגור",
+  "ends": "מסתיים",
+  "clear": "נקה",
+  "allIn": "כל הסכום",
+  "skip": "דלג",
   "privateKey": "מפתח פרטי",
-  "results": "Results",
-  "buy": "Buy",
-  "filter": "Filter",
-  "txs": "Transactions",
+  "results": "תוצאות",
+  "buy": "קנה",
+  "filter": "סינון",
+  "txs": "טרנזקציות",
   "balance": {
-    "title": "ACCOUNTS",
+    "title": "חשבונות",
     "error": {
-      "loadingData": "An error occured while loading the data.",
-      "savingCurrency": "Error saving preferred currency"
+      "loadingData": "אירעה שגיאה בעת טעינת הנתונים.",
+      "savingCurrency": "אירעה שגיאה בשמירת השער המועדף"
     },
-    "chooseCurrency": "Please, choose your preferred currency.",
-    "confirmSeed": "Please tap to confirm your 12 seed words",
+    "chooseCurrency": "אנא, בחר את השער המועדף עליך.",
+    "confirmSeed": "הקש כדי לאשר את 12 מילות הצופן שלך",
     "bandwidth": "רוחב פס",
-    "tokens": "TOKENS",
-    "holdings": "HOLDINGS"
+    "tokens": "טוקנים",
+    "holdings": "אחזקות"
   },
   "hideAccount": "אתה עומד להסיר את החשבון הזה. ניתן לשחזר אותו מאוחר יותר בהגדרות",
   "components": {
     "share": {
-      "title": "Share TronWallet address",
-      "message": "This is my TronWallet address:\n\n {{address}}\n\nTip: Once you have copied it you can paste it in your TronWallet app using the special button on Send screen.",
-      "dialogTitle": "Share using:"
+      "title": "שתף את כתובת TronWallet",
+      "message": "זוהי כתובת ה-TronWallet שלי:\n\n {{address}}\n\nטיפ: לאחר שהעתקת הכתובת, באפשרותך להדביק אותה באפליקציית TronWallet שברשותך, באמצעות כפתור מיוחד במסך שליחה.",
+      "dialogTitle": "שתף באמצעות:"
     },
     "QRScanner": {
-      "title": "Address Scanner",
-      "scan": "Scan",
-      "explanation": "Scan the QRCode to identify the target user",
-      "permissionMessage": "To scan the public key the app needs your permission to access the camera."
+      "title": "סריקת כתובת",
+      "scan": "סרוק",
+      "explanation": "לסרוק את קוד ה-QR כדי לזהות את המשתמש היעד",
+      "permissionMessage": "כדי לסרוק את המפתח הציבורי, האפליקציה זקוקה לאישורך כדי לגשת למצלמה."
     },
     "vote": {
-      "enterVote": "ENTER THE VOTE VALUE",
-      "votesRemaining": "VOTES REMAINING",
-      "setVote": "SET VOTE",
-      "moreVotes": "If you need more votes you can Freeze more TRX.",
-      "confirmVotes": "CONFIRM VOTES",
-      "yourVotes": "Your Votes",
-      "myVotes": "MY VOTES",
-      "confirm": "CONFIRM",
-      "freeze": "Freeze",
-      "totalVotes": "Total votes available:",
-      "delete": "DELETE",
-      "set": "SET",
-      "freezeOrLower": "You do not have enough frozen TRX. Freeze more TRX or lower the vote amount",
-      "freezeToContinue": "You do not have enough frozen TRX. Freeze more TRX to continue"
+      "enterVote": "הכנס את ערך הקולות",
+      "votesRemaining": "קולות שנשארו",
+      "setVote": "הגדר את הבחירות",
+      "moreVotes": "אם אתה צריך עוד קולות אתה יכול לנעול עוד TRX.",
+      "confirmVotes": "אשר את ההצבעות שלך",
+      "yourVotes": "ההצבעות שלך",
+      "myVotes": "ההצבעות שלי",
+      "confirm": "אשר",
+      "freeze": "נעל",
+      "totalVotes": "סה\"כ כל הקולות הזמינים:",
+      "delete": "מחק",
+      "set": "הגדר",
+      "freezeOrLower": "אין לך מספיק TRX קפוא. הקפא TRX נוסף או הפחת את סכום ההצבעה",
+      "freezeToContinue": "אין לך מספיק TRX קפוא. הקפא TRX נוסף כדי להמשיך"
     }
   },
   "firstTime": {
     "button": {
-      "create": "CREATE WALLET",
-      "restore": "RESTORE WALLET",
-      "import": "IMPORT WALLET"
+      "create": "צור ארנק",
+      "restore": "שחזר ארנק",
+      "import": "ייבא ארנק"
     },
     "swiper": {
       "welcome": {
-        "title": "Welcome to \nTRONWALLET",
-        "body": "The most secure wallet for TRON"
+        "title": "ברוכים הבאים ל-TRONWALLET",
+        "body": "הארנק הבטוח ביותר עבור טרון"
       },
       "security": {
-        "title": "SECURITY",
-        "body": "Privacy and security for \n your transactions"
+        "title": "אבטחה",
+        "body": "פרטיות ואבטחה בשביל\nהטרנזקציות שלך"
       },
       "votes": {
-        "title": "VOTES",
-        "body": "Freezing and vote for Super \n Representatives"
+        "title": "הצבעות",
+        "body": "הקפאה והצבעה לנבחרי על (SR)"
       },
       "addressbook": {
-        "title": "ADDRESS BOOK",
-        "body": "Save the addresses of your friends \n and contacts."
+        "title": "פנקס הכתובות",
+        "body": "שמור את הכתובות של חבריך ואנשי הקשר שלך."
       },
       "multipleaccounts": {
-        "title": "MULTIPLE ACCOUNTS",
-        "body": "You can manage multiple accounts \n in your wallet"
+        "title": "חשבונות מרובים",
+        "body": "באפשרותך לנהל חשבונות מרובים בארנק שלך"
       }
     }
   },
   "addressBook": {
-    "title": "ADDRESS BOOK",
+    "title": "פנקס הכתובות",
     "shared": {
-      "add": "ADD",
-      "edit": "EDIT",
-      "delete": "DELETE",
-      "send": "SEND"
+      "add": "הוסף",
+      "edit": "עריכה",
+      "delete": "מחק",
+      "send": "שלח"
     },
     "contacts": {
-      "title": "CONTACTS",
+      "title": "אנשי קשר",
       "delete": {
-        "title": "Delete Contact",
-        "message": "Do you really want to delete this contact?",
-        "cancelButton": "Cancel",
-        "okButton": "OK"
+        "title": "מחק איש קשר",
+        "message": "האם אתה באמת רוצה למחוק את איש הקשר?",
+        "cancelButton": "ביטול",
+        "okButton": "אוקיי"
       },
-      "empty": "Your address book is empty, add a new contact using the button below.",
-      "loadError": "There was a problem loading the contacts. Please try again.",
-      "addContact": "ADD CONTACT",
-      "addToContacts": "ADD TO CONTACTS"
+      "empty": "פנקס הכתובות שלך ריקה, הוסף איש קשר חדש באמצעות הכפתור למטה.",
+      "loadError": "היתה בעיה בטעינת אנשי הקשר. אנא נסה שוב.",
+      "addContact": "הוסף איש קשר",
+      "addToContacts": "הוסף לאנשי הקשר"
     },
     "form": {
-      "generalError": "There was a problem submitting this form. Please contact an administrator.",
-      "nameError": "The name field must start with a letter, contain a maximum of 32 characters, and it will accept only letters, numbers and white spaces.",
-      "addressError": "Something isn't right with the address. Please double check for typos.",
-      "uniqueAddressError": "The key must be unique. Please choose a different address.",
-      "uniqueAliasError": "Names in your address book must be unique. Please choose a different one.",
-      "name": "NAME",
-      "address": "ADDRESS"
+      "generalError": "הייתה בעיה בהגשת הטופס. אנא צור קשר עם האדמינסטרטור.",
+      "nameError": "שדה השם חייב להתחיל עם אות, ולהכיל לכל היותר 32 תווים, והוא יקבל רק אותיות, מספרים ורווחים.",
+      "addressError": "משהו לא בסדר בכתובת. אנא וודא כי אין שגיאות הקלדה.",
+      "uniqueAddressError": "המפתח חייב להיות ייחודי. אנא בחר כתובת שונה.",
+      "uniqueAliasError": "השמות בפנקס הכתובות שלך חייבים להיות ייחודיים. אנא בחר שם אחר.",
+      "name": "שם",
+      "address": "כתובת"
     }
   },
   "importWallet": {
-    "title": "ייבוא ​​וואלט",
-    "message": "אם יש לך את המפתח הפרטי ואת הכתובת של הארנק שלך אתה יכול לשחזר אותו כאן אבל יש לזכור כי TronWallet פועלת עם mnemonics בעיקר. שיטה זו התאוששות יהיה להשבית כמה פונקציות בתוך App.",
-    "button": "יְבוּא",
+    "title": "ייבא ארנק",
+    "message": "אם יש לך את המפתח הפרטי ואת הכתובת של הארנק שלך אתה יכול לשחזר אותו כאן אבל יש לזכור כי TronWallet פועלת עם mnemonics בעיקר. שיטת שחזור זו תשבית חלק הפונקציונליות באפליקציה.",
+    "button": "ייבא",
     "error": {
       "privateKey": "מפתח פרטי לא חוקי או לא שלם"
     }
   },
   "freeze": {
-    "title": "FREEZE",
+    "title": "הקפא",
     "unfreeze": {
-      "title": "UNFREEZE",
-      "inXTime": "You can unfreeze your TRX",
-      "inThreeDays": "After a three day period you can unfreeze your TRX",
-      "inXMinutes": "You can unfreeze your TRX in {{minutes}} minutes.",
-      "inXHours": "You can unfreeze your TRX in {{hours}} hours.",
-      "inXDays": "You can unfreeze your TRX in {{days}} days.",
-      "now": "You can unfreeze your TRX now."
+      "title": "שחרר",
+      "inXTime": "אתה יכול לשחרר את ה-TRX שלך כעת",
+      "inThreeDays": "אחרי תקופה של שלושה ימים תוכל לשחרר את ה-TRX שלך",
+      "inXMinutes": "אתה יכול לשחרר את ה-TRX שלך בעוד {{minutes}} דקות.",
+      "inXHours": "אתה יכול לשחרר את ה-TRX שלך בעוד {{hours}} שעות.",
+      "inXDays": "אתה יכול לשחרר את ה-TRX שלך בעוד {{days}} ימים.",
+      "now": "אתה יכול לשחרר את ה-TRX שלך כעת."
     },
     "error": {
-      "minimumAmount": "The minimum amount for any freeze transaction is 1.",
-      "insufficientBalance": "Insufficient TRX balance",
-      "roundNumbers": "Share TronWallet address"
+      "minimumAmount": "הסכום המינימלי לכל טרנזקצית הקפאה הוא 1.",
+      "insufficientBalance": "אין מספיק יתרת TRX",
+      "roundNumbers": "ניתן להקפיא רק מספרים עגולים"
     },
-    "amount": "FREEZE AMOUNT",
-    "balance": "Balance"
+    "amount": "הסכום להקפיא",
+    "balance": "יתרה"
   },
   "getVault": {
-    "notInstalled": "It seems that you don't have Tron Vault installed in your phone to proceed with your transaction.",
-    "downloadHere": "You can download it here"
+    "notInstalled": "נראה שאין לך Tron Vault מותקנת על הטלפון שלך על מנת שתוכל להמשיך את הטרנזקציה.",
+    "downloadHere": "אתה יכול להוריד את זה כאן"
   },
   "market": {
     "time": {
-      "hour": "1H",
-      "day": "1D",
-      "week": "1W",
-      "month": "1M",
-      "all": "ALL"
+      "hour": "שעה",
+      "day": "יום",
+      "week": "שבוע",
+      "month": "חודש",
+      "all": "הכל"
     },
-    "highest": "HIGHEST",
-    "lowest": "LOWEST",
-    "volume": "VOLUME 24H",
-    "cap": "MARKET CAP",
-    "supply": "CIRCULATING SUPPLY"
+    "highest": "הגבוה ביותר",
+    "lowest": "הנמוך ביותר",
+    "volume": "נפח 24 שעות",
+    "cap": "שווי השוק",
+    "supply": "מחזור ההספקה"
   },
   "participate": {
     "title": "PARTICIPATE",
     "featured": "SPONSORED",
     "button": {
-      "confirm": "CONFIRM",
-      "moreInfo": "MORE INFO",
-      "buyNow": "BUY NOW"
+      "confirm": "אשר",
+      "moreInfo": "מידע נוסף",
+      "buyNow": "קנה עכשיו"
     },
     "error": {
-      "insufficientBalance": "Not enough funds (TRX) to participate.",
+      "insufficientBalance": "אין מספיק נכסים (TRX) כדי להשתתף.",
       "insufficientTrx": {
-        "title": "You need to buy at least one TRX worth of {{token}}.",
-        "message": "Currently you are buying only {{amount}}."
+        "title": "אתה צריך לקנות לפחות שווי של TRX אחד מטוקן {{token}}.",
+        "message": "כרגע אתה קונה רק {{amount}}."
       },
-      "notFound": "Asset(s) not found"
+      "notFound": "לא נמצאו הנכסים"
     },
-    "warning": "You don't have enough TRX to buy that many {{token}}",
-    "enterAmountToBuy": "ENTER THE AMOUNT TO BUY",
-    "amountToBuy": "AMOUNT TO BUY",
-    "pricePerToken": "PRICE PER TOKEN",
-    "tokenDescription": "TOKEN DESCRIPTION",
-    "tokenInfo": "TOKEN INFO",
-    "token": "TOKEN",
-    "tokens": "TOKENS",
-    "frozen": "FROZEN",
-    "percentage": "PERCENTAGE",
-    "issued": "ISSUED",
-    "totalSupply": "TOTAL SUPPLY",
-    "startTime": "START TIME",
-    "endTime": "END TIME",
-    "description": "DESCRIPTION",
-    "transaction": "TRANSACTION",
-    "ownerAddress": "OWNER ADDRESS",
-    "trxNum": "TRX NUM",
-    "num": "NUM",
-    "block": "BLOCK",
-    "balance": "BALANCE",
-    "searchPreview": "Featured Tokens"
+    "warning": "אין לך מספיק TRX כדי לקנות {{token}} טוקנים",
+    "enterAmountToBuy": "הזן את הכמות לקניה",
+    "amountToBuy": "הכמות לרכישה",
+    "pricePerToken": "המחיר עבור טוקן",
+    "tokenDescription": "תיאור הטוקן",
+    "tokenInfo": "מידע על הטוקן",
+    "token": "טוקן",
+    "tokens": "טוקנים",
+    "frozen": "קפוא",
+    "percentage": "אחוז",
+    "issued": "הוציא",
+    "totalSupply": "סה\"כ האספקה",
+    "startTime": "זמן התחלה",
+    "endTime": "זמן סיום",
+    "description": "תיאור",
+    "transaction": "טרנזקציה",
+    "ownerAddress": "בעל הכתובת",
+    "trxNum": "מספר TRX",
+    "num": "מספר",
+    "block": "בלוק",
+    "balance": "יתרה",
+    "searchPreview": "טוקנים נבחרים"
   },
   "pin": {
-    "title": "SECURITY CHECK",
-    "enter": "Enter PIN",
-    "new": "Enter New PIN",
-    "reenter": "Re-Enter PIN",
-    "biometrics": "Biometric Check"
+    "title": "בדיקת אבטחה",
+    "enter": "הכנס את קוד הזיהוי (PIN)",
+    "new": "הכנס קוד זיהוי (PIN) חדש",
+    "reenter": "הזן מחדש את קוד הזיהוי (PIN)",
+    "biometrics": "בדיקה ביומטרית"
   },
   "receive": {
-    "title": "RECEIVE",
-    "clipboardCopied": "Copied to clipboard",
+    "title": "לקבל",
+    "clipboardCopied": "הועתק ללוח המקשים",
     "button": {
-      "copy": "Copy",
-      "share": "Share"
+      "copy": "העתק",
+      "share": "שתף"
     },
     "tabs": {
-      "share": "לַחֲלוֹק",
-      "request": "בַּקָשָׁה"
+      "share": "שתף",
+      "request": "בקשה"
     }
   },
   "rewards": {
@@ -269,7 +269,7 @@
   },
   "seed": {
     "confirm": {
-      "title": "קונפירם SEED",
+      "title": "אשר את ה-SEED",
       "error": {
         "title": "שילוב שגוי",
         "message": "המילים שנבחרו אינן תואמות. ודא שכתבת את המילים בסדר הנכון."
@@ -277,58 +277,58 @@
       "success": "הארנק אושר בהצלחה",
       "explanation": "בחר את המילים למטה בסדר הנכון כדי לאשר את הביטוי הסודי שלך.",
       "button": {
-        "reset": "מילים לאיפוס",
-        "confirm": "קונפירם SEED"
+        "reset": "איפוס מילים",
+        "confirm": "אשר את ה-SEED"
       }
     },
     "create": {
-      "title": "ליצור זרע",
-      "titleConfirm": "קונפירם וולט",
-      "error": "אופס, יש לנו בעיה. הפעל מחדש את היישום.",
+      "title": "צור SEED",
+      "titleConfirm": "אשר את ה-SEED של הארנק",
+      "error": "אופס, יש לנו בעיה. אנא הפעל מחדש את האפליקציה.",
       "generateNew": "פעולה זו תיצור ארנק חדש לגמרי.",
       "button": {
-        "written": "אני כתבתי את זה למטה",
-        "newSeed": "קבל חדש SEED",
+        "written": "אני כתבתי את זה בצד",
+        "newSeed": "קבל SEED חדש",
         "later": "אשר מאוחר יותר"
       },
-      "backupMessage": "You can always access your words by accessing the backup on the app settings      ",
-      "seedExplanation": "The seed key is a human-readable representation of your wallet. Those words, in that exact order, can be used to re-create your wallet."
+      "backupMessage": "אתה תמיד יכול לגשת למילות הצופן שלך על ידי השחזור בהגדרות האפליקציה      ",
+      "seedExplanation": "מילות הצופן מהוות יצוג קריא של הארנק שלך. מילים אלו, בסדרן המדויק, יכולות לשמש לשחזור הארנק שלך."
     },
     "restore": {
-      "title": "שיחזור",
+      "title": "שחזר ארנק",
       "explanation": "כדי לשחזר את הארנק שלך, ספק את אותן 12 מילים שכתבת על נייר כאשר יצרת את הארנק בפעם הראשונה. אם תזין רצף מילים שונה, ייווצר ארנק ריק חדש.",
-      "placeholder": "בבקשה, הקלד את 12 מילות הזרע שלך כאן",
-      "success": "ארנק שוחזר בהצלחה!",
-      "warning": "שחזור הזרע ימחק את כל הנתונים במכשיר זה ומשוך מידע מהרשת עבור החשבון המשוחזר.",
-      "error": "אופס. נראה שהמילים שהקלדת אינן זרע חוקי. בדוק שגיאת הקלדה ונסה שוב.",
-      "button": "לשחזר"
+      "placeholder": "אנא, הקלד את 12 מילות המפתח שלך כאן",
+      "success": "הארנק שוחזר בהצלחה!",
+      "warning": "שחזור SEED ימחק את כל הנתונים במכשיר זה וימשוך את מידע מהרשת עבור החשבון המשוחזר.",
+      "error": "אופס. נראה שהמילים שהקלדת אינן מילות מפתח חוקיות. בדוק שגיאת הקלדה ונסה שוב.",
+      "button": "שחזור"
     }
   },
   "send": {
-    "title": "לִשְׁלוֹחַ",
+    "title": "שלח",
     "error": {
-      "insufficientBalance": "לא מספיק איזון.",
-      "gettingBalance": "שגיאה בעת קבלת נתוני איזון",
+      "insufficientBalance": "יתרה לא מספקת.",
+      "gettingBalance": "שגיאה במהלך קבלת נתוני היתרה",
       "incompleteAddress": "הכתובת היא חלקית או לא חוקית.",
-      "invalidReceiver": "כתובת מקלט לא חוקית",
-      "selectBalance": "בחר תחילה איזון",
-      "invalidAmount": "סכום לא חוקי"
+      "invalidReceiver": "כתובת הנמען לא חוקית",
+      "selectBalance": "ראשית בחר יתרה",
+      "invalidAmount": "כמות לא חוקית"
     },
     "input": {
-      "token": "אֲסִימוֹן",
-      "to": "ל",
+      "token": "טוקן",
+      "to": "אל",
       "amount": "כמות",
       "description": "תיאור (אופציונאלי)"
     },
     "available": "זמין",
-    "chooseToken": "אנא בחר אסימון בהמשך.",
-    "minimumAmount": "הסכום המינימלי לכל עסקה שנשלח הוא 0.000001."
+    "chooseToken": "אנא, בחר טוקן מלמטה.",
+    "minimumAmount": "הסכום המינימלי לשליחת לכל עסקה הוא 0.000001."
   },
   "settings": {
     "title": "הגדרות",
     "sectionTitles": {
       "wallet": "ארנק",
-      "security": "בִּטָחוֹן",
+      "security": "אבטחה",
       "notification": "הודעות והודאה",
       "accounts": "ניהול חשבונות"
     },
@@ -336,18 +336,18 @@
       "title": "התראות"
     },
     "network": {
-      "title": "רֶשֶׁת",
+      "title": "רשת",
       "modal": {
-        "title": "רֶשֶׁת",
-        "explanation": "עם אפשרות זו אתה יכול לבחור את הצומת כי יהיה מתאים יותר לצרכים שלך ואת ההעדפות. אנא היזהר בעת עדכון IP הצומת בזמן IP טועה יכול להוביל תקלות בתוך הארנק שלך. דוגמה: 35.231.121.122:50051",
+        "title": "רשת",
+        "explanation": "באפשרות זו אתה יכול לבחור את ה-node אשר תהיה הכי מתאימה לצרכיך ולההעדפותך. אנא היזהר בעת עדכון IP של ה-node מכיוון ש-IP שגוי עלול להוביל לתקלות בתוך הארנק שלך. דוגמה: 35.231.121.122:50051",
         "error": {
-          "storage": "שגיאה בקבלת IP הצומת מן האחסון המקומי",
+          "storage": "איראה שגיאה בקבלת כתובת ה-ip של ה-node מהאחסון המקומי",
           "invalidIp": "אנא הכנס כתובת IP חוקית",
-          "update": "משהו השתבש בזמן עדכון צמתים ip",
-          "reset": "Share"
+          "update": "משהו השתבש בזמן עדכון כתובות ה-ip של ה-nodes",
+          "reset": "משהו השתבש במהלך איפוס כתובת ה-ip של ה-node"
         },
         "success": {
-          "updated": "Updated",
+          "updated": "עודכן",
           "updatedIp": "Nodes IP updated!",
           "switchTest": "Switched nodes IP to Testnet",
           "switchMain": "Switched nodes IP to default main",
@@ -358,8 +358,8 @@
           "loadingPort": "Loading Port"
         },
         "button": {
-          "update": "Update and Connect",
-          "reset": "Reset"
+          "update": "עדכן ותתחבר",
+          "reset": "איפוס"
         },
         "mainNode": "Main Node",
         "solidityNode": "Solidity Node",
@@ -367,168 +367,168 @@
       }
     },
     "backup": {
-      "title": "Backup Wallet"
+      "title": "גבה את הארנק"
     },
     "restore": {
-      "title": "Restore Wallet"
+      "title": "שחזר ארנק"
     },
     "reset": {
-      "title": "Reset Wallet",
-      "warning": "Warning: This action will erase all saved data including your 12 secret words. If you didn't save your secret, please do so before you continue.",
-      "button": "OK, I understand it"
+      "title": "אפס את הארנק",
+      "warning": "אזהרה: פעולה זו תמחק את כל נתונים השמורים כולל 12 מילות הצופן שלך. אם לא שמרת את הצופן שלך, אנא עשה זאת לפני שתמשיך.",
+      "button": "אוקיי, אני מבין"
     },
     "pin": {
-      "title": "Change Pin",
-      "success": "Pin successfully changed!"
+      "title": "שנה קוד",
+      "success": "הקוד המזהה (PIN) שונה בהצלחה!"
     },
     "language": {
-      "title": "Language",
-      "choose": "Please, choose a Language below:",
+      "title": "שפה",
+      "choose": "אנא, בחר שפה:",
       "success": {
-        "title": "Language changed to {{language}}",
-        "description": "However, you still need to restart the app so the changes can take effect. Would you like to do it now?"
+        "title": "השפה השתנתה ל- {{language}}",
+        "description": "אולם, אתה עדיין צריך לאתחל את האפליקציה כך שהשינויים יכנסו לתוקף. האם תרצה לעשות זאת כעת?"
       },
       "button": {
-        "confirm": "Yes, restart now!",
-        "cancel": "No, I'll do it later"
+        "confirm": "כן, התחל עכשיו!",
+        "cancel": "לא, אני אעשה את זה מאוחר יותר"
       },
-      "error": "Error saving preferred language"
+      "error": "אירעה שגיאה בשמירת השפה המועדפת"
     },
     "token": {
-      "title": "Token Filter",
-      "search": "Search tokens",
-      "confirm": "Save",
-      "noResult": "No results..."
+      "title": "סינון טוקנים",
+      "search": "חפש טוקנים",
+      "confirm": "שמור",
+      "noResult": "לא נמצאו תוצאות..."
     },
     "about": {
-      "title": "About",
-      "description": "TronWallet is an open source fully decentralized P2P Crypto Wallet for TRON Network built with React Native. With it you can send and receive tokens, vote on a Super Representative, participate in a token sale, keep track of your balances and transactions and much more. Tap on the link below for a detailed tutorial on how to use it.",
-      "tutorial": "TUTORIAL"
+      "title": "אודות",
+      "description": "TronWallet הינו ארנק מבוזר P2P הנכתב בקוד פתוח עבור רשת TRON ונבנה באמצעות React Native. באמצעותו, אתה יכול לשלוח ולקבל טוקנים, להצביע לנבחרי העל (SR), להשתתף במכירת טוקנים, לעקוב אחר היתרות, עסקאות ועוד. לחץ על הקישור למטה למדריך מפרויקט על השימוש בו.",
+      "tutorial": "מדריך"
     },
     "accepts": {
-      "title": "Who accepts TRX?"
+      "title": "מי מקבל TRX?"
     },
     "helpCenter": {
-      "title": "Help Center"
+      "title": "מרכז עזרה"
     },
     "accounts": {
       "title": "חשבונות",
-      "search": "חפש בחשבונות",
-      "restoreAccounts": "שחזר חשבונות",
-      "noAccounts": "אין צורך לשחזר חשבונות"
+      "search": "חפש חשבונות",
+      "restoreAccounts": "שחזור חשבונות",
+      "noAccounts": "אין חשבונות לשחזור"
     },
-    "partners": "PARTNERS",
-    "askPin": "תמיד שאל את ה- PIN",
-    "askBiometry": "Activate Biometry",
-    "verifiedTokensOnly": "Verified tokens only"
+    "partners": "שותפים",
+    "askPin": "בקש תמיד קוד מזהה (PIN)",
+    "askBiometry": "הפעל ביומטרי",
+    "verifiedTokensOnly": "טוקנים מאומתים בלבד"
   },
   "submitTransaction": {
-    "title": "TRANSACTION DETAILS",
-    "notification": "You have received a transaction from {{address}}",
-    "notificationPayment": "You have received a payment from {{address}}",
-    "data": "DATA",
-    "time": "TIME",
+    "title": "פרטי העסקה",
+    "notification": "קיבלת טרנזקציה מ-{{address}}",
+    "notificationPayment": "קיבלת תשלום מ-{{address}}",
+    "data": "מידע",
+    "time": "זמן",
     "button": {
-      "tryAgain": "Try again",
-      "submit": "SUBMIT TRANSACTION"
+      "tryAgain": "נסה שוב",
+      "submit": "הגש טרנזקציה"
     },
     "error": {
-      "noData": "Couldn't load transaction data"
+      "noData": "לא ניתן לטעון את נתוני העסקה"
     },
     "exchange": {
-      "send": "Sending {{sendtoken}}",
-      "receive": "Receiving {{receivetoken}}",
-      "error": "Check your latest transactions to confirm the received amount."
+      "send": "שולח {{sendtoken}}",
+      "receive": "קיבלת {{receivetoken}}",
+      "error": "בדוק את הטרנזקציות האחרונות שלך כדי לאשר את הסכום שהתקבל."
     },
-    "disconnectedMessage": "It seems that you are disconnected. Reconnect to the internet before proceeding with the transaction.",
+    "disconnectedMessage": "נראה כי אתה מנותק. תתחבר לאינטרנט לפני שתמשיך עם הטרנזקציה.",
     "dic": {
-      "contractType": "Transaction Type",
-      "ownerAddress": "From",
-      "toAddress": "To",
-      "participateAssetIssueContract": "Participate",
-      "transferAssetContract": "Transfer",
-      "transferContract": "Transfer",
-      "unfreezeBalanceContract": "Unfreeze",
-      "freezeBalanceContract": "Freeze",
-      "assetIssueContract": "Create",
-      "voteWitnessContract": "Vote",
-      "frozenDuration": "Duration",
-      "frozenBalance": "Total to Freeze"
+      "contractType": "סוג טרנזקציה",
+      "ownerAddress": "מעת",
+      "toAddress": "אל",
+      "participateAssetIssueContract": "השתתף",
+      "transferAssetContract": "העבר",
+      "transferContract": "העבר",
+      "unfreezeBalanceContract": "לשחרר",
+      "freezeBalanceContract": "נעל",
+      "assetIssueContract": "צור",
+      "voteWitnessContract": "בחירה",
+      "frozenDuration": "משך",
+      "frozenBalance": "סה\"כ להקפאה"
     },
     "errorDic": {
-      "contractValidate": "Transaction data not valid. Please try again later.",
-      "signature": "Transaction signature not valid.",
-      "duplicate": "Transaction already broadcasted.",
-      "contractValidateCee": "Transaction data not valid (CEE). Please try again later.",
-      "bandwith": "Not enought bandwidth. Please try again later.",
-      "contractValidateTapos": "Transaction data not valid (TAPOS). Please try again later.",
-      "tooBig": "Transaction too big to be submitted.",
-      "expiration": "Transaction expired. Please try again.",
-      "serverBusy": "Server busy.",
-      "resource": "Insufficient bandwidth or balance. You might need some frozen TRX."
+      "contractValidate": "תוכן הטרנזקציה אינו חוקי. אנה נסה שנית מאוחר יותר.",
+      "signature": "חתימת הטרנזקציה אינה חוקית.",
+      "duplicate": "הטרנזקציה כבר נשלחה.",
+      "contractValidateCee": "נתוני הטרנזקציה אינם חוקיים (CEE). אנא נסה שנית מאוחר יותר.",
+      "bandwith": "אין לך מספיק רוחב פס. אנא נסה שנית מאוחר יותר.",
+      "contractValidateTapos": "נתוני הטרנזקציה אינם חוקיים (TAPOS). אנא נסה שנית מאוחר יותר.",
+      "tooBig": "הטרנזקציה יותר מדי גדולה להגשה.",
+      "expiration": "הטרנזקציה פגה. נא נסה שוב.",
+      "serverBusy": "השרת עסוק.",
+      "resource": "אין מספיק רוחב פס או יתרה. ייתכן ותצטרך להקפיא TRX."
     },
-    "totalVotes": "Total Votes"
+    "totalVotes": "סה\"כ הצבעות"
   },
   "transactions": {
-    "title": "MY TRANSACTIONS",
-    "from": "From",
-    "to": "To",
-    "notFound": "No transactions found."
+    "title": "הטרנזקציות שלי",
+    "from": "מעת",
+    "to": "אל",
+    "notFound": "לא נמצאו טרנזקציות."
   },
   "transactionDetails": {
-    "title": "TRANSACTION",
+    "title": "טרנזקציה",
     "clipboard": {
-      "tronscanUrl": "Tronscan url for this transaction copied to the clipboard",
-      "publicKey": "מפתח ציבורי הועתק ללוח"
+      "tronscanUrl": "כתובת Tronscan הועתקה ללוח המקשים",
+      "publicKey": "המפתח הציבורי הועתק ללוח המקשים"
     },
-    "hash": "בְּלִיל",
-    "status": "סטָטוּס",
-    "time": "זְמַן",
-    "block": "לַחסוֹם",
-    "frozenBalance": "מאזן קפוא",
-    "unfrozenBalance": "מאזן בלתי מאוזן",
-    "totalVotes": "סך הכל הצבעות",
+    "hash": "HASH",
+    "status": "סטטוס",
+    "time": "זמן",
+    "block": "בלוק",
+    "frozenBalance": "יתרה קפואה",
+    "unfrozenBalance": "יתרה ששוחררה",
+    "totalVotes": "סך הכל הקולות",
     "amount": "כמות",
-    "to": "ל",
-    "from": "מ",
-    "tokenName": "TOKEN NAME",
-    "unityValue": "ערך UNITY",
-    "totalSupply": "סך הכל",
-    "startTime": "שעת התחלה",
-    "endTime": "סוף זמן",
+    "to": "אל",
+    "from": "מעת",
+    "tokenName": "שם הטוקן",
+    "unityValue": "ערך יחידה",
+    "totalSupply": "סך הכל ההספקה",
+    "startTime": "זמן התחלה",
+    "endTime": "זמן סיום",
     "description": "תיאור",
-    "votedAddress": "כתובת VOTED"
+    "votedAddress": "הכתובת שהצבעת עליה"
   },
   "transactionSuccess": {
-    "submitted": "תובלה שהוגשה לרשת!",
-    "success": "הַצלָחָה!"
+    "submitted": "העסקה הוגשה לרשת!",
+    "success": "הצליחה!"
   },
   "votes": {
-    "title": "VOTES",
-    "totalVotes": "סך הכל הצבעות",
-    "votesAvailable": "הקולות זמינים",
-    "search": "לחפש",
-    "searchPreview": "Suggestions - Most Voted",
+    "title": "הצבעות",
+    "totalVotes": "סך הכל ההצבעות",
+    "votesAvailable": "קולות זמינים",
+    "search": "חיפוש",
+    "searchPreview": "הצעות - ההצבעות האחרונות שלי",
     "error": "אופס, משהו לא נטען כהלכה. נסה לטעון מחדש",
-    "notFound": "Super Representative not found"
+    "notFound": "סופר נציג (SR) לא נמצא"
   },
   "scanPayment": {
-    "scan": "לִסְרוֹק",
+    "scan": "סרוק",
     "error": {
-      "receiver": "כתובת המקלט אינה חוקית",
-      "token": "האסימון אינו חוקי",
+      "receiver": "כתובת הנמען אינה חוקית",
+      "token": "הטוקן אינו חוקי",
       "amount": "הסכום אינו חוקי",
       "description": "תיאור ארוך מדי",
       "code": "קוד התשלום אינו חוקי. אנא, סרוק אחד חוקי"
     }
   },
   "makePayment": {
-    "pay": "לְשַׁלֵם",
+    "pay": "שלם",
     "confirm": "אשר תשלום",
     "error": {
-      "receiver": "המקלט שווה למבקש",
-      "token": "לחשבון זה אין אסימון עבור עסקה זו",
-      "amount": "לחשבון זה אין מספיק איזון.",
+      "receiver": "הנמען זהה למבקש",
+      "token": "לחשבון זה אין את הטוקנים עבור עסקה זו",
+      "amount": "לחשבון זה אין יתרה מספקת.",
       "description": "אין תיאור זמין"
     }
   },
@@ -536,11 +536,11 @@
     "generate": "צור בקשה",
     "selectCurrency": "בחר את מטבע ההתייחסות",
     "error": {
-      "currency": "לא הצלחנו לטעון את מחירי המטבעות האחרים. השתמש ב- TRX כנקודת התייחסות"
+      "currency": "לא הצלחנו לטעון את מחירי המטבעות האחרים. השתמש ב- TRX כמטבע ההתייחסות"
     }
   },
   "requestPayment": {
-    "title": "בקשת תשלום"
+    "title": "בקש תשלום"
   },
   "newAccount": {
     "title": "יצירת חשבון",
@@ -555,79 +555,79 @@
     }
   },
   "balanceToken": {
-    "updating": "Updating token information. Please wait a few seconds.",
-    "notAvailable": "Token information not available"
+    "updating": "מעדכן את פרטי הטוקן. אנא המתן מספר שניות.",
+    "notAvailable": "המידע על הטוקן לא זמין"
   },
   "biometry": {
     "register": {
-      "title": "Check your biometry"
+      "title": "בדוק את הביומטרי שלך"
     },
     "auth": {
-      "title": "Save Biometry",
-      "error": "Access denied"
+      "title": "שמור ביומטרי",
+      "error": "הגישה נדחתה"
     }
   },
   "privacyPolicy": {
-    "title": "PRIVACY POLICY",
-    "subtitle": "You must read and accept our privacy terms to continue.",
-    "error": "You need to accept of privacy terms before to continue. ",
-    "acceptTerms": "I have read and agree to the terms",
-    "continue": "CONTINUE",
-    "docTitle": "Privacy Policy",
-    "introduction": "Your privacy is important to us.\nIt is TronWallet's policy to respect your privacy regarding any information we may collect from you across our website, http://tronwallet.me, and other sites we own and operate.\nWe only ask for personal information when we truly need it to provide a service to you. We collect it by fair and lawful means, with your knowledge and consent.\nWe also let you know why we're collecting it and how it will be used.\nWe only retain collected information for as long as necessary to provide you with your requested service.\nWhat data we store, we'll protect within commercially acceptable means to prevent loss and theft, as well as unauthorised access, disclosure, copying, use or modification.\nWe don't share any personally identifying information publicly or with third-parties, except when required to by law.\nOur website may link to external sites that are not operated by us.\nPlease be aware that we have no control over the content and practices of these sites, and cannot accept responsibility or liability for their respective privacy policies.\nYou are free to refuse our request for your personal information, with the understanding that we may be unable to provide you with some of your desired services.\nYour continued use of our website will be regarded as acceptance of our practices around privacy and personal information.\nIf you have any questions about how we handle user data and personal information, feel free to contact us.\nThis policy is effective as of 1 July 2018.",
+    "title": "מדיניות פרטיות",
+    "subtitle": "אתה חייב לקרוא ולהסכים על מדיניות הפרטיות שלנו כדי להמשיך.",
+    "error": "אתה חייב להסכים על מדיניות הפרטיות שלנו כדי להמשיך. ",
+    "acceptTerms": "קראתי והסכמתי על תנאי השימוש",
+    "continue": "המשך",
+    "docTitle": "מדיניות פרטיות",
+    "introduction": "הפרטיות שלך חשובה לנו.\nהמדיניות של TronWallet היא לכבד את פרטיותך לגבי כל מידע שאנו עשויים לאסוף ממך באתר האינטרנט שלנו, http://tronwallet.me ובאתרים אחרים שבבעלותנו ובתפעולינו.\nאנו מבקשים מידע אישי רק כאשר אנו באמת צריכים אותו כדי לספק לך את השירות. אנו אוספים אותו באמצעים הוגנים ומשפטיים, בידיעתך ובהסכמתך.\nכמו כן, אנו מודיעים לך מדוע אנו אוספים אותו וכיצד משתמשים בו.\nאנו שומרים מידע שנאסף כל עוד נדרש אך ורק כדי לספק לך את השירות המבוקש.\nעבור הנתונים שאנו שומרים, אנו נגן באמצעים מקובלים מבחינה מסחרית כדי למנוע אובדן וגניבה, וכן גישה לא מורשית, גילוי, העתקה, שימוש או שינוי.\nאין אנו חולקים כל מידע מזהה אישי בפומבי או עם גורמי צד שלישי, למעט כאשר נדרש על פי חוק.\nהאתר שלנו עשוי לקשר לאתרים חיצוניים שאינם מופעלים על ידינו.\nלידיעתך, אין לנו שליטה על התוכן והפרקטיקות של אתרים אלה, ואיננו יכולים לקבל אחריות או חבות למדיניות הפרטיות שלהם.\nאתה רשאי לסרב לבקשתנו לקבלת מידע אישי שלך, מתוך הבנה שאולי לא נוכל לספק לך חלק מהשירותים שברצונך לקבל.\nהמשך השימוש שלך באתר האינטרנט שלנו ייחשב כקבלה של הפרקטיקות שלנו סביב פרטיות ומידע אישי.\nאם יש לך שאלות לגבי האופן שבו אנו מטפלים בנתוני משתמש ומידע אישי, אל תהסס לפנות אלינו.\nמדיניות זו תקפה החל מ -1 ביולי 2018.",
     "termsOfService": {
-      "title": "TronWallet Terms of Service",
+      "title": "תנאי השימוש של TronWallet",
       "section1": {
-        "title": "1. Terms",
-        "body": "By accessing the website at http://tronwallet.me, you are agreeing to be bound by these terms of service, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. If you do not agree with any of these terms, you are prohibited from using or accessing this site. The materials contained in this website are protected by applicable copyright and trademark law."
+        "title": "1. תנאים",
+        "body": "על ידי כניסה ליישום זה, אתה מסכים להיות מחויב לתנאים ולהגבלות אלה, לכל החוקים והתקנות הרלוונטיים, ולהסכים שאתה אחראי לציית לכל החוקים המקומיים הרלוונטיים. אם אינך מסכים לתנאים אלו, אסור לך להשתמש באפליקציה הזו או לגשת אליה. החומרים הכלולים באתר זה מוגנים על ידי חוקי זכויות היוצרים והסימנים המסחריים הרלוונטיים."
       },
       "section2": {
-        "title": "2. Use License",
-        "body": "Permission is granted to temporarily download one copy of the materials (information or software) on TronWallet's website for personal, non-commercial transitory viewing only.\nThis is the grant of a license, not a transfer of title, and under this license you may not:\nmodify or copy the materials;\nuse the materials for any commercial purpose, or for any public display (commercial or non-commercial);\nattempt to decompile or reverse engineer any software contained on TronWallet's website;\nremove any copyright or other proprietary notations from the materials;\nor transfer the materials to another person or \"mirror\" the materials on any other server.\nThis license shall automatically terminate if you violate any of these restrictions and may be terminated by TronWallet at any time. Upon terminating your viewing of these materials or upon the termination of this license, you must destroy any downloaded materials in your possession whether in electronic or printed format.\n"
+        "title": "2. תנאי שימוש",
+        "body": "הרשאה ניתנת להורדה זמנית של עותק אחד של החומרים (מידע או תוכנה) באתר האינטרנט של TronWallet לצפייה זמנית אישית ולא מסחרית בלבד.\nזהו מתן רישיון, לא העברת בעלות, ועל פי רישיון זה לא תוכל:\nלשנות או להעתיק את החומרים;\nלהשתמש בחומרים לכל מטרה מסחרית, או לכל תצוגה פומבית (מסחרית או לא מסחרית);\nלנסות להדר לאחור (decompile) או להנדס לאחור (reverse engineer) כל תוכנה הכלולה באתר של TronWallet;\nלהסיר כל זכויות יוצרים או רישומים קנייניים אחרים מהחומרים;\nאו להעביר את החומרים לאדם אחר או להציג (mirror) את החומרים על כל שרת אחר.\nרישיון זה יופסק באופן אוטומטי אם תפר אחת מהגבלות אלה ויכול להסתיים על ידי TronWallet בכל עת. עם סיום הצפייה בחומרים אלה או עם סיום רישיון זה, עליך להרוס את כל החומרים שהורדת שברשותך בין אם בפורמט אלקטרוני או מודפס.\n"
       },
       "section3": {
-        "title": "3. Disclaimer",
-        "body": "The materials on TronWallet's website are provided on an 'as is' basis. TronWallet makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including, without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights.\nFurther, TronWallet does not warrant or make any representations concerning the accuracy, likely results, or reliability of the use of the materials on its website or otherwise relating to such materials or on any sites linked to this site.n"
+        "title": "3. כתב ויתור",
+        "body": "The materials on TronWallet's website are provided on an 'as is' basis. TronWallet makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including, without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights.\nFurther, TronWallet does not warrant or make any representations concerning the accuracy, likely results, or reliability of the use of the materials on its website or otherwise relating to such materials or on any sites linked to this site"
       },
       "section4": {
-        "title": "4. Limitations",
-        "body": "In no event shall TronWallet or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use the materials on TronWallet's website, even if TronWallet or a TronWallet authorized representative has been notified orally or in writing of the possibility of such damage. Because some jurisdictions do not allow limitations on implied warranties, or limitations of liability for consequential or incidental damages, these limitations may not apply to you.\n"
+        "title": "4. הגבלות",
+        "body": "בשום מקרה לא יישאו TronWallet או ספקיה בחבות לנזקים כלשהם (לרבות, ללא הגבלה, נזקים של אובדן נתונים או רווחים, או עקב הפרעה לעסק) הנובעים משימוש או חוסר יכולת להשתמש בחומרים באתר האינטרנט של TronWallet, גם אם TronWallet או נציג מורשה של TronWallet קיבלו הודעה רשמית או בכתב על האפשרות של נזק כזה. מאחר שחלק מסמכויות השיפוט אינן מתירות מגבלות על האחריות המשתמעת, או מגבלות אחריות בגין נזקים תוצאתיים או מקריים, ייתכן שהגבלות אלה לא יחולו עליך.\n"
       },
       "section5": {
-        "title": "5. Accuracy of materials",
-        "body": "The materials appearing on TronWallet's website could include technical, typographical, or photographic errors. TronWallet does not warrant that any of the materials on its website are accurate, complete or current. TronWallet may make changes to the materials contained on its website at any time without notice. However TronWallet does not make any commitment to update the materials.\n"
+        "title": "5. דיוק החומרים",
+        "body": "החומרים המופיעים באתר האינטרנט של TronWallet עשוי לכלול טעויות טכניות, שגיאות כתיב, או שגיאות צילום. TronWallet אינה מתחייבת כי כל החומרים באתר האינטרנט שלה הם מדויקים, מלאים או עדכניים. TronWallet עשויים לבצע שינויים החומרים הכלולים באתר האינטרנט שלה בכל עת ללא הודעה מוקדמת. עם זאת, TronWallet לא מתחייבת לעדכן את החומרים.\n"
       },
       "section6": {
-        "title": "6. Links",
-        "body": "TronWallet has not reviewed all of the sites linked to its website and is not responsible for the contents of any such linked site. The inclusion of any link does not imply endorsement by TronWallet of the site. Use of any such linked website is at the user's own risk.\n"
+        "title": "6. קישורים",
+        "body": "TronWallet לא בדקה לעומק את כל האתרים המקושרים לאתר האינטרנט שלה ואינה אחראית לתכנים של אתר מקושר כזה. ההכלה שכל קישור אינה מעידה על תמיכה של TronWallet באתר. השימוש בכל אתר מקושר כזה הוא על אחריות המשתמש.\n"
       },
       "section7": {
-        "title": "7. Modifications",
-        "body": "TronWallet may revise these terms of service for its website at any time without notice. By using this website you are agreeing to be bound by the then current version of these terms of service.\n"
+        "title": "7. שינויים",
+        "body": "TronWallet יכולה לשנות תנאי שירות אלה עבור אתר אינטרנט שלה בלי הודעה מוקדמת. בשימוש באתר אינטרנט זה אתה מסכים להיות כפוף על ידי הגרסה הנוכחית של תנאי שירות אלה.\n"
       },
       "section8": {
-        "title": "8. Governing Law",
-        "body": "These terms and conditions are governed by and construed in accordance with the laws of Vancouver, Canada and you irrevocably submit to the exclusive jurisdiction of the courts in that State or location.\n"
+        "title": "8. חוק מסדיר",
+        "body": "תנאים והתניות אלה כפופים ומתפרשים בהתאם לחוקי ונקובר, קנדה ואתה כפוף באופן בלעדי לסמכות השיפוט של בתי המשפט באותה המדינה או המיקום.\n"
       },
       "section9": {
-        "title": "9. CRYPTOCURRENCY RISKS",
-        "body": "Cryptocurrency assets are subject to high market risks and volatility. Past performance is not indicative of future results. Investments in blockchain assets may result in loss of part or all of your investment. Please do your own research and use caution. You are solely responsible for your actions on the TRONWALLET. TRONWALLET Team is not responsible for your investment losses.\n"
+        "title": "9. סיכונים במטבעות קריפטוגרפיים",
+        "body": "נכסים וירטואליים (Cryptocurrency) כפופים לסיכוני שוק ותנודתיות גבוהים. ביצועים קודמים אינם מעידים על תוצאות עתידיות. השקעות בנכסים מסוג Blockchain עלולים לגרום להפסד של חלק או את כל ההשקעה שלך. אנא בצע מחקר משלך והשתמש בזהירות. אתה האחראי הבלעדי לפעולות שלך ב-TRONWALLET. צוות TRONWALLET אינו אחראי להפסדי ההשקעה שלך.\n"
       },
       "section10": {
-        "title": "10. THE TRON NETWORK (SEPARATE FROM TRONWALLET)",
-        "body": "TronWallet is only a user interface to TRON and does not operate the TRON NETWORK. TronWallet is unable to control the actions of others on the TRON NETWORK. When using TRONWALLET, you are directly communicating with the TRON PUBLIC API operated by TRON Foundation. Transactions on the TRONWALLET are irreversible.\n"
+        "title": "10. רשת טרון (בנפרד מ-TRONWALLET)",
+        "body": "TronWallet הוא רק ממשק משתמש ל-TRON ואינו מפעיל את רשת טרון. TronWallet אינה מסוגלת לשלוט בפעולותיהם של אחרים ברשת טרון. בעת שימוש ב-TRONWALLET, אתה מתקשר ישירות עם ה-TRON PUBLIC API המופעל על ידי קרן TRON. עסקאות (טרנזקציות) ב-TRONWALLET הינן בלתי הפיכות.\n"
       },
       "section11": {
-        "title": "11. TRONWALLET DOES NOT ENDORSE ANYTHING",
-        "body": "TRONWALLET does NOT endorse ANY asset on the TRON NETWORK. Asset \"listings\" on TRONWALLET are NOT endorsements. TRONWALLET is a software client ONLY and does NOT conduct any independent diligence or review of any asset. TRON is an open system meaning that scams and market manipulators may exist. Prices shown on TRONWALLET are for informational purposes and do not imply that they can actually be redeemed for a certain price.\n"
+        "title": "11. TRONWALLET לא מעודד דבר",
+        "body": "TRONWALLET אינה תומכת בכל נכס ברשת TRON. נכסים \"הרשומים\" (listings) ב-TRONWALLET הם מעודדים על ידינו. TRONWALLET היא תוכנת ממשק בלבד ואינה עורכת בדיקות עצמיות או מבקרת נכסים אלו. TRON היא מערכת פתוחה כלומר, הונאות ומניפולטורים בשוק עשויים להתקיים. המחירים המוצגים על TRONWALLET הם למטרות מידע בלבד ולא לשם רמיזה כי ניתן לפדות את הנכסים במחיר מסוים.\n"
       },
       "section12": {
-        "title": "12. YOUR OWN RESPONSIBILITIES",
-        "body": "You, the user, are solely responsible for ensuring your own compliance with laws and taxes in your jurisdiction. Cryptocurrencies may be illegal in your area. You, are solely responsible for your own security including keeping your account secret keys safe and backed up.\n"
+        "title": "12. האחראויות שלך",
+        "body": "אתה, המשתמש, האחראי הבלעדי להבטחת העמידה שלך בחוקים ובמסים בתחום השיפוט שלך. מטבעות וירטואליים (Cryptocurrencies) עשויים להיות בלתי חוקי באזור שלך. אתה, הוא האחראי הבלעדי על האבטחה שלך, כולל שמירה על המפתחות הסודיים של החשבון שלך בטוחים ומגובים.\n"
       },
       "section13": {
-        "title": "13. DISCLAIMER OF WARRANTY",
-        "body": "TRONWALLET is provided free of charge and on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND.\n"
+        "title": "13. כתב ויתור על אחריות",
+        "body": "TRONWALLET הינו ללא תשלום, המוצר הינו \"כמו שהוא\", ללא אחריות או תנאים של מכל סוג.\n"
       }
     }
   }

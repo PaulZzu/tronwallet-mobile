@@ -19,7 +19,7 @@
   "warning": "تحذير",
   "cancel": "إلغاء",
   "address": "عنوان",
-  "message": "Message",
+  "message": "رسالة",
   "ok": "تم",
   "actionModalTitle": "هل ترغب في",
   "account": "الحساب",
@@ -31,8 +31,8 @@
     "clipboardCopied": "حدث خطأ أثناء النسخ",
     "hideAccount": "حدث خطأ ما في حذف الحساب ، حاول مرة أخرى \""
   },
-  "avaliable": "AVAILABLE",
-  "frozen": "FROZEN",
+  "avaliable": "متاح",
+  "frozen": "مجمد",
   "tronPower": "قوة تأثير ترون",
   "trxPrice": "سعر ترون",
   "confirmed": "مؤكد",
@@ -172,7 +172,7 @@
     "title": "تجميد",
     "unfreeze": {
       "title": "إلغاء التجميد",
-      "inXTime": "You can unfreeze your TRX",
+      "inXTime": "يمكن إزالة التجميد عن ترون",
       "inThreeDays": "بعد مرور 3 أيام يمكنك إلغاء التجميد عن عملتك TRX",
       "inXMinutes": "يمكنك إلغاء تجميد عملتك TRX خلال {{minutes}} دقيقة.",
       "inXHours": "يمكنك إلغاء تجميد عملتك TRX خلال {{hours}} ساعة.",
@@ -409,7 +409,7 @@
       "title": "من يقبل عملة TRX؟"
     },
     "helpCenter": {
-      "title": "Help Center"
+      "title": "مركز المساعدة"
     },
     "accounts": {
       "title": "حسابات",
@@ -436,9 +436,9 @@
       "noData": "تعذر تحميل بيانات المعاملة"
     },
     "exchange": {
-      "send": "Sending {{sendtoken}}",
-      "receive": "Receiving {{receivetoken}}",
-      "error": "Check your latest transactions to confirm the received amount."
+      "send": "جاري إرسال {{sendtoken}}",
+      "receive": "جاري استلام {{receivetoken}}",
+      "error": "انظر لآخر عملياتك للتأكد من تسلم المبلغ."
     },
     "disconnectedMessage": "يبدو أنك غير متصل. قم بإعادة الاتصال بالإنترنت قبل إكمال المعاملة.",
     "dic": {
@@ -563,71 +563,71 @@
       "title": "تحقق من هويتك"
     },
     "auth": {
-      "title": "Save Biometry",
+      "title": "حفظ المعرفات",
       "error": "الدخول مرفوض"
     }
   },
   "privacyPolicy": {
-    "title": "PRIVACY POLICY",
-    "subtitle": "You must read and accept our privacy terms to continue.",
-    "error": "You need to accept of privacy terms before to continue. ",
-    "acceptTerms": "I have read and agree to the terms",
-    "continue": "CONTINUE",
-    "docTitle": "Privacy Policy",
-    "introduction": "Your privacy is important to us.\nIt is TronWallet's policy to respect your privacy regarding any information we may collect from you across our website, http://tronwallet.me, and other sites we own and operate.\nWe only ask for personal information when we truly need it to provide a service to you. We collect it by fair and lawful means, with your knowledge and consent.\nWe also let you know why we're collecting it and how it will be used.\nWe only retain collected information for as long as necessary to provide you with your requested service.\nWhat data we store, we'll protect within commercially acceptable means to prevent loss and theft, as well as unauthorised access, disclosure, copying, use or modification.\nWe don't share any personally identifying information publicly or with third-parties, except when required to by law.\nOur website may link to external sites that are not operated by us.\nPlease be aware that we have no control over the content and practices of these sites, and cannot accept responsibility or liability for their respective privacy policies.\nYou are free to refuse our request for your personal information, with the understanding that we may be unable to provide you with some of your desired services.\nYour continued use of our website will be regarded as acceptance of our practices around privacy and personal information.\nIf you have any questions about how we handle user data and personal information, feel free to contact us.\nThis policy is effective as of 1 July 2018.",
+    "title": "سياسة الخصوصية",
+    "subtitle": "يجب قراءة شروط السرية والموافقة عليها للمواصلة.",
+    "error": "يجب عليك الموافقة على شروط السرية أولاً للمواصلة. ",
+    "acceptTerms": "لقد قرأت الشروط ووافقت عليها",
+    "continue": "إكمال",
+    "docTitle": "سياسة الخصوصية",
+    "introduction": "خصوصيتك تهمنا.\nمن ضمن سياسة محفظة الترون احترام خصوصيتك فيما يتعلق بأي معلومات قد نجمعها منك عبر موقعنا على الإنترنت، http://tronwallet.me، ومواقع أخرى نمتلكها ونعمل بها.\nنحن نقوم بطلب المعلومات الشخصية فقط عندما نحتاج إليها حقًا لتقديم خدمة لك. نحن نجمعها بواسطة وسائل عادلة وقانونية ، بمعرفتك وموافقتك.\nنحن نتيح لك أيضًا معرفة سبب جمعنا لها وكيفية استخدامها.\nنحن نحتفظ فقط بالمعلومات التي تم جمعها طالما كان ذلك ضروريا لتزويدك بالخدمة المطلوبة.\nالبيانات التي نخزنها ، سنحميها في حدود الوسائل المقبولة تجاريًا لمنع الفقدان والسرقة ، بالإضافة إلى الوصول غير المصرح به، أو الكشف، أو النسخ، أو الاستخدام أو التعديل.\nنحن لا نشارك أي معلومات تعريف شخصية علانية أو مع أطراف ثالثة ، إلا عندما يقتضي القانون ذلك.\nقد يرتبط موقعنا الإلكتروني بمواقع خارجية لا يتم تشغيلها من قبلنا.\nيرجى العلم بأننا لا نتحكم في محتوى هذه المواقع وممارساتها ، ولا يمكن أن نتحمل المسؤولية عن سياسات الخصوصية الخاصة بكل منها.\nأنت حر في رفض طلبنا للحصول على معلوماتك الشخصية ، على أن يكون مفهوماً أننا قد لا نكون قادرين على تزويدك ببعض الخدمات التي تريدها.\nاستخدامك المستمر لموقعنا الإلكتروني سيعتبر قبولًا لممارساتنا حول الخصوصية والمعلومات الشخصية. \nإذا كان لديك أي أسئلة حول كيفية تعاملنا مع بيانات المستخدم والمعلومات الشخصية ، فلا تتردد في الاتصال بنا.\nهذه السياسة سارية اعتبارًا من 1 يوليو 2018.",
     "termsOfService": {
-      "title": "TronWallet Terms of Service",
+      "title": "شروط خدمة محفظة الترون",
       "section1": {
-        "title": "1. Terms",
+        "title": "1. الشروط",
         "body": "By accessing the website at http://tronwallet.me, you are agreeing to be bound by these terms of service, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. If you do not agree with any of these terms, you are prohibited from using or accessing this site. The materials contained in this website are protected by applicable copyright and trademark law."
       },
       "section2": {
-        "title": "2. Use License",
-        "body": "Permission is granted to temporarily download one copy of the materials (information or software) on TronWallet's website for personal, non-commercial transitory viewing only.\nThis is the grant of a license, not a transfer of title, and under this license you may not:\nmodify or copy the materials;\nuse the materials for any commercial purpose, or for any public display (commercial or non-commercial);\nattempt to decompile or reverse engineer any software contained on TronWallet's website;\nremove any copyright or other proprietary notations from the materials;\nor transfer the materials to another person or \"mirror\" the materials on any other server.\nThis license shall automatically terminate if you violate any of these restrictions and may be terminated by TronWallet at any time. Upon terminating your viewing of these materials or upon the termination of this license, you must destroy any downloaded materials in your possession whether in electronic or printed format.\n"
+        "title": "2. استخدام الترخيص",
+        "body": "يتم منح الإذن لتحميل نسخة واحدة من المواد (المعلومات أو البرامج) مؤقتًا على موقع محفظة الترون بغرض العرض التبادلي الشخصي وغير التجاري فقط.\nهذا منح للترخيص ، وليس نقل للملكية ، وبموجب هذا الترخيص ، لا يجوز لك: تعديل أو نسخ المواد ؛\nاستخدام المواد لأي غرض تجاري ، أو لأي عرض عام (تجاري أو غير تجاري) ؛\nمحاولة فك التجميع أو عكس هندسة أي برنامج موجود على موقع محفظة الترون؛\nإزالة أي حقوق نشر أو تدوينات ملكية أخرى من المواد ؛\nأو نقل المواد إلى شخص آخر أو \"عكس\" المواد على أي خادم آخر. \nينتهي هذا الترخيص تلقائيًا في حالة مخالفتك لأي من هذه القيود وقد يتم إنهاؤه بواسطة محفظة الترون في أي وقت. عند إنتهائك من الإطلاع على هذه المواد أو عند إنهاء هذا الترخيص، يجب عليك تدمير أي مواد تم تنزيلها في حوزتك سواءً في شكل إلكتروني أو مطبوع.\n"
       },
       "section3": {
-        "title": "3. Disclaimer",
-        "body": "The materials on TronWallet's website are provided on an 'as is' basis. TronWallet makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including, without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights.\nFurther, TronWallet does not warrant or make any representations concerning the accuracy, likely results, or reliability of the use of the materials on its website or otherwise relating to such materials or on any sites linked to this site.n"
+        "title": "3. إخلاء المسؤولية",
+        "body": "يتم توفير المواد على موقع محفظة الترون على أساس 'كما هي'. لا تقدم محفظة الترون أية ضمانات ، صريحة أو ضمنية ، وبموجب هذا تخلي مسؤوليتها عن جميع الضمانات الأخرى بما في ذلك ، على سبيل المثال لا الحصر ، الضمانات الضمنية أو الشروط الخاصة بالتسويق، أو الملائمة لغرض معين، أو عدم انتهاك الملكية الفكرية أو أي انتهاك آخر للحقوق.\nعلاوة على ذلك ، لا تضمن محفظة الترون أو تقدم أي تعهدات بشأن دقة، النتائج المحتملة، أو موثوقية استخدام المواد على موقعها الإلكتروني أو خلاف ذلك فيما يتعلق بمثل هذه المواد على أي من المواقع المرتبطة بهذا الموقع.n"
       },
       "section4": {
-        "title": "4. Limitations",
-        "body": "In no event shall TronWallet or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use the materials on TronWallet's website, even if TronWallet or a TronWallet authorized representative has been notified orally or in writing of the possibility of such damage. Because some jurisdictions do not allow limitations on implied warranties, or limitations of liability for consequential or incidental damages, these limitations may not apply to you.\n"
+        "title": "4. القيود",
+        "body": "لا تتحمل محفظة الترون أو مورديها بأي حال من الأحوال المسؤولية عن أي أضرار (بما في ذلك ، على سبيل المثال لا الحصر ، الأضرار الناتجة عن فقدان البيانات أو الربح ، أو بسبب انقطاع العمل) ناتجة عن استخدام أو عدم القدرة على استخدام المواد على موقع محفظة الترون ، حتى لو تم إخطار محفظة الترون أو ممثل محفظة الترون المخول شفوياً أو كتابياً بإمكانية حدوث مثل هذا الضرر. نظرًا لأن بعض السلطات القضائية لا تسمح بالقيود المفروضة على الضمانات الضمنية أوتحديد المسؤولية عن الأضرار اللاحقة أو العرضية ، فقد لا تنطبق هذه القيود عليك.\n"
       },
       "section5": {
-        "title": "5. Accuracy of materials",
-        "body": "The materials appearing on TronWallet's website could include technical, typographical, or photographic errors. TronWallet does not warrant that any of the materials on its website are accurate, complete or current. TronWallet may make changes to the materials contained on its website at any time without notice. However TronWallet does not make any commitment to update the materials.\n"
+        "title": "5. دقة المواد",
+        "body": "يمكن أن تتضمن المواد التي تظهر على موقع محفظة الترون الإلكتروني أخطاء فنية أو مطبعية أو فوتوغرافية. لا تضمن محفظة الترون أن أيًا من المواد الموجودة على موقعها الإلكتروني دقيقة، كاملة أو حديثة. قد تقوم محفظة الترون بإجراء تغييرات على المواد الواردة على موقعها الإلكتروني في أي وقت دون إشعار. ومع ذلك ، لا تقدم محفظة الترون أي التزام لتحديث المواد.\n"
       },
       "section6": {
-        "title": "6. Links",
-        "body": "TronWallet has not reviewed all of the sites linked to its website and is not responsible for the contents of any such linked site. The inclusion of any link does not imply endorsement by TronWallet of the site. Use of any such linked website is at the user's own risk.\n"
+        "title": "6. الروابط",
+        "body": "لم تقم محفظة الترون بمراجعة جميع المواقع المرتبطة بموقعها وليست مسؤولة عن محتويات أي موقع مرتبط من هذا القبيل. إن تضمين أي رابط لا يعني موافقة محفظة الترون للموقع. استخدام أي من هذه المواقع المرتبطة هو على مسؤولية المستخدم الخاصة.\n"
       },
       "section7": {
-        "title": "7. Modifications",
-        "body": "TronWallet may revise these terms of service for its website at any time without notice. By using this website you are agreeing to be bound by the then current version of these terms of service.\n"
+        "title": "7. التعديلات",
+        "body": "قد تقوم محفظة الترون بمراجعة شروط هذه الخدمة على موقعها على الإنترنت في أي وقت دون إشعار مسبق. باستخدام هذا الموقع فإنك توافق على الالتزام بالإصدار الحالي لشروط هذه الخدمة.\n"
       },
       "section8": {
-        "title": "8. Governing Law",
-        "body": "These terms and conditions are governed by and construed in accordance with the laws of Vancouver, Canada and you irrevocably submit to the exclusive jurisdiction of the courts in that State or location.\n"
+        "title": "8. القانون الناظم",
+        "body": "تخضع هذه الشروط والأحكام وتفسر وفقًا لقوانين فانكوفر ، كندا وأنت تخضع بشكل قاطع للولاية القضائية الحصرية للمحاكم في تلك الدولة أو الموقع.\n"
       },
       "section9": {
-        "title": "9. CRYPTOCURRENCY RISKS",
-        "body": "Cryptocurrency assets are subject to high market risks and volatility. Past performance is not indicative of future results. Investments in blockchain assets may result in loss of part or all of your investment. Please do your own research and use caution. You are solely responsible for your actions on the TRONWALLET. TRONWALLET Team is not responsible for your investment losses.\n"
+        "title": "9. مخاطر العملة الرقمية",
+        "body": "تخضع أصول العملة الرقمية لمخاطر كبيرة وتقلباً في الأسواق. الأداء السابق ليس مؤشرا على النتائج المستقبلية. قد تؤدي الاستثمارات في أصول البلوكشين إلى فقدان جزء من أو كل استثماراتك. يرجى القيام ببحثك الخاص و توخي الحذر. أنت وحدك المسؤول عن أفعالك على محفظة الترون. فريق محفظة الترون غير مسؤول عن خسائر إستثمارك.\n"
       },
       "section10": {
-        "title": "10. THE TRON NETWORK (SEPARATE FROM TRONWALLET)",
-        "body": "TronWallet is only a user interface to TRON and does not operate the TRON NETWORK. TronWallet is unable to control the actions of others on the TRON NETWORK. When using TRONWALLET, you are directly communicating with the TRON PUBLIC API operated by TRON Foundation. Transactions on the TRONWALLET are irreversible.\n"
+        "title": "10. شبكة الترون (منفصلة عن محفظة الترون)",
+        "body": "محفظة الترون ليست سوى واجهة مستخدم للترون ولا تعمل على شبكة الترون. محفظة الترون غير قادرة على التحكم في تصرفات الآخرين على شبكة الترون. عند استخدامك لمحفظة الترون ، فأنت تتواصل مباشرةً مع واجهة برمجة تطبيقات ترون العامة والتي تديرها مؤسسة ترون. المعاملات على محفظة الترون لا رجعة فيها.\n"
       },
       "section11": {
-        "title": "11. TRONWALLET DOES NOT ENDORSE ANYTHING",
-        "body": "TRONWALLET does NOT endorse ANY asset on the TRON NETWORK. Asset \"listings\" on TRONWALLET are NOT endorsements. TRONWALLET is a software client ONLY and does NOT conduct any independent diligence or review of any asset. TRON is an open system meaning that scams and market manipulators may exist. Prices shown on TRONWALLET are for informational purposes and do not imply that they can actually be redeemed for a certain price.\n"
+        "title": "11. محفظة الترون لا تقر أي شيء",
+        "body": "لا تدعم محفظة الترون أي أصول على شبكة الترون. الأصول \"قوائم\" على محفظة الترون ليست تصديقات. محفظة الترون هي برنامج عميل فقط ولا تجري أي فحص مستقل أو مراجعة لأي أصل. الترون هو نظام مفتوح مما يعني إمكانية تواجد الاحتيال والمتلاعبين بالأسواق. الأسعار المعروضة على محفظة الترون هي لأغراض إعلامية ولا تعني أنه يمكن استبدالها فعليًا بسعر معين.\n"
       },
       "section12": {
-        "title": "12. YOUR OWN RESPONSIBILITIES",
-        "body": "You, the user, are solely responsible for ensuring your own compliance with laws and taxes in your jurisdiction. Cryptocurrencies may be illegal in your area. You, are solely responsible for your own security including keeping your account secret keys safe and backed up.\n"
+        "title": "12. مسؤولياتك الخاصة",
+        "body": "أنت ، المستخدم ، المسؤول الوحيد عن ضمان امتثالك للقوانين والضرائب في نطاق سلطتك. قد تكون العملات الرقمية غير قانونية في منطقتك. أنت ، وحدك المسؤول عن أمنك الخاص ، بما في ذلك الحفاظ على أمان مفاتيح حسابك السرية وإجراء نسخ احتياطي لها.\n"
       },
       "section13": {
-        "title": "13. DISCLAIMER OF WARRANTY",
-        "body": "TRONWALLET is provided free of charge and on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND.\n"
+        "title": "13. إخلاء المسؤولية من الضمانة",
+        "body": "يتم توفيرمحفظة الترون \"كما هي\" مجانا وعلى أساس، دون ضمانات أو شروط من أي نوع.\n"
       }
     }
   }

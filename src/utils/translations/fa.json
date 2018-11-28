@@ -1,0 +1,634 @@
+{
+  "relativeTime": {
+    "future": "در %s",
+    "past": "%s پیش",
+    "s": "چند ثانیه",
+    "ss": "%d ثانیه",
+    "m": "یک دقیقه",
+    "mm": "%d دقیقه",
+    "h": "یک ساعت",
+    "hh": "%d ساعت",
+    "d": "یک روز",
+    "dd": "%d روز",
+    "M": "یک ماه",
+    "MM": "%d ماه",
+    "y": "یک سال",
+    "yy": "%d سال"
+  },
+  "success": "موفقیت آمیز",
+  "warning": "هشدار",
+  "cancel": "لغو",
+  "address": "آدرس",
+  "message": "پیام",
+  "ok": "تایید",
+  "actionModalTitle": "آیا میخواهید",
+  "account": "حساب کاربری",
+  "restore": "بازیابی",
+  "error": {
+    "default": "خطایی رخ داده است. بعدا دوباره سعی کنید، اگر خطا ادامه داشت تنظیمات شبکه را بررسی کنید.",
+    "buildingTransaction": "خطا در حین انجام تراکنش، دوباره سعی کنید.",
+    "gettingTransaction": "خطا در حین دریافت تراکنش.",
+    "clipboardCopied": "خطایی در حین کپی کردن رخ داده است",
+    "hideAccount": "خطایی در حین حذف حساب کاربری رخ داده است، دوباره سعی کنید"
+  },
+  "avaliable": "در دسترس",
+  "frozen": "مسدود",
+  "tronPower": "قدرت TRON",
+  "trxPrice": "قیمت TRX",
+  "confirmed": "تایید شده",
+  "unconfirmed": "تایید نشده",
+  "copyAddress": "کپی آدرس",
+  "transactionType": {
+    "transfer": "انتقال",
+    "transferAsset": "انتقال دارایی",
+    "freeze": "مسدود کردن",
+    "unfreeze": "غیرمسدود",
+    "vote": "رای",
+    "participate": "مشارکت",
+    "create": "ایجاد",
+    "undefined": "نوع تعریف نشده"
+  },
+  "close": "بستن",
+  "ends": "به پایان می رسد",
+  "clear": "واضح",
+  "allIn": "استفاده از کل موجودی",
+  "skip": "پرش",
+  "privateKey": "کلید خصوصی",
+  "results": "نتیجه",
+  "buy": "خرید",
+  "filter": "فیلتر",
+  "txs": "تراکنش ها",
+  "balance": {
+    "title": "حساب ها",
+    "error": {
+      "loadingData": "خطایی هنگام بارگذاری داده ها رخ داده است.",
+      "savingCurrency": "خطا در ذخیره ارز مورد نظر"
+    },
+    "chooseCurrency": "لطفا ارز مورد نظر خود را انتخاب کنید.",
+    "confirmSeed": "لطفا برای تایید 12 کلمه اولیه خود کلیک کنید",
+    "bandwidth": "پهنای باند",
+    "tokens": "توکن ها",
+    "holdings": "موجودی ها"
+  },
+  "hideAccount": "شما در حال حذف این حساب هستید. شما می توانید بعدا آن را در تنظیمات بازیابی کنید",
+  "components": {
+    "share": {
+      "title": "آدرس TronWallet را به اشتراک بگذارید",
+      "message": "این آدرس TronWallet من است:\n\n {{address}}\n\nنکته: وقتی آن را کپی کردید می توانید آدرس را در اپ TronWallet خود با استفاده از کلید مخصوص در صفحه ارسال جایگذاری کنید.",
+      "dialogTitle": "اشتراک گذاری با استفاده از:"
+    },
+    "QRScanner": {
+      "title": "اسکنر آدرس",
+      "scan": "اسکن",
+      "explanation": "کد QR را برای شناسایی کاربر مورد نظر اسکن کنید",
+      "permissionMessage": "برای اسکن کلید عمومی اپ نیازمند اجازه شما برای دسترسی به دوربین است."
+    },
+    "vote": {
+      "enterVote": "ارزش رای را وارد کنید",
+      "votesRemaining": "آراء باقی مانده",
+      "setVote": "ثبت رای",
+      "moreVotes": "اگر به آراء بیشتری نیاز دارید می توانید تعداد بیشتری TRX مسدود کنید.",
+      "confirmVotes": "تایید آراء",
+      "yourVotes": "آراء شما",
+      "myVotes": "رای های من",
+      "confirm": "تایید",
+      "freeze": "مسدود کردن",
+      "totalVotes": "تعداد رای های در دسترس:",
+      "delete": "حذف",
+      "set": "ثبت",
+      "freezeOrLower": "شما به اندازه کافی TRX مسدود شده ندارید. تعداد بیشتری TRX مسدود کنید یا تعداد رای ها را کاهش دهید",
+      "freezeToContinue": "شما به اندازه کافی TRX مسدود شده ندارید. برای ادامه تعداد بیشتری TRX مسدود کنید"
+    }
+  },
+  "firstTime": {
+    "button": {
+      "create": "ایجاد کیف پول",
+      "restore": "بازیابی کیف پول",
+      "import": "واردکردن کیف پول"
+    },
+    "swiper": {
+      "welcome": {
+        "title": "خوش آمدید به \nTRONWALLET",
+        "body": "امن ترین کیف پول برای TRON"
+      },
+      "security": {
+        "title": "امنیت",
+        "body": "حریم خصوصی و امنیت برای \n تراکنش های شما"
+      },
+      "votes": {
+        "title": "رای ها",
+        "body": "مسدودسازی و رای برای \n نمایندگان ویژه"
+      },
+      "addressbook": {
+        "title": "کتابچه آدرس",
+        "body": "آدرس دوستان \n و مخاطبین خود را ذخیره کنید."
+      },
+      "multipleaccounts": {
+        "title": "حساب های چندگانه",
+        "body": "شما می توانید چندین حساب \n را در کیف پول خود مدیریت کنید"
+      }
+    }
+  },
+  "addressBook": {
+    "title": "کتابچه آدرس",
+    "shared": {
+      "add": "اضافه کردن",
+      "edit": "ویرایش",
+      "delete": "حذف",
+      "send": "ارسال"
+    },
+    "contacts": {
+      "title": "مخاطبان",
+      "delete": {
+        "title": "حذف مخاطب",
+        "message": "شما واقعا می خواهید این مخاطب را حذف کنید؟",
+        "cancelButton": "لغو",
+        "okButton": "تایید"
+      },
+      "empty": "دفترچه آدرس شما خالی است، با استفاده از دکمه پایین یک مخاطب اضافه کنید.",
+      "loadError": "مشکلی در بارگذاری مخاطبین رخ داده است. لطفا دوباره سعی کنید.",
+      "addContact": "اضافه کردن مخاطب",
+      "addToContacts": "افزودن به تماس ها"
+    },
+    "form": {
+      "generalError": "مشکلی در ثبت این فرم رخ داده است. لطفا با سرپرست تماس بگیرید.",
+      "nameError": "نام باید با یک حرف الفبا آغاز شود، حداکثر 32 حرف باشد، و فقط حروف، اعداد و فاصله خالی مجاز است.",
+      "addressError": "مشکلی در آدرس وجود دارد. لطفا دوباره بررسی کنید.",
+      "uniqueAddressError": "کلید باید منحصر به فرد باشد. لطفا آدرس دیگری انتخاب کنید.",
+      "uniqueAliasError": "نام در دفترچه آدرس باید منحصر به فرد باشد. لطفا نام دیگری انتخاب کنید.",
+      "name": "نام",
+      "address": "آدرس"
+    }
+  },
+  "importWallet": {
+    "title": "واردکردن کیف پول",
+    "message": "اگر شما آدرس و کلیدخصوصی کیف پول خود را دارید، می توانید آن را اینجا بازیابی کنید. اما بخاطر داشته باشید TronWallet در درجه اول با mnemonics کار می کند. این روش بازیابی برخی از کارایی های داخلی اپ را غیرفعال می کند.",
+    "button": "واردکردن",
+    "error": {
+      "privateKey": "کلید خصوصی نامعتبر یا ناقص است"
+    }
+  },
+  "freeze": {
+    "title": "مسدود کردن",
+    "unfreeze": {
+      "title": "غیرمسدود",
+      "inXTime": "شما می توانید TRX خود را از مسدودی خارج کنید",
+      "inThreeDays": "پس از یک دوره سه روزه شما می توانید TRX خود را از مسدودی خارج کنید",
+      "inXMinutes": "شما می توانید TRX خود را {{minutes}} دقیقه دیگر از مسدودی خارج کنید.",
+      "inXHours": "شما می توانید TRX خود را {{hours}} ساعت دیگر از مسدودی خارج کنید.",
+      "inXDays": "شما می توانید TRX خود را {{days}} روز دیگر از مسدودی خارج کنید.",
+      "now": "شما می توانید TRX خود را هم اکنون از مسدودی خارج کنید."
+    },
+    "error": {
+      "minimumAmount": "حداقل مقدار برای هر تراکنش مسدودسازی 1 است.",
+      "insufficientBalance": "موجودی TRX ناکافی",
+      "roundNumbers": "تنها مقادیر رند قابل مسدودکردن است"
+    },
+    "amount": "مقدار مسدودکردن",
+    "balance": "موجودی"
+  },
+  "getVault": {
+    "notInstalled": "به نظر می رسد شما برای ادامه تراکنش Tron Vault روی گوشی خود نصب نکرده اید.",
+    "downloadHere": "می توانید از اینجا آن را دانلود کنید"
+  },
+  "market": {
+    "time": {
+      "hour": "1 ساعت",
+      "day": "1 روز",
+      "week": "1 هفته",
+      "month": "1 ماه",
+      "all": "همه"
+    },
+    "highest": "بالاترین",
+    "lowest": "پایین ترین",
+    "volume": "حجم 24 ساعته",
+    "cap": "سرمایه بازار",
+    "supply": "موجودی در گردش"
+  },
+  "participate": {
+    "title": "مشارکت",
+    "featured": "ویژه",
+    "button": {
+      "confirm": "تایید",
+      "moreInfo": "اطلاعات بیشتر",
+      "buyNow": "الان بخر"
+    },
+    "error": {
+      "insufficientBalance": "بودجه کافی (TRX) برای مشارکت وجود ندارد.",
+      "insufficientTrx": {
+        "title": "لازم است حداقل به اندازه یک TRX از {{token}} خرید کنید.",
+        "message": "شما در حال حاضر در حال خرید {{amount}} مقدار هستید."
+      },
+      "notFound": "دارایی(ها) یافت نشد"
+    },
+    "warning": "شما TRX کافی برای خرید این مقدار {{token}} ندارید",
+    "enterAmountToBuy": "تعداد خرید را وارد کنید",
+    "amountToBuy": "تعداد خرید",
+    "pricePerToken": "قیمت هر توکن",
+    "tokenDescription": "شرح توکن",
+    "tokenInfo": "اطلاعات توکن",
+    "token": "توکن",
+    "tokens": "توکن ها",
+    "frozen": "مسدود",
+    "percentage": "درصد",
+    "issued": "صادر شده",
+    "totalSupply": "موجودی کل",
+    "startTime": "زمان شروع",
+    "endTime": "زمان پایان",
+    "description": "توضیحات",
+    "transaction": "تراکنش",
+    "ownerAddress": "آدرس مالک",
+    "trxNum": "TRX NUM",
+    "num": "تعداد",
+    "block": "بلوک",
+    "balance": "موجودی",
+    "searchPreview": "توکن های ویژه"
+  },
+  "pin": {
+    "title": "بررسی امنیتی",
+    "enter": "کد PIN را وارد کنید",
+    "new": "پین جدید را وارد کنید",
+    "reenter": "PIN را مجدداً وارد کنید",
+    "biometrics": "بررسی های بیومتریک"
+  },
+  "receive": {
+    "title": "دریافت",
+    "clipboardCopied": "در حافظه کپی شد",
+    "button": {
+      "copy": "کپی",
+      "share": "اشتراک گذاری"
+    },
+    "tabs": {
+      "share": "اشتراک گذاری",
+      "request": "درخواست"
+    }
+  },
+  "rewards": {
+    "title": "پاداش",
+    "earned": "شما به دست آورده اید"
+  },
+  "seed": {
+    "confirm": {
+      "title": "تایید سید",
+      "error": {
+        "title": "ترکیب اشتباه",
+        "message": "کلمات انتخاب شده مطابقت ندارند. مطمئن شوید کلمات را به ترتیب درست نوشته اید."
+      },
+      "success": "کیف پول با موفقیت تایید شد",
+      "explanation": "کلمات زیر را به ترتیب درست انتخاب کنید تا عبارت امنیتی تایید شود.",
+      "button": {
+        "reset": "تنظیم مجدد کلمات",
+        "confirm": "تایید کلمات اولیه"
+      }
+    },
+    "create": {
+      "title": "ایجاد کلمات اولیه",
+      "titleConfirm": "تایید کلمات اولیه کیف پول",
+      "error": "اوه، ما مشکل داریم. لطفاً برنامه را مجددا راه اندازی کنید.",
+      "generateNew": "این بخش یک کیف پول کاملا جدید ایجاد خواهد کرد.",
+      "button": {
+        "written": "من آن را یادداشت کردم",
+        "newSeed": "دریافت سید جدید",
+        "later": "بعدا تایید کنید"
+      },
+      "backupMessage": "شما همیشه می توانید به کلمات خود در بخش پشتیبان گیری در تنظیمات اپ دسترسی داشته باشید      ",
+      "seedExplanation": "کلید اولیه یک نمای قابل خواندن توسط انسان برای کیف پول شماست. آن کلمات، با ترتیب دقیق، می توانند برای ایجاد دوباره کیف پول شما مورد استفاده قرار گیرند."
+    },
+    "restore": {
+      "title": "بازیابی کیف پول",
+      "explanation": "برای بازیابی کیف پول خود، لطفا 12 کلمه ای که وقتی برای اولین بار کیف پول را ساختید به شما داده شد و یادداشت کردید را دقیقا وارد کنید. اگر ترتیب متفاوتی از کلمات را وارد کنید، یک کیف پول خالی ساخته خواهد شد.",
+      "placeholder": "لطفا، 12 کلمه اولیه خود را اینجا تایپ کنید",
+      "success": "کیف پول با موفقیت بازیابی شد!",
+      "warning": "بازیابی کلمات اولیه همه اطلاعات روی این دستگاه را حذف کرده و اطلاعات اکانت جدید بازیابی شده را از شبکه جایگزین خواهد کرد.",
+      "error": "اوه. به نظر می رسد کلماتی که وارد کرده اید معتبر نیستند. غلط های املایی را بررسی کرده و دوباره سعی کنید.",
+      "button": "بازیابی"
+    }
+  },
+  "send": {
+    "title": "ارسال",
+    "error": {
+      "insufficientBalance": "موجودی کافی نیست.",
+      "gettingBalance": "خطا در هنگام گرفتن اطلاعات موجودی",
+      "incompleteAddress": "آدرس ناقص و یا غیرمعتبر است.",
+      "invalidReceiver": "آدرس گیرنده نامعتبر",
+      "selectBalance": "ابتدا موجودی را انتخاب کنید",
+      "invalidAmount": "مقدار نامعتبر"
+    },
+    "input": {
+      "token": "توکن",
+      "to": "به",
+      "amount": "مقدار",
+      "description": "توضیحات (اختیاری)"
+    },
+    "available": "در دسترس",
+    "chooseToken": "لطفا، یک توکن را انتخاب کنید.",
+    "minimumAmount": "حداقل مقدار برای هر تراکنش ارسال 0.000001 است."
+  },
+  "settings": {
+    "title": "تنظیمات",
+    "sectionTitles": {
+      "wallet": "کیف پول",
+      "security": "امنیت",
+      "notification": "اطلاعیه ها و اصطلاحات",
+      "accounts": "مدیریت حساب"
+    },
+    "notifications": {
+      "title": "اطلاعیه ها"
+    },
+    "network": {
+      "title": "شبکه",
+      "modal": {
+        "title": "شبکه",
+        "explanation": "با این گزینه شما می توانید گرهی را که بهتر با نیازها و تنظیمات شما مطابقت دارد انتخاب کنید. لطفا هنگام ویرایش IP گره دقت کنید زیرا IP اشتباه موجب ناکارآمدی کیف پول شما خواهد شد. مثال: 35.231.121.122:50051",
+        "error": {
+          "storage": "خطا در گرفتن IP گره از دیسک محلی",
+          "invalidIp": "لطفا یک IP معتبر وارد کنید",
+          "update": "هنگام بروزرسانی IP گره ها خطایی رخ داده است",
+          "reset": "هنگام بازنشانی IP گره ها خطایی رخ داده است"
+        },
+        "success": {
+          "updated": "به روز شده",
+          "updatedIp": "IP گره ها به روز شد!",
+          "switchTest": "تعویض IP گره ها به شبکه تست",
+          "switchMain": "تعویض IP گره ها به پیش فرض اصلی",
+          "reset": "IP گره ها بازنشانی شد!"
+        },
+        "placeholder": {
+          "loadingIp": "بارگذاری IP",
+          "loadingPort": "بارگذاری پورت"
+        },
+        "button": {
+          "update": "به روز رسانی و اتصال",
+          "reset": "تنظیم مجدد"
+        },
+        "mainNode": "گره اصلی",
+        "solidityNode": "گره مستحکم",
+        "testNet": "شبکه تست"
+      }
+    },
+    "backup": {
+      "title": "پشتیبان گیری کیف پول"
+    },
+    "restore": {
+      "title": "بازیابی کیف پول"
+    },
+    "reset": {
+      "title": "تنظیم مجدد کیف پول",
+      "warning": "اخطار: این عمل همه داده های ذخیره شده از جمله 12 کلمه مخفی شما را حذف می کند. اگر شما کلمات را ذخیره نکرده اید، لطفا قبل از ادامه آن ها را ذخیره کنید.",
+      "button": "بله، فهمیدم"
+    },
+    "pin": {
+      "title": "تغییر پین",
+      "success": "تغییر پین با موفقیت انجام شد!"
+    },
+    "language": {
+      "title": "زبان",
+      "choose": "لطفا، یک زبان را انتخاب کنید:",
+      "success": {
+        "title": "زبان به {{language}} تغییر کرد",
+        "description": "با این حال، هنوز لازم است اپ را دوباره راه اندازی کنید تا تغییرات اعمال شوند. می خواهید الان انجام شود؟"
+      },
+      "button": {
+        "confirm": "بله، مجدد راه اندازی کن!",
+        "cancel": "خیر، بعدا این کار را انجام می دهم"
+      },
+      "error": "خطا در ذخیره زبان مورد نظر"
+    },
+    "token": {
+      "title": "فیلتر توکن",
+      "search": "جستجوی توکن ها",
+      "confirm": "ذخیره",
+      "noResult": "بدون نتیجه..."
+    },
+    "about": {
+      "title": "درباره",
+      "description": "TronWallet یک کیف پول کاملا غیرمتمرکز نظیر به نظیر برای شبکه TRON است که با واکنش بومی ساخته شده است. با استفاده از آن شما می توانید توکن ها را ارسال و دریافت کنید، برای نمایندگان ویژه رای دهید، در فروش توکن ها مشارکت کنید، موجودی و تراکنش های خود را بررسی کنید و بسیاری عملیات دیگر. روی لینک زیر برای آموزش جزییات روش استفاده از آن کلیک کنید.",
+      "tutorial": "آموزش"
+    },
+    "accepts": {
+      "title": "چه کسی TRX می پذیرد؟"
+    },
+    "helpCenter": {
+      "title": "مرکز راهنمایی"
+    },
+    "accounts": {
+      "title": "حساب ها",
+      "search": "جستجوی حساب ها",
+      "restoreAccounts": "بازیابی حساب ها",
+      "noAccounts": "هیچ حسابی برای بازیابی نیست"
+    },
+    "partners": "همکاران",
+    "askPin": "همیشه پین را درخواست کن",
+    "askBiometry": "فعال سازی بیومتریک",
+    "verifiedTokensOnly": "تنها توکن های تایید شده"
+  },
+  "submitTransaction": {
+    "title": "جزئیات تراکنش",
+    "notification": "شما یک تراکنش از {{address}} دریافت کرده اید",
+    "notificationPayment": "شما یک پرداخت از {{address}} دریافت کرده اید",
+    "data": "داده ها",
+    "time": "زمان",
+    "button": {
+      "tryAgain": "دوباره سعی کن",
+      "submit": "ثبت تراکنش"
+    },
+    "error": {
+      "noData": "قادر به بارگیری داده های تراکنش نیست"
+    },
+    "exchange": {
+      "send": "ارسال {{sendtoken}}",
+      "receive": "دریافت {{receivetoken}}",
+      "error": "آخرین تراکنش خود را برای تایید مقدار دریافتی بررسی کنید."
+    },
+    "disconnectedMessage": "به نظر می رسد اتصال شما قطع شده است. برای ادامه تراکنش دوباره به اینترنت متصل شوید.",
+    "dic": {
+      "contractType": "نوع تراکنش",
+      "ownerAddress": "از",
+      "toAddress": "به",
+      "participateAssetIssueContract": "مشارکت",
+      "transferAssetContract": "انتقال",
+      "transferContract": "انتقال",
+      "unfreezeBalanceContract": "غیرمسدودسازی",
+      "freezeBalanceContract": "مسدود کردن",
+      "assetIssueContract": "ایجاد",
+      "voteWitnessContract": "رای",
+      "frozenDuration": "مدت زمان",
+      "frozenBalance": "کل مقدار مسدودسازی"
+    },
+    "errorDic": {
+      "contractValidate": "اطلاعات تراکنش معتبر نیست. لطفا بعدا دوباره سعی کنید.",
+      "signature": "امضای تراکنش معتبر نیست.",
+      "duplicate": "تراکنش پخش شده است.",
+      "contractValidateCee": "اطلاعات تراکنش معتبر نیست (CEE). لطفا بعدا دوباره سعی کنید.",
+      "bandwith": "پهنای باند کافی نیست. لطفا بعدا دوباره سعی کنید.",
+      "contractValidateTapos": "اطلاعات تراکنش معتبر نیست (TAPOS). لطفا بعدا دوباره سعی کنید.",
+      "tooBig": "تراکنش بیش از حد بزرگ است.",
+      "expiration": "تراکنش منقضی شده است. لطفا دوباره سعی کنید.",
+      "serverBusy": "سرور مشغول است.",
+      "resource": "موجودی یا پهنای باند ناکافی است. احتمالا باید مقداری TRX مسدود کنید."
+    },
+    "totalVotes": "کل آراء"
+  },
+  "transactions": {
+    "title": "تراکنش های من",
+    "from": "از",
+    "to": "به",
+    "notFound": "هیچ تراکنشی یافت نشد."
+  },
+  "transactionDetails": {
+    "title": "تراکنش",
+    "clipboard": {
+      "tronscanUrl": "آدرس وب Tronscan برای این تراکنش در حافظه ذخیره شد",
+      "publicKey": "کلید عمومی در حافظه کپی شد"
+    },
+    "hash": "هش",
+    "status": "وضعیت",
+    "time": "زمان",
+    "block": "بلوک",
+    "frozenBalance": "موجودی مسدود شده",
+    "unfrozenBalance": "موجودی مسدود نشده",
+    "totalVotes": "کل آراء",
+    "amount": "مقدار",
+    "to": "به",
+    "from": "از",
+    "tokenName": "نام توکن",
+    "unityValue": "ارزش هر واحد",
+    "totalSupply": "کل موجودی",
+    "startTime": "زمان شروع",
+    "endTime": "زمان پایان",
+    "description": "توضیحات",
+    "votedAddress": "آدرس رای داده شده"
+  },
+  "transactionSuccess": {
+    "submitted": "تراکنش در شبکه ثبت شد!",
+    "success": "موفقیت آمیز!"
+  },
+  "votes": {
+    "title": "آراء",
+    "totalVotes": "کل آراء",
+    "votesAvailable": "آراء در دسترس",
+    "search": "جستجو",
+    "searchPreview": "پیشنهادات - آراء اخیر من",
+    "error": "اوه، چیزی به درستی بارگذاری نشده است. سعی کنید دوباره بارگذاری کنید",
+    "notFound": "نماینده ویژه یافت نشد"
+  },
+  "scanPayment": {
+    "scan": "اسکن",
+    "error": {
+      "receiver": "آدرس گیرنده نامعتبر",
+      "token": "توکن معتبر نیست",
+      "amount": "مقدار معتبر نیست",
+      "description": "توضیحات بیش از حد طولانی",
+      "code": "کد پرداخت معتبر نیست. لطفا یک کد معتبر اسکن کنید"
+    }
+  },
+  "makePayment": {
+    "pay": "پرداخت",
+    "confirm": "تایید پرداخت",
+    "error": {
+      "receiver": "گیرنده و فرستند یکی هستند",
+      "token": "این حساب توکن مورد نظر برای این تراکنش را ندارد",
+      "amount": "این حساب موجودی کافی ندارد.",
+      "description": "شرحی موجود نیست"
+    }
+  },
+  "buildPayment": {
+    "generate": "ایجاد درخواست",
+    "selectCurrency": "ارز مرجع را انتخاب کنید",
+    "error": {
+      "currency": "ما قادر به بارگذاری قیمت ارزهای دیگر نیستیم. لطفا از TRX به عنوان مرجع استفاده کنید"
+    }
+  },
+  "requestPayment": {
+    "title": "درخواست پرداخت"
+  },
+  "newAccount": {
+    "title": "ایجاد حساب",
+    "placeholder": "حساب گرانبهای من",
+    "success": {
+      "title": "حساب جدید با موفقیت ایجاد شد",
+      "message": "شما می توانید نام را در دفترچه آدرس خود ویرایش کنید"
+    },
+    "failure": {
+      "title": "هشدار حساب جدید",
+      "message": "برای اضافه کردن یک حساب جدید شما باید حداقل یک تراکنش در حساب قبلی خود داشته باشید."
+    }
+  },
+  "balanceToken": {
+    "updating": "بروزرسانی اطلاعات توکن. لطفا چند ثانیه صبر کنید.",
+    "notAvailable": "اطلاعات توکن در دسترس نیست"
+  },
+  "biometry": {
+    "register": {
+      "title": "اطلاعات بیومتریک خود را بررسی کنید"
+    },
+    "auth": {
+      "title": "ذخیره بیومتریک",
+      "error": "دسترسی رد شد"
+    }
+  },
+  "privacyPolicy": {
+    "title": "سیاست حفظ حریم خصوصی",
+    "subtitle": "برای ادامه شما باید شرایط حفظ حریم خصوصی ما را مطالعه کرده و بپذیرید.",
+    "error": "برای ادامه شما باید شرایط حفظ حریم خصوصی را بپذیرید. ",
+    "acceptTerms": "من شرایط را خوانده و موافق هستم",
+    "continue": "ادامه",
+    "docTitle": "سیاست حفظ حریم خصوصی",
+    "introduction": "حریم خصوصی شما برای ما مهم است.\nاین سیاست حفظ حریم خصوصی TronWallet برای هر نوع اطلاعاتی است که ممکن است درباره شما در وب سایت خود، http://tronwallet.me، و یا دیگر سایت های تحت مالکیت یا مدیریت ما است جمع آوری کنیم.\nما فقط زمانی درخواست اطلاعات شخصی می کنیم که برای ارائه سرویسی به شما واقعا مورد نیاز باشد. ما آن را طبق قوانین و منصفانه با آگاهی و موافقت شما جمع آوری می کنیم.\nما همچنین به شما اجازه میدهیم بدانید چرا این اطلاعات دریافت شده و چگونه استفاده خواهد شد.\nما فقط تا زمانی که اطلاعات جمع آوری شده برای ارائه سرویس درخواستی شما مورد نیاز باشد آن ها را نگهداری می کنیم.\nهر داده ای که ما ذخیره می کنیم، برای جلوگیری از حذف یا سرقت، از جمله دسترسی نامعتبر، افشا، کپی برداری، استفاده و یا دستکاری طبق قواعد قابل قبول تجاری محافظت می شود.\nما هیچ اطلاعات شخصی را به صورت عمومی یا با مجموعه ثالثی به اشتراک نخواهیم گذاشت، مگر وقتی به لحاظ قانونی لازم باشد.\nوب سایت ما ممکن است شامل لینک هایی به سایت های دیگر که تحت مدیریت ما نیستند باشد.\nلطفا مطلع باشید که ما هیچ کنترلی بر محتوا و اعمال این سایت ها نداریم و نمی توانیم مسئولیتی در قبال سیاست حفظ حریم خصوصی آن ها بپذیریم.\nشما آزاد هستید درخواست ما برای اطلاعات شخصی را رد کنید، اما متوجه باشید که در این صورت ممکن است قادر به ارائه برخی سرویس های مورد نظر شما نباشیم.\nادامه استفاده شما از وب سایت ما به معنای پذیرش اعمال ما پیرامون حریم خصوصی و اطلاعات شخصی است.\nاگر هر گونه سوالی درباره روش مواجهه ما با داده ها و اطلاعات شخصی دارید، لطفا با ما در تماس باشید.\nاین سیاست از 1 جولای 2018 موثر است.",
+    "termsOfService": {
+      "title": "TronWallet Terms of Service",
+      "section1": {
+        "title": "1. Terms",
+        "body": "By accessing this application, you are agreeing to be bound by these terms of service, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. If you do not agree with any of these terms, you are prohibited from using or accessing this app. The materials contained in this website are protected by applicable copyright and trademark law."
+      },
+      "section2": {
+        "title": "2. Use License",
+        "body": "Permission is granted to temporarily download one copy of the materials (information or software) on TronWallet's website for personal, non-commercial transitory viewing only.\nThis is the grant of a license, not a transfer of title, and under this license you may not:\nmodify or copy the materials;\nuse the materials for any commercial purpose, or for any public display (commercial or non-commercial);\nattempt to decompile or reverse engineer any software contained on TronWallet's website;\nremove any copyright or other proprietary notations from the materials;\nor transfer the materials to another person or \"mirror\" the materials on any other server.\nThis license shall automatically terminate if you violate any of these restrictions and may be terminated by TronWallet at any time. Upon terminating your viewing of these materials or upon the termination of this license, you must destroy any downloaded materials in your possession whether in electronic or printed format.\n"
+      },
+      "section3": {
+        "title": "3. Disclaimer",
+        "body": "The materials on TronWallet's website are provided on an 'as is' basis. TronWallet makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including, without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights.\nFurther, TronWallet does not warrant or make any representations concerning the accuracy, likely results, or reliability of the use of the materials on its website or otherwise relating to such materials or on any sites linked to this site.n"
+      },
+      "section4": {
+        "title": "4. Limitations",
+        "body": "In no event shall TronWallet or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use the materials on TronWallet's website, even if TronWallet or a TronWallet authorized representative has been notified orally or in writing of the possibility of such damage. Because some jurisdictions do not allow limitations on implied warranties, or limitations of liability for consequential or incidental damages, these limitations may not apply to you.\n"
+      },
+      "section5": {
+        "title": "5. Accuracy of materials",
+        "body": "The materials appearing on TronWallet's website could include technical, typographical, or photographic errors. TronWallet does not warrant that any of the materials on its website are accurate, complete or current. TronWallet may make changes to the materials contained on its website at any time without notice. However TronWallet does not make any commitment to update the materials.\n"
+      },
+      "section6": {
+        "title": "6. Links",
+        "body": "TronWallet has not reviewed all of the sites linked to its website and is not responsible for the contents of any such linked site. The inclusion of any link does not imply endorsement by TronWallet of the site. Use of any such linked website is at the user's own risk.\n"
+      },
+      "section7": {
+        "title": "7. Modifications",
+        "body": "TronWallet may revise these terms of service for its website at any time without notice. By using this website you are agreeing to be bound by the then current version of these terms of service.\n"
+      },
+      "section8": {
+        "title": "8. قانون حاکم",
+        "body": "These terms and conditions are governed by and construed in accordance with the laws of Vancouver, Canada and you irrevocably submit to the exclusive jurisdiction of the courts in that State or location.\n"
+      },
+      "section9": {
+        "title": "9. ریسک های ارز دیجیتال",
+        "body": "دارایی های ارز دیجیتال در معرض ریسک و نوسانات بالای بازار هستند. عملکرد گذشته نشان دهنده نتایج آینده نیست. سرمایه گذاری در دارایی های بلاکچین ممکن است منجر به از دست دادن بخشی یا همه سرمایه شما شود. لطفا تحقیقات شخصی خود را انجام داده و جانب احتیاط را رعایت کنید. شما شخصا مسئول اعمال خود در TRONWALLET هستید. تیم TRONWALLET هیچ مسئولیتی در مورد از دست رفتن سرمایه شما ندارد."
+      },
+      "section10": {
+        "title": "10- شبکه TRON (جدای از TRONWALLET)",
+        "body": "TronWallet تنها یک رابط کاربری برای TRON است و شبکه TRON را مدیریت نمی کند. TronWallet توانایی کنترل اعمال دیگران روی شبکه TRON را ندارد. وقتی از TRONWALLET استفاده می کنید، شما مستقیما با API عمومی TRON در ارتباط هستید که توسط بنیاد TRON مدیریت می شود. تراکنش ها در TRONWALLET غیرقابل برگشت هستند."
+      },
+      "section11": {
+        "title": "11. TRONWALLET هیچ چیزی را تایید نمی کند",
+        "body": "TRONWALLET هیچ دارایی روی شبکه TRON را تایید نمی کند. لیست کردن دارایی ها در TRONWALLET به معنای تایید آن ها نیست. TRONWALLET تنها یک نرم افزار کاربردی است و هیچ بررسی و بازبینی روی هیچ یک از دارایی ها انجام نمی دهد. TRON یک سیستم باز است به این معنی که کلاه برداری ها و دستکاری مارکت ممکن است اتفاق بیفتد. قیمت نمایش داده شده در TRONWALLET برای اطلاع است و به این معنی نیست که واقعا می توان به آن قیمت مشخص بازخرید کرد."
+      },
+      "section12": {
+        "title": "12- مسئولیت های شخصی شما",
+        "body": "You, the user, are solely responsible for ensuring your own compliance with laws and taxes in your jurisdiction. Cryptocurrencies may be illegal in your area. You, are solely responsible for your own security including keeping your account secret keys safe and backed up.\n"
+      },
+      "section13": {
+        "title": "13. DISCLAIMER OF WARRANTY",
+        "body": "TRONWALLET is provided free of charge and on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND.\n"
+      }
+    }
+  }
+}

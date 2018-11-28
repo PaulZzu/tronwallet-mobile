@@ -88,6 +88,12 @@ const createTransaction = (item, address) => {
       votes: item.votesList
     }
   }
+  if (item.type === 'Exchange') {
+    transaction.contractData = {
+      amount: item.quant / (item.tokenId === '_' ? ONE_TRX : 1),
+      tokenName: item.tokenId === '_' ? 'TRX' : item.tokenId
+    }
+  }
 
   return transaction
 }
@@ -108,6 +114,8 @@ export const getTranslatedType = (type) => {
       return tl.t('transactionType.participate')
     case 'Create':
       return tl.t('transactionType.create')
+    case 'Exchange':
+      return tl.t('transactionType.exchange')
     default:
       return tl.t('transactionType.undefined')
   }

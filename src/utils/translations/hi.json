@@ -19,7 +19,7 @@
   "warning": "चेतावनी",
   "cancel": "रद्द करना",
   "address": "पता",
-  "message": "Message",
+  "message": "संदेश",
   "ok": "ठीक",
   "actionModalTitle": "क्या आप चाहेंगे",
   "account": "लेखा",
@@ -31,8 +31,10 @@
     "clipboardCopied": "कॉपी करते समय कुछ गड़बड़ है",
     "hideAccount": "खाता हटाने में कुछ गड़बड़ हुई, फिर कोशिश करें '"
   },
+  "avaliable": "उपलब्ध",
+  "frozen": "जमे हुए",
   "tronPower": "ट्रॉन पावर",
-  "trxPrice": "TRX PRICE",
+  "trxPrice": "TRX मूल्य",
   "confirmed": "की पुष्टि",
   "unconfirmed": "अपुष्ट",
   "copyAddress": "कॉपी पता",
@@ -52,10 +54,10 @@
   "allIn": "सभी में",
   "skip": "छोड़ें",
   "privateKey": "निजी चाबी",
-  "results": "Results",
-  "buy": "Buy",
+  "results": "परिणाम",
+  "buy": "खरीदें",
   "filter": "Filter",
-  "txs": "Transactions",
+  "txs": "लेन-देन",
   "balance": {
     "title": "हिसाब किताब",
     "error": {
@@ -102,27 +104,27 @@
     "button": {
       "create": "वॉलेट बनाएं",
       "restore": "वॉलेट को पुनर्स्थापित करें",
-      "import": "IMPORT WALLET"
+      "import": "आयात वॉलेट"
     },
     "swiper": {
       "welcome": {
-        "title": "Welcome to \nTRONWALLET",
-        "body": "The most secure wallet for TRON"
+        "title": "TRONWALLET में आपका स्वागत है",
+        "body": "TRON के लिए सबसे सुरक्षित वॉलेट"
       },
       "security": {
-        "title": "SECURITY",
-        "body": "Privacy and security for \n your transactions"
+        "title": "सुरक्षा",
+        "body": "आपके लेनदेन के लिए गोपनीयता और सुरक्षा"
       },
       "votes": {
-        "title": "VOTES",
-        "body": "Freezing and vote for Super \n Representatives"
+        "title": "वोट",
+        "body": "जमा कीजिए और सुपर प्रतिनिधियों के लिए वोट कीजिए"
       },
       "addressbook": {
-        "title": "ADDRESS BOOK",
-        "body": "Save the addresses of your friends \n and contacts."
+        "title": "पता पुस्तिका",
+        "body": "अपने दोस्तों और संपर्कों के पते को सहेजें।"
       },
       "multipleaccounts": {
-        "title": "MULTIPLE ACCOUNTS",
+        "title": "विभिन्न खाते",
         "body": "You can manage multiple accounts \n in your wallet"
       }
     }
@@ -170,6 +172,7 @@
     "title": "फ्रीज",
     "unfreeze": {
       "title": "नरम कर देना",
+      "inXTime": "You can unfreeze your TRX",
       "inThreeDays": "तीन दिन की अवधि के बाद आप अपने टीआरएक्स को अनफ्रीज़ कर सकते हैं",
       "inXMinutes": "आप {{minutes}} मिनट में अपने टीआरएक्स को अनफ्रीज़ कर सकते हैं।",
       "inXHours": "आप {{hours}} घंटे में अपने टीआरएक्स को अनफ्रीज़ कर सकते हैं।",
@@ -560,6 +563,7 @@
       "title": "Check your biometry"
     },
     "auth": {
+      "title": "Save Biometry",
       "error": "Access denied"
     }
   },

@@ -238,6 +238,8 @@ class TransactionDetails extends React.Component {
         return '#6442E4'
       case 'vote':
         return '#BB2DC4'
+      case 'exchange':
+        return Colors.strongBlue
       default:
         return '#4a69e2'
     }
@@ -263,6 +265,7 @@ class TransactionDetails extends React.Component {
     if (lowerType === 'transaction') {
       return this._getIcon('ios-arrow-round-down', size, rgb(255, 68, 101))
     }
+
     return null
   }
 

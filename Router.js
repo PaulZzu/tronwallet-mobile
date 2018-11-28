@@ -7,6 +7,8 @@ import {
   SafeAreaView
 } from 'react-navigation'
 
+import Splash from 'react-native-splash-screen'
+
 import { Colors, ScreenSize } from './src/components/DesignSystem'
 import { TWIcon } from './src/components/Utils'
 
@@ -46,8 +48,14 @@ import ScanPayScene from './src/scenes/Payments/Scan'
 import CreateSeed from './src/scenes/Seed/Create'
 import ImportWallet from './src/scenes/Seed/Import'
 import PrivacyPolicy from './src/scenes/PrivacyPolicy'
+import Notifications from './src/scenes/Notifications'
+import Signals from './src/scenes/Signals'
+import ExchangeList from './src/scenes/Exchange'
+import ExchangeTransaction from './src/scenes/Exchange/Transaction'
 
 import tl from './src/utils/i18n'
+
+// Splash.hide()
 
 const SettingsStack = createStackNavigator({
   Settings,
@@ -128,7 +136,10 @@ const BalanceStack = createStackNavigator({
 }, {
   mode: 'modal'
 })
-
+const ExchangeStack = createStackNavigator({
+  ExchangeList,
+  ExchangeTransaction
+})
 const TransactionList = createStackNavigator({
   TransactionListScene,
   TransactionDetails
@@ -150,12 +161,14 @@ const AppTabs = createBottomTabNavigator({
   Balance: BalanceStack,
   Transactions: TransactionList,
   Participate: ParticipateStack,
+  Exchange: ExchangeStack,
   Settings: SettingsStack
 }, {
   navigationOptions: ({ navigation }) => ({
     tabBarIcon: ({ focused, tintColor }) => {
       const { routeName } = navigation.state
       let iconName
+      let iconSize = 26
       if (routeName === 'Market') {
         iconName = `graph,-bar,-chart,-statistics,-analytics`
       } else if (routeName === 'Balance') {
@@ -174,9 +187,12 @@ const AppTabs = createBottomTabNavigator({
         iconName = `gear,-settings,-update,-setup,-config`
       } else if (routeName === 'Participate') {
         iconName = `dollar,-currency,-money,-cash,-coin`
+      } else if (routeName === 'Exchange') {
+        iconName = 'exchange'
+        iconSize = 22
       }
 
-      return (<TWIcon name={iconName} size={26} color={tintColor} />)
+      return (<TWIcon name={iconName} size={iconSize} color={tintColor} />)
     }
   }),
   tabBarOptions: {
@@ -206,7 +222,9 @@ const RootNavigator = createStackNavigator({
   },
   TransactionSuccess,
   Freeze: FreezeVoteScene,
-  Rewards: RewardsScene
+  Rewards: RewardsScene,
+  Notifications,
+  Signals
 }, {
   mode: 'modal',
   navigationOptions: {
