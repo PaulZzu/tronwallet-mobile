@@ -5,6 +5,8 @@ import Config from 'react-native-config'
 import OneSignal from 'react-native-onesignal'
 import Mixpanel from 'react-native-mixpanel'
 import { Sentry } from 'react-native-sentry'
+import has from 'lodash/has'
+
 import { logSentry } from './src/utils/sentryUtils'
 import RootNavigator from './Router'
 import StatusMessage from './src/components/StatusMessage'
@@ -53,7 +55,8 @@ class App extends Component {
     verifiedTokensOnly: true,
     fixedTokens: [],
     systemAddress: {},
-    systemStatus: { showStatus: false, statusMessage: '', statusColor: '', messageColor: '' }
+    systemStatus: { showStatus: false, statusMessage: '', statusColor: '', messageColor: '' },
+    signals: {}
   }
 
   componentDidMount () {

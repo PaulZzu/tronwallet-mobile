@@ -7,6 +7,8 @@ import {
   SafeAreaView
 } from 'react-navigation'
 
+import Splash from 'react-native-splash-screen'
+
 import { Colors, ScreenSize } from './src/components/DesignSystem'
 import { TWIcon } from './src/components/Utils'
 
@@ -46,10 +48,14 @@ import ScanPayScene from './src/scenes/Payments/Scan'
 import CreateSeed from './src/scenes/Seed/Create'
 import ImportWallet from './src/scenes/Seed/Import'
 import PrivacyPolicy from './src/scenes/PrivacyPolicy'
+import Notifications from './src/scenes/Notifications'
+import Signals from './src/scenes/Signals'
 import ExchangeList from './src/scenes/Exchange'
 import ExchangeTransaction from './src/scenes/Exchange/Transaction'
 
 import tl from './src/utils/i18n'
+
+// Splash.hide()
 
 const SettingsStack = createStackNavigator({
   Settings,
@@ -216,7 +222,9 @@ const RootNavigator = createStackNavigator({
   },
   TransactionSuccess,
   Freeze: FreezeVoteScene,
-  Rewards: RewardsScene
+  Rewards: RewardsScene,
+  Notifications,
+  Signals
 }, {
   mode: 'modal',
   navigationOptions: {
