@@ -1930,15 +1930,9 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = tronwallet2/tronwallet2.entitlements;
-<<<<<<< HEAD
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 153;
-=======
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 159;
->>>>>>> 446252a36680192a0516cb78679e7b42136add32
 				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_TEAM = SGP85Y6RSS;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1985,15 +1979,9 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = tronwallet2/tronwallet2.entitlements;
-<<<<<<< HEAD
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 153;
-=======
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 159;
->>>>>>> 446252a36680192a0516cb78679e7b42136add32
 				DEVELOPMENT_TEAM = SGP85Y6RSS;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PROJECT_DIR)/../node_modules/react-native-background-fetch/ios/**",

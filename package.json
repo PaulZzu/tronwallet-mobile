@@ -106,7 +106,10 @@
       "__tests__/Utils.js",
       "e2e/",
       "node_modules/"
-    ]
+    ],
+    "transform": {
+      "^.+\\.(js)$": "<rootDir>/node_modules/react-native/jest/preprocessor.js"
+    }
   },
   "rnpm": {
     "assets": [
