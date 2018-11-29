@@ -1,6 +1,6 @@
 import get from 'lodash/get'
 
-import contentfulClient from './../config'
+import contentfulClient from './../contentfulClient'
 
 function parseResults (list = []) {
   if (list.length === 0) {
