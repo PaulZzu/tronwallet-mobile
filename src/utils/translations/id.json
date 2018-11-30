@@ -20,6 +20,7 @@
   "cancel": "Membatalkan",
   "address": "Alamat",
   "message": "Message",
+  "ex": "Exchange",
   "ok": "baik",
   "actionModalTitle": "Apakah Anda mau",
   "account": "Rekening",
@@ -46,6 +47,7 @@
     "vote": "Memilih",
     "participate": "Ikut",
     "create": "Membuat",
+    "exchange": "Exchange",
     "undefined": "Tipe Tidak Terdefinisi"
   },
   "close": "Dekat",
@@ -56,6 +58,7 @@
   "privateKey": "Kunci Pribadi",
   "results": "Results",
   "buy": "Buy",
+  "sell": "Sell",
   "filter": "Filter",
   "txs": "Transactions",
   "balance": {
@@ -69,6 +72,15 @@
     "bandwidth": "BANDWIDTH",
     "tokens": "TOKENS",
     "holdings": "SAHAM"
+  },
+  "exchange": {
+    "minToSell": "Minimun to sell ≈ {{min}} {{tokenId}}",
+    "minToBuy": "Minimun to buy ≈ {{min}} {{tokenId}}",
+    "variation": {
+      "buy": "Slightly higher the estimated cost, and the turnover rate will be higher.",
+      "sell": "Slightly lower the estimated cost, and the turnover rate will be higher."
+    },
+    "notFound": "Exchanges not found"
   },
   "hideAccount": "Anda akan menghapus akun ini. Anda dapat mengembalikannya nanti di pengaturan",
   "components": {
@@ -630,5 +642,11 @@
         "body": "TRONWALLET is provided free of charge and on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND.\n"
       }
     }
+  },
+  "notifications": {
+    "title": "NOTIFICATIONS"
+  },
+  "news": {
+    "title": "NEWS"
   }
 }

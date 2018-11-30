@@ -20,6 +20,7 @@
   "cancel": "Cancel",
   "address": "Διεύθυνση",
   "message": "Message",
+  "ex": "Exchange",
   "ok": "OK",
   "actionModalTitle": "Would you like to",
   "account": "λογαριασμός",
@@ -46,6 +47,7 @@
     "vote": "Vote",
     "participate": "Participate",
     "create": "Create",
+    "exchange": "Exchange",
     "undefined": "Undefined Type"
   },
   "close": "Close",
@@ -56,6 +58,7 @@
   "privateKey": "Ιδιωτικό κλειδί",
   "results": "Results",
   "buy": "Buy",
+  "sell": "Sell",
   "filter": "Filter",
   "txs": "Transactions",
   "balance": {
@@ -69,6 +72,15 @@
     "bandwidth": "ΕΥΡΟΣ ΖΩΝΗΣ",
     "tokens": "TOKENS",
     "holdings": "HOLDINGS"
+  },
+  "exchange": {
+    "minToSell": "Minimun to sell ≈ {{min}} {{tokenId}}",
+    "minToBuy": "Minimun to buy ≈ {{min}} {{tokenId}}",
+    "variation": {
+      "buy": "Slightly higher the estimated cost, and the turnover rate will be higher.",
+      "sell": "Slightly lower the estimated cost, and the turnover rate will be higher."
+    },
+    "notFound": "Exchanges not found"
   },
   "hideAccount": "Πρόκειται να καταργήσετε αυτόν τον λογαριασμό. Μπορείτε να το επαναφέρετε αργότερα στις ρυθμίσεις",
   "components": {
@@ -630,5 +642,11 @@
         "body": "TRONWALLET is provided free of charge and on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND.\n"
       }
     }
+  },
+  "notifications": {
+    "title": "NOTIFICATIONS"
+  },
+  "news": {
+    "title": "NEWS"
   }
 }

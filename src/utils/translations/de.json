@@ -20,12 +20,13 @@
   "cancel": "Abbrechen",
   "address": "Adresse",
   "message": "Nachricht",
+  "ex": "Börse",
   "ok": "Ok",
   "actionModalTitle": "Würden Sie gerne",
   "account": "Konto",
   "restore": "Wiederherstellen",
   "error": {
-    "default": "Es tut uns leid, etwas ist schief gelaufen. Bitte versuchen Sie es später noch mal. Wenn der Fehler weiterhin auftrit, versuchen Sie die Netzwerk-Einstellungen zu aktualisieren.",
+    "default": "Es tut uns leid, etwas ist schiefgelaufen. Bitte versuchen Sie es später noch mal. Wenn der Fehler weiterhin auftritt, versuchen Sie die Netzwerk-Einstellungen zu aktualisieren.",
     "buildingTransaction": "Fehler beim Erstellen der Transaktion, bitte versuchen Sie es erneut.",
     "gettingTransaction": "Fehler beim Abrufen der Transaktion.",
     "clipboardCopied": "Bei dem Kopiervorgang ist ein Fehler aufgetreten",
@@ -46,7 +47,8 @@
     "vote": "Abstimmen",
     "participate": "Teilnehmen",
     "create": "Erstellen",
-    "undefined": "Undefinierter Typ"
+    "exchange": "Börse",
+    "undefined": "Undefinierte Variante"
   },
   "close": "Schließen",
   "ends": "Endet",
@@ -56,6 +58,7 @@
   "privateKey": "Privater Schlüssel",
   "results": "Ergebnisse",
   "buy": "Kaufen",
+  "sell": "Verkaufen",
   "filter": "Filter",
   "txs": "Transaktionen",
   "balance": {
@@ -65,16 +68,25 @@
       "savingCurrency": "Fehler beim Speichern der bevorzugten Währung"
     },
     "chooseCurrency": "Bitte wählen Sie Ihre bevorzugte Währung.",
-    "confirmSeed": "Bitte tippen Sie, um Ihre 12 geheimen Wörter zu bestätigen",
+    "confirmSeed": "Bitte tippen Sie, um Ihre 12 Geheimwörter zu bestätigen",
     "bandwidth": "BANDBREITE",
     "tokens": "TOKEN",
     "holdings": "BESTÄNDE"
   },
-  "hideAccount": "Sie sind dabei, dieses Konto zu entfernen. Sie können es später in den Einstellungen wiederherstellen",
+  "exchange": {
+    "minToSell": "Minimum zu verkaufen ≈ {{min}} {{tokenId}}",
+    "minToBuy": "Minimum zu kaufen ≈ {{min}} {{tokenId}}",
+    "variation": {
+      "buy": "Erhöhe die geschätzten Kosten leicht und die Umschlaghäufigkeit wird höher sein.",
+      "sell": "Senke die geschätzten Kosten leicht und die Umschlaghäufigkeit wird höher sein."
+    },
+    "notFound": "Börse nicht gefunden"
+  },
+  "hideAccount": "Sie sind dabei dieses Konto zu entfernen. Sie können es später in den Einstellungen wiederherstellen",
   "components": {
     "share": {
       "title": "TronWallet Adresse teilen",
-      "message": "Dies ist meine TronWallet Adresse:\n\n {{address}}\n\nTipp: Nachdem Sie diese kopiert haben, können Sie diese in Ihrer TronWallet-App, über die Spezial-Taste einfügen.",
+      "message": "Dies ist meine TronWallet Adresse:\n\n {{address}}\n\nTipp: Nachdem Sie diese kopiert haben, können Sie diese in Ihrer TronWallet-App über die Spezial-Taste einfügen.",
       "dialogTitle": "Teilen Sie mit:"
     },
     "QRScanner": {
@@ -145,7 +157,7 @@
         "cancelButton": "Abbrechen",
         "okButton": "Bestätigen"
       },
-      "empty": "Ihr Adressbuch ist leer, fügen Sie einen neuen Kontakt über den Button folgenden hinzu.",
+      "empty": "Ihr Adressbuch ist leer, fügen Sie einen neuen Kontakt über den folgenden Button hinzu.",
       "loadError": "Es gab ein Problem beim Laden Ihrer Kontakte. Bitte versuchen Sie es erneut.",
       "addContact": "KONTAKT HINZUFÜGEN",
       "addToContacts": "ZU KONTAKTEN HINZUFÜGEN"
@@ -180,9 +192,9 @@
       "now": "Sie können Ihre TRX jetzt freigeben."
     },
     "error": {
-      "minimumAmount": "Der Mindestbetrag für die Transaktion Einfrieren beträgt 1.",
+      "minimumAmount": "Der Mindestbetrag für die Einfrier-Transaktion beträgt 1.",
       "insufficientBalance": "Unzureichendes TRX Guthaben",
-      "roundNumbers": "Sie können nur glatte Zahlen einfrieren"
+      "roundNumbers": "Sie können nur glatte Beträge einfrieren"
     },
     "amount": "BETRAG EINFRIEREN",
     "balance": "Guthaben"
@@ -193,15 +205,15 @@
   },
   "market": {
     "time": {
-      "hour": "1 Std.",
+      "hour": "1 STD.",
       "day": "1T.",
-      "week": "1 WO.",
-      "month": "1 MO.",
+      "week": "1 W.",
+      "month": "1 M.",
       "all": "ALLES"
     },
     "highest": "HÖCHSTE",
     "lowest": "NIEDRIGSTE",
-    "volume": "VOLUMEN 24Std.",
+    "volume": "24 STD. VOLUMEN",
     "cap": "MARKTKAPITALISIERUNG",
     "supply": "UMLAUFMENGE"
   },
@@ -210,14 +222,14 @@
     "featured": "AUSGEZEICHNET",
     "button": {
       "confirm": "BESTÄTIGEN",
-      "moreInfo": "MEHR INFO",
+      "moreInfo": "MEHR INFORMATION",
       "buyNow": "JETZT KAUFEN"
     },
     "error": {
       "insufficientBalance": "Nicht genügend Guthaben (TRX) verfügbar um teilzunehmen.",
       "insufficientTrx": {
         "title": "Sie müssen mindestens im Werte von einen TRX {{token}} kaufen.",
-        "message": "Derzeit kaufen Sie nur {{amount}}."
+        "message": "Momentan kaufen Sie nur {{amount}}."
       },
       "notFound": "Vermögenswert(e) nicht gefunden"
     },
@@ -232,7 +244,7 @@
     "frozen": "EINGEFROREN",
     "percentage": "PROZENTSATZ",
     "issued": "AUSGESTELLT",
-    "totalSupply": "GESAMTMENGE",
+    "totalSupply": "GESAMTVOLUMEN",
     "startTime": "STARTZEIT",
     "endTime": "ENDZEIT",
     "description": "BESCHREIBUNG",
@@ -242,10 +254,10 @@
     "num": "ANZAHL",
     "block": "Block",
     "balance": "GUTHABEN",
-    "searchPreview": "Ausgezeichnete Tokens"
+    "searchPreview": "Ausgezeichnete Token"
   },
   "pin": {
-    "title": "SICHERHEITS-CHECK",
+    "title": "SICHERHEITSÜBERPRÜFUNG",
     "enter": "PIN eingeben",
     "new": "Neue PIN eingeben",
     "reenter": "PIN erneut eingeben",
@@ -269,22 +281,22 @@
   },
   "seed": {
     "confirm": {
-      "title": "BESTÄTIGE GEHEIME WÖRTER",
+      "title": "BESTÄTIGE GEHEIMWÖRTER",
       "error": {
         "title": "Falsche Kombination",
-        "message": "Ausgewählte Worte stimmen nicht überein. Stellen Sie sicher, dass Sie die Wörter in der richtigen Reihenfolge geschrieben haben."
+        "message": "Ausgewählte Worte stimmen nicht überein. Stellen Sie sicher, dass Sie die Wörter in der richtigen Reihenfolge angeordnet haben."
       },
       "success": "Wallet erfolgreich bestätigt",
       "explanation": "Markieren Sie die Wörter unten in der richtigen Reihenfolge, um Ihre geheime Wortverbindung zu bestätigen.",
       "button": {
         "reset": "WORTE ZURÜCKSETZEN",
-        "confirm": "BESTÄTIGE GEHEIME WÖRTER"
+        "confirm": "BESTÄTIGE GEHEIMWÖRTER"
       }
     },
     "create": {
-      "title": "GEHEIME WÖRTER ERSTELLEN",
-      "titleConfirm": "GEHEIME WÖRTER DER WALLET BESTÄTIGEN",
-      "error": "Hoppla, wir haben ein Problem. Bitte starten Sie die Anwendung erneut.",
+      "title": "GEHEIMWÖRTER ERSTELLEN",
+      "titleConfirm": "GEHEIMWÖRTER DER WALLET BESTÄTIGEN",
+      "error": "Hoppla, wir haben ein Problem. Bitte starten Sie die Anwendung neu.",
       "generateNew": "Dies erzeugt ein komplett neues Wallet.",
       "button": {
         "written": "ICH HABE ES AUFGESCHRIEBEN",
@@ -292,11 +304,11 @@
         "later": "Später bestätigen"
       },
       "backupMessage": "Sie habe jederzeit Zugriff auf Ihre Wörter, indem Sie in den App-Einstellungen auf das Backup zugreifen      ",
-      "seedExplanation": "Die Schlüsselwörter sind eine lesbare Darstellung Ihrer Wallet. Diese Worte können in exakt dieser Reihenfolge verwendet werden, um Ihre Wallet wiederherzustellen."
+      "seedExplanation": "Die Geheimwörter sind eine lesbare Darstellung Ihrer Wallet. Diese Worte können in exakt dieser Reihenfolge verwendet werden, um Ihre Wallet wiederherzustellen."
     },
     "restore": {
       "title": "WALLET WIEDERHERSTELLEN",
-      "explanation": "Um Ihre Wallet wiederherzustellen, geben Sie bitte die gleichen 12 Wörter, die Sie auf Papier geschrieben haben ein, als Sie ihr Wallet zum ersten Mal erstellt haben. Wenn Sie eine andere Reihenfolge der Wörter eingeben, wird eine neue leere Wallet erstellt.",
+      "explanation": "Um Ihre Wallet wiederherzustellen, geben Sie bitte die gleichen 12 Wörter ein, die Sie auf Papier geschrieben haben, als Sie Ihr Wallet zum ersten Mal erstellt haben. Wenn Sie eine andere Reihenfolge der Wörter eingeben, wird eine neue leere Wallet erstellt.",
       "placeholder": "Bitte schreiben Sie hier Ihre 12 Geheimwörter",
       "success": "Wallet erfolgreich wiederhergestellt!",
       "warning": "Das Zurücksetzen der Geheimwörter löscht alle Daten von diesem Gerät und synchronisiert das wiederhergestellte Wallet mit Daten aus dem Netzwerk.",
@@ -339,7 +351,7 @@
       "title": "Netzwerk",
       "modal": {
         "title": "NETZWERK",
-        "explanation": "Mit dieser Option können Sie einen Knoten auswählen, der Ihren Bedürfnissen und Vorlieben besser gerecht wird. Bitte seien Sie vorsichtig beim Aktualisieren der Knoten IP. Falsche IP-Adressen können zu Fehlfunktionen innerhalb Ihrer Wallet führen. Beispiel: 35.231.121.122:50051",
+        "explanation": "Mit dieser Option können Sie einen Knoten auswählen der Ihren Bedürfnissen und Vorlieben besser gerecht wird. Bitte seien Sie vorsichtig beim Aktualisieren der Knoten IP. Falsche IP-Adressen können zu Fehlfunktionen innerhalb Ihrer Wallet führen. Beispiel: 35.231.121.122:50051",
         "error": {
           "storage": "Fehler beim Abrufen der Knoten IP aus dem lokalen Speicher",
           "invalidIp": "Bitte geben Sie eine gültige IP-Adresse an",
@@ -348,13 +360,13 @@
         },
         "success": {
           "updated": "Aktualisiert",
-          "updatedIp": "Knoten IP Aderesse aktualisiert!",
-          "switchTest": "Knoten IP Adresse auf Testnet umgeschalten",
-          "switchMain": "Knoten IP Adresse auf Mainnet umgeschalten",
-          "reset": "Knoten IP Adresse zurückgesetzt!"
+          "updatedIp": "Knoten IP aktualisiert!",
+          "switchTest": "Knoten IP auf Testnet umgeschaltet",
+          "switchMain": "Knoten IP auf Mainnet umgeschaltet",
+          "reset": "Knoten IP zurückgesetzt!"
         },
         "placeholder": {
-          "loadingIp": "IP Adresse laden",
+          "loadingIp": "IP laden",
           "loadingPort": "Lade Portadresse"
         },
         "button": {
@@ -374,7 +386,7 @@
     },
     "reset": {
       "title": "Wallet zurücksetzen",
-      "warning": "Achtung: Diese Aktion löscht alle gespeicherten Daten, einschließlich Ihrer 12 Geheimwörter. Wenn Sie Ihre geheimen Wörter nicht gespeichert haben, tun Sie dies bitte bevor Sie fortfahren.",
+      "warning": "Achtung: Diese Aktion löscht alle gespeicherten Daten, einschließlich Ihrer 12 Geheimwörter. Wenn Sie Ihre Geheimwörter nicht gespeichert haben, tun Sie dies bitte bevor Sie fortfahren.",
       "button": "Ok, ich habe verstanden"
     },
     "pin": {
@@ -630,5 +642,11 @@
         "body": "TRONWALLET wird kostenfrei SO WIE SIE ES VORFINDEN, OHNE GARANTIEN ODER ANDEREN BEDINGUNGEN JEGLICHER ART, zur Verfügung gestellt.\n"
       }
     }
+  },
+  "notifications": {
+    "title": "BENACHRICHTIGUNGEN"
+  },
+  "news": {
+    "title": "NEUIGKEITEN"
   }
 }

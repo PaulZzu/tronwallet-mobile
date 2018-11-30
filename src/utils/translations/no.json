@@ -20,6 +20,7 @@
   "cancel": "Avbryt",
   "address": "Adresse",
   "message": "Melding",
+  "ex": "Exchange",
   "ok": "OK",
   "actionModalTitle": "Vil du gjerne",
   "account": "Konto",
@@ -46,6 +47,7 @@
     "vote": "Stemme",
     "participate": "Delta",
     "create": "Opprette",
+    "exchange": "Exchange",
     "undefined": "Udefinert Type"
   },
   "close": "Lukk",
@@ -56,6 +58,7 @@
   "privateKey": "Privat nøkkel",
   "results": "Resultater",
   "buy": "Kjøpe",
+  "sell": "Selge",
   "filter": "Filter",
   "txs": "Transaksjoner",
   "balance": {
@@ -69,6 +72,15 @@
     "bandwidth": "BÅNDBREDDE",
     "tokens": "TOKENS",
     "holdings": "BEHOLDNING"
+  },
+  "exchange": {
+    "minToSell": "Minimum å selge ≈ {{min}} {{tokenId}}",
+    "minToBuy": "Minimum å kjøpe ≈ {{min}} {{tokenId}}",
+    "variation": {
+      "buy": "Litt høyere estimert kostnad, og omsetningsats vil bli høyere.",
+      "sell": "Litt lavere estimert kostnad, og omsetningsats vil bli høyere."
+    },
+    "notFound": "Børser ikke funnet"
   },
   "hideAccount": "Du er i ferd med å fjerne denne kontoen. Du kan gjenopprette det senere i innstillingene",
   "components": {
@@ -630,5 +642,11 @@
         "body": "TRONWALLET tilbys gratis og på en \"SOM DEN ER\" BASIS, UTEN GARANTIER ELLER BETINGELSER AV NOEN SLAG.\n"
       }
     }
+  },
+  "notifications": {
+    "title": "VARSLER"
+  },
+  "news": {
+    "title": "NYHETER"
   }
 }

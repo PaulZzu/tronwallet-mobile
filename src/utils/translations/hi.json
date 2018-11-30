@@ -20,6 +20,7 @@
   "cancel": "रद्द करना",
   "address": "पता",
   "message": "संदेश",
+  "ex": "Exchange",
   "ok": "ठीक",
   "actionModalTitle": "क्या आप चाहेंगे",
   "account": "लेखा",
@@ -46,6 +47,7 @@
     "vote": "वोट",
     "participate": "भाग लेना",
     "create": "सर्जन करना",
+    "exchange": "Exchange",
     "undefined": "अपरिभाषित प्रकार"
   },
   "close": "बंद करे",
@@ -56,6 +58,7 @@
   "privateKey": "निजी चाबी",
   "results": "परिणाम",
   "buy": "खरीदें",
+  "sell": "Sell",
   "filter": "Filter",
   "txs": "लेन-देन",
   "balance": {
@@ -69,6 +72,15 @@
     "bandwidth": "बैंडविड्थ",
     "tokens": "टोकन",
     "holdings": "होल्डिंग्स"
+  },
+  "exchange": {
+    "minToSell": "Minimun to sell ≈ {{min}} {{tokenId}}",
+    "minToBuy": "Minimun to buy ≈ {{min}} {{tokenId}}",
+    "variation": {
+      "buy": "Slightly higher the estimated cost, and the turnover rate will be higher.",
+      "sell": "Slightly lower the estimated cost, and the turnover rate will be higher."
+    },
+    "notFound": "Exchanges not found"
   },
   "hideAccount": "आप इस खाते को हटाने वाले हैं। आप बाद में सेटिंग्स में इसे पुनर्स्थापित कर सकते हैं",
   "components": {
@@ -630,5 +642,11 @@
         "body": "TRONWALLET is provided free of charge and on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND.\n"
       }
     }
+  },
+  "notifications": {
+    "title": "NOTIFICATIONS"
+  },
+  "news": {
+    "title": "NEWS"
   }
 }

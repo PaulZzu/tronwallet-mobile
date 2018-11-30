@@ -20,6 +20,7 @@
   "cancel": "Cancel",
   "address": "Address",
   "message": "Message",
+  "ex": "Exchange",
   "ok": "OK",
   "actionModalTitle": "Would you like to",
   "account": "Account",
@@ -46,6 +47,7 @@
     "vote": "Vote",
     "participate": "Participate",
     "create": "Create",
+    "exchange": "Exchange",
     "undefined": "Undefined Type"
   },
   "close": "Close",
@@ -56,6 +58,7 @@
   "privateKey": "Private Key",
   "results": "Results",
   "buy": "Buy",
+  "sell": "Sell",
   "filter": "Filter",
   "txs": "Transactions",
   "balance": {
@@ -69,6 +72,15 @@
     "bandwidth": "BANDWIDTH",
     "tokens": "TOKENS",
     "holdings": "HOLDINGS"
+  },
+  "exchange": {
+    "minToSell": "Minimun to sell ≈ {{min}} {{tokenId}}",
+    "minToBuy": "Minimun to buy ≈ {{min}} {{tokenId}}",
+    "variation": {
+      "buy": "Slightly higher the estimated cost, and the turnover rate will be higher.",
+      "sell": "Slightly lower the estimated cost, and the turnover rate will be higher."
+    },
+    "notFound": "Exchanges not found"
   },
   "hideAccount": "You are about to remove this account. You can restore it later in the settings",
   "components": {
@@ -630,5 +642,11 @@
         "body": "TRONWALLET is provided free of charge and on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND.\n"
       }
     }
+  },
+  "notifications": {
+    "title": "NOTIFICATIONS"
+  },
+  "news": {
+    "title": "NEWS"
   }
 }

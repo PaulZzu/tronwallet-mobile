@@ -20,6 +20,7 @@
   "cancel": "취소",
   "address": "주소",
   "message": "메시지",
+  "ex": "거래소",
   "ok": "확인",
   "actionModalTitle": "원하는 항목을 선택하세요",
   "account": "계정",
@@ -46,6 +47,7 @@
     "vote": "투표",
     "participate": "토큰판매참여",
     "create": "생성",
+    "exchange": "교환",
     "undefined": "알 수 없는 유형"
   },
   "close": "닫기",
@@ -55,7 +57,8 @@
   "skip": "건너뛰기",
   "privateKey": "개인키",
   "results": "결과",
-  "buy": "구매하기",
+  "buy": "구매",
+  "sell": "매도",
   "filter": "필터",
   "txs": "트랜잭션",
   "balance": {
@@ -69,6 +72,15 @@
     "bandwidth": "대역폭",
     "tokens": "토큰",
     "holdings": "보유량"
+  },
+  "exchange": {
+    "minToSell": "최소 주문 수량 ≈ {{min}} {{tokenId}}",
+    "minToBuy": "최소 주문 수량 ≈ {{min}} {{tokenId}}",
+    "variation": {
+      "buy": "Slightly higher the estimated cost, and the turnover rate will be higher.",
+      "sell": "Slightly lower the estimated cost, and the turnover rate will be higher."
+    },
+    "notFound": "Exchanges not found"
   },
   "hideAccount": "이 계정을 제거하려고합니다. 나중에 설정 메뉴에서 복원할 수 있습니다.",
   "components": {
@@ -117,7 +129,7 @@
       },
       "votes": {
         "title": "투표",
-        "body": "동결 및 슈퍼 후보 투표"
+        "body": "동결 및 슈퍼 대표 투표"
       },
       "addressbook": {
         "title": "주소록",
@@ -402,7 +414,7 @@
     },
     "about": {
       "title": "소개",
-      "description": "TronWallet은 Reactive Native를 이용해 만든 TRON 네트워크용 분권형 P2P 암호화폐 지갑이며 오픈 소스입니다.  TronWallet을 이용해 토큰 송수신, 슈퍼 후보 투표와 토큰 판매 참여, 잔액 및 트랜잭션 확인 등을 할 수 있습니다. 아래 링크를 클릭하면 사용방법을 자세히 다룬 튜토리얼을 확인하실 수 있습니다.",
+      "description": "TronWallet은 Reactive Native를 이용해 만든 TRON 네트워크용 분권형 P2P 암호화폐 지갑이며 오픈 소스입니다. TronWallet을 이용해 토큰 송수신, 슈퍼 대표 투표와 토큰 판매 참여, 잔액 및 트랜잭션 확인 등을 할 수 있습니다. 아래 링크를 클릭하면 사용방법을 자세히 다룬 튜토리얼을 확인하실 수 있습니다.",
       "tutorial": "튜토리얼"
     },
     "accepts": {
@@ -508,7 +520,7 @@
     "totalVotes": "총 투표",
     "votesAvailable": "투표 가능 수량",
     "search": "검색하기",
-    "searchPreview": "제안 - 최다 득표",
+    "searchPreview": "제안 - 최근 득표",
     "error": "제대로 로드되지 않았습니다. 다시 로드해주세요",
     "notFound": "슈퍼 대표 후보를 찾을 수 없습니다"
   },
@@ -630,5 +642,11 @@
         "body": "TRONWALLET is provided free of charge and on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND.\n"
       }
     }
+  },
+  "notifications": {
+    "title": "알림"
+  },
+  "news": {
+    "title": "뉴스"
   }
 }

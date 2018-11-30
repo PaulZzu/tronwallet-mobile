@@ -20,6 +20,7 @@
   "cancel": "Annuleren",
   "address": "Adres",
   "message": "Bericht",
+  "ex": "Exchange",
   "ok": "OK",
   "actionModalTitle": "Wilt u graag",
   "account": "Rekening",
@@ -46,6 +47,7 @@
     "vote": "Stemmen",
     "participate": "Deelnemen",
     "create": "Maken",
+    "exchange": "Exchange",
     "undefined": "Niet gedefinieerd type"
   },
   "close": "Sluiten",
@@ -56,6 +58,7 @@
   "privateKey": "Prive sleutel",
   "results": "Resultaten",
   "buy": "Koop",
+  "sell": "Verkoop",
   "filter": "Filter",
   "txs": "Transacties",
   "balance": {
@@ -69,6 +72,15 @@
     "bandwidth": "BANDBREEDTE",
     "tokens": "TOKENS",
     "holdings": "BEZITTINGEN"
+  },
+  "exchange": {
+    "minToSell": "Minimum te verkopen ≈ {{min}} {{tokenId}}",
+    "minToBuy": "Minimum te kopen ≈ {{min}} {{tokenId}}",
+    "variation": {
+      "buy": "Verhoog de geschatte kosten en het percentage van de ratio zal hoger zijn.",
+      "sell": "Verlaag de geschatte kosten en het percentage van de ratio zal hoger zijn."
+    },
+    "notFound": "Exchange niet gevonden"
   },
   "hideAccount": "U staat op het punt dit account te verwijderen. U kunt het later in de instellingen herstellen",
   "components": {
@@ -630,5 +642,11 @@
         "body": "TRONWALLET wordt kosteloos verstrekt en op een \"AS IS\" -BASIS, ZONDER ENIGE VORM VAN GARANTIES OF VOORWAARDEN.\n"
       }
     }
+  },
+  "notifications": {
+    "title": "MELDINGEN"
+  },
+  "news": {
+    "title": "NIEUWS"
   }
 }

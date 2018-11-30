@@ -20,6 +20,7 @@
   "cancel": "Revocare",
   "address": "Adresa",
   "message": "Mesaj",
+  "ex": "Schimb",
   "ok": "Ok",
   "actionModalTitle": "Ați dori să",
   "account": "Cont",
@@ -46,6 +47,7 @@
     "vote": "Votează",
     "participate": "Participă",
     "create": "Creează",
+    "exchange": "Schimb",
     "undefined": "Tip nedefinit"
   },
   "close": "Închide",
@@ -56,6 +58,7 @@
   "privateKey": "Cheia privată",
   "results": "Rezultate",
   "buy": "Cumpără",
+  "sell": "Vinde",
   "filter": "Filtrează",
   "txs": "Tranzacții",
   "balance": {
@@ -69,6 +72,15 @@
     "bandwidth": "BANDA",
     "tokens": "Token-uri",
     "holdings": "HOLDINGS"
+  },
+  "exchange": {
+    "minToSell": "Suma minimă de vândut ≈ {{min}} {{tokenId}}",
+    "minToBuy": "Suma minimă de cumpărat ≈ {{min}} {{tokenId}}",
+    "variation": {
+      "buy": "Costul estimativ este puțin mai mare, și rata de schimb va fi mai mare.",
+      "sell": "Costul estimativ este puțin mai mic, și rata de schimb va fi mai mare."
+    },
+    "notFound": "Nu au fost găsite Schimburi"
   },
   "hideAccount": "Sunteți pe cale să eliminați acest cont. Puteți să-l restabiliți ulterior în setări",
   "components": {
@@ -630,5 +642,11 @@
         "body": "TRONWALLET este oferit gratuit și \"CA ATARE\", FĂRĂ GARANȚII SAU CONDIȚII DE ORICE FEL.\n"
       }
     }
+  },
+  "notifications": {
+    "title": "NOTIFICĂRI"
+  },
+  "news": {
+    "title": "STIRI"
   }
 }

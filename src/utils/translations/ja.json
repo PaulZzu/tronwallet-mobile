@@ -20,6 +20,7 @@
   "cancel": "キャンセル",
   "address": "住所",
   "message": "Message",
+  "ex": "Exchange",
   "ok": "OK",
   "actionModalTitle": "いかかですか",
   "account": "アカウント",
@@ -46,6 +47,7 @@
     "vote": "投票",
     "participate": "参加",
     "create": "作成",
+    "exchange": "Exchange",
     "undefined": "未定義タイプ"
   },
   "close": "閉じる",
@@ -56,6 +58,7 @@
   "privateKey": "秘密鍵",
   "results": "結果",
   "buy": "Buy",
+  "sell": "Sell",
   "filter": "フィルター",
   "txs": "トランザクション",
   "balance": {
@@ -69,6 +72,15 @@
     "bandwidth": "バンド幅",
     "tokens": "トークン",
     "holdings": "・ ホールディングス"
+  },
+  "exchange": {
+    "minToSell": "Minimun to sell ≈ {{min}} {{tokenId}}",
+    "minToBuy": "Minimun to buy ≈ {{min}} {{tokenId}}",
+    "variation": {
+      "buy": "Slightly higher the estimated cost, and the turnover rate will be higher.",
+      "sell": "Slightly lower the estimated cost, and the turnover rate will be higher."
+    },
+    "notFound": "Exchanges not found"
   },
   "hideAccount": "このアカウントを削除しようとしています。後で設定で復元することができます",
   "components": {
@@ -630,5 +642,11 @@
         "body": "TRONWALLET is provided free of charge and on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND.\n"
       }
     }
+  },
+  "notifications": {
+    "title": "NOTIFICATIONS"
+  },
+  "news": {
+    "title": "NEWS"
   }
 }

@@ -20,6 +20,7 @@
   "cancel": "Отменить",
   "address": "Адрес",
   "message": "Сообщение",
+  "ex": "Обмен",
   "ok": "ОК",
   "actionModalTitle": "Не хотите ли вы",
   "account": "Учетная запись",
@@ -46,6 +47,7 @@
     "vote": "Голосование",
     "participate": "Участвовать",
     "create": "Создать",
+    "exchange": "Обмен",
     "undefined": "Неопределенный тип"
   },
   "close": "Закрыть",
@@ -56,6 +58,7 @@
   "privateKey": "Закрытый ключ",
   "results": "Результаты",
   "buy": "Купить",
+  "sell": "Sell",
   "filter": "Фильтр",
   "txs": "Транзакции",
   "balance": {
@@ -69,6 +72,15 @@
     "bandwidth": "ПРОПУСКНАЯ СПОСОБНОСТЬ",
     "tokens": "ТОКЕНЫ",
     "holdings": "ЗАПАСЫ"
+  },
+  "exchange": {
+    "minToSell": "Minimun to sell ≈ {{min}} {{tokenId}}",
+    "minToBuy": "Minimun to buy ≈ {{min}} {{tokenId}}",
+    "variation": {
+      "buy": "Slightly higher the estimated cost, and the turnover rate will be higher.",
+      "sell": "Slightly lower the estimated cost, and the turnover rate will be higher."
+    },
+    "notFound": "Exchanges not found"
   },
   "hideAccount": "Вы собираетесь удалить эту учетную запись. Вы можете восстановить её в настройках позже.",
   "components": {
@@ -579,7 +591,7 @@
       "title": "TronWallet Terms of Service",
       "section1": {
         "title": "1. Terms",
-        "body": "By accessing the website at http://tronwallet.me, you are agreeing to be bound by these terms of service, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. If you do not agree with any of these terms, you are prohibited from using or accessing this site. The materials contained in this website are protected by applicable copyright and trademark law."
+        "body": "Получая доступ к этому приложению, вы соглашаетесь соблюдать настоящие Условия предоставления услуг, все применимые законы правила, и соглашаетесь, что вы несете ответственность за соблюдение любых применимых местных законов. Если вы не согласны с любым из этих условий, вам запрещается использование или доступ к этому приложению. Материалы, содержащиеся на данном сайте, защищены законодательством об авторском праве и товарных знаках."
       },
       "section2": {
         "title": "2. Use License",
@@ -607,28 +619,34 @@
       },
       "section8": {
         "title": "8. Governing Law",
-        "body": "These terms and conditions are governed by and construed in accordance with the laws of Vancouver, Canada and you irrevocably submit to the exclusive jurisdiction of the courts in that State or location.\n"
+        "body": "Настоящие условия и положения регулируются и толкуются в соответствии с законодательством Ванкувер, Канада и вы безоговорочно подчиняетесь исключительной юрисдикции судов в этом государстве или местности."
       },
       "section9": {
-        "title": "9. CRYPTOCURRENCY RISKS",
-        "body": "Cryptocurrency assets are subject to high market risks and volatility. Past performance is not indicative of future results. Investments in blockchain assets may result in loss of part or all of your investment. Please do your own research and use caution. You are solely responsible for your actions on the TRONWALLET. TRONWALLET Team is not responsible for your investment losses.\n"
+        "title": "КРИПТОВАЛЮТНЫЕ РИСКИ",
+        "body": "Криптовалютные активы подвержены высоким рыночным рискам и волатильности. Прошлые результаты не являются показателем будущих результатов. Инвестиции в блокчейн-активы могут привести к потере части или всех ваших инвестиций. Пожалуйста сделайте ваше собственное исследование и будьте осторожны. Вы несете полную ответственность за свои действия на TRONWALLET. Команда TRONWALLET не несет ответственности за ваши инвестиционные потери."
       },
       "section10": {
-        "title": "10. THE TRON NETWORK (SEPARATE FROM TRONWALLET)",
-        "body": "TronWallet is only a user interface to TRON and does not operate the TRON NETWORK. TronWallet is unable to control the actions of others on the TRON NETWORK. When using TRONWALLET, you are directly communicating with the TRON PUBLIC API operated by TRON Foundation. Transactions on the TRONWALLET are irreversible.\n"
+        "title": "10. СЕТЬ TRON NETWORK (ОТДЕЛЕНА ОТ TRONWALLET)",
+        "body": "TronWallet является только пользовательским интерфейсом к TRON и не управляет сетью TRON. TronWallet не может управлять действиями других пользователей в сети TRON. При использовании TRONWALLET вы напрямую взаимодействуете с открытым API TRON, управляемым TRON Foundation. Транзакции на TRONWALLET необратимы."
       },
       "section11": {
-        "title": "11. TRONWALLET DOES NOT ENDORSE ANYTHING",
-        "body": "TRONWALLET does NOT endorse ANY asset on the TRON NETWORK. Asset \"listings\" on TRONWALLET are NOT endorsements. TRONWALLET is a software client ONLY and does NOT conduct any independent diligence or review of any asset. TRON is an open system meaning that scams and market manipulators may exist. Prices shown on TRONWALLET are for informational purposes and do not imply that they can actually be redeemed for a certain price.\n"
+        "title": "11. НЕ РЕКОМЕНДАЦИЯ TRONWALLET ",
+        "body": "TRONWALLET не поддерживает никакие активы в сети TRON. \"Листинги\" активов на TRONWALLET не являются рекламой. TRONWALLET является только клиентом программного обеспечения и не проводит независимую проверку каких-либо активов. TRON-это открытая система, означающая, что мошенники и манипуляторы рынком могут существовать. Цены, указанные на TRONWALLET, носят информационный характер и не подразумевают, что они могут быть фактически погашены за указанную цену."
       },
       "section12": {
-        "title": "12. YOUR OWN RESPONSIBILITIES",
-        "body": "You, the user, are solely responsible for ensuring your own compliance with laws and taxes in your jurisdiction. Cryptocurrencies may be illegal in your area. You, are solely responsible for your own security including keeping your account secret keys safe and backed up.\n"
+        "title": "12. СОБСТВЕННЫЕ ОБЯЗАТЕЛЬСТВА",
+        "body": "Вы, пользователь, несете единоличную ответственность за обеспечение соблюдения законов и налогов в вашей юрисдикции. Криптовалюты могут быть незаконными в вашем районе. Вы несете полную ответственность за свою собственную безопасность, включая сохранение секретных ключей вашей учетной записи в безопасности и их резервное копирование."
       },
       "section13": {
-        "title": "13. DISCLAIMER OF WARRANTY",
-        "body": "TRONWALLET is provided free of charge and on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND.\n"
+        "title": "13. ОТКАЗ ОТ ОТВЕТСТВЕННОСТИ",
+        "body": "TRONWALLET предоставляется бесплатно и на условиях \"как есть\", без каких-либо гарантий или условий."
       }
     }
+  },
+  "notifications": {
+    "title": "NOTIFICATIONS"
+  },
+  "news": {
+    "title": "NEWS"
   }
 }

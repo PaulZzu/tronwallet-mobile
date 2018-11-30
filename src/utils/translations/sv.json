@@ -20,6 +20,7 @@
   "cancel": "Avbryt",
   "address": "Adress",
   "message": "Meddelande",
+  "ex": "Exchange",
   "ok": "Ok",
   "actionModalTitle": "Skulle du vilja",
   "account": "konto",
@@ -46,6 +47,7 @@
     "vote": "Rösta",
     "participate": "Delta",
     "create": "Skapa",
+    "exchange": "Exchange",
     "undefined": "Odentifierad Typ"
   },
   "close": "Stängt",
@@ -56,6 +58,7 @@
   "privateKey": "Privat nyckel",
   "results": "Resultat",
   "buy": "Köp",
+  "sell": "Sell",
   "filter": "Filter",
   "txs": "Transaktioner",
   "balance": {
@@ -69,6 +72,15 @@
     "bandwidth": "BANDBREDD",
     "tokens": "Valuta",
     "holdings": "Besparingar"
+  },
+  "exchange": {
+    "minToSell": "Minimun to sell ≈ {{min}} {{tokenId}}",
+    "minToBuy": "Minimun to buy ≈ {{min}} {{tokenId}}",
+    "variation": {
+      "buy": "Slightly higher the estimated cost, and the turnover rate will be higher.",
+      "sell": "Slightly lower the estimated cost, and the turnover rate will be higher."
+    },
+    "notFound": "Exchanges not found"
   },
   "hideAccount": "Du håller på att ta bort det här kontot. Du kan återställa det senare i inställningarna",
   "components": {
@@ -630,5 +642,11 @@
         "body": "TRONWALLET is provided free of charge and on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND.\n"
       }
     }
+  },
+  "notifications": {
+    "title": "NOTIFICATIONS"
+  },
+  "news": {
+    "title": "NEWS"
   }
 }

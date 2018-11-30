@@ -20,6 +20,7 @@
   "cancel": "لغو",
   "address": "آدرس",
   "message": "پیام",
+  "ex": "تبادل",
   "ok": "تایید",
   "actionModalTitle": "آیا میخواهید",
   "account": "حساب کاربری",
@@ -35,7 +36,7 @@
   "frozen": "مسدود",
   "tronPower": "قدرت TRON",
   "trxPrice": "قیمت TRX",
-  "confirmed": "تایید شده",
+  "confirmed": "تایید شد",
   "unconfirmed": "تایید نشده",
   "copyAddress": "کپی آدرس",
   "transactionType": {
@@ -46,6 +47,7 @@
     "vote": "رای",
     "participate": "مشارکت",
     "create": "ایجاد",
+    "exchange": "تبادل",
     "undefined": "نوع تعریف نشده"
   },
   "close": "بستن",
@@ -56,6 +58,7 @@
   "privateKey": "کلید خصوصی",
   "results": "نتیجه",
   "buy": "خرید",
+  "sell": "فروش",
   "filter": "فیلتر",
   "txs": "تراکنش ها",
   "balance": {
@@ -69,6 +72,15 @@
     "bandwidth": "پهنای باند",
     "tokens": "توکن ها",
     "holdings": "موجودی ها"
+  },
+  "exchange": {
+    "minToSell": "حداقل فروش ≈ {{min}} {{tokenId}}",
+    "minToBuy": "حداقل خرید ≈ {{min}} {{tokenId}}",
+    "variation": {
+      "buy": "هرچه ارزش تخمین زده شده بالاتر رود، میزان گردش مالی نیز بالاتر خواهد رفت.",
+      "sell": "هرچه ارزش تخمین زده شده پایین تر رود، میزان گردش مالی نیز پایین تر خواهد رفت."
+    },
+    "notFound": "امکان تبادل وجود ندارد"
   },
   "hideAccount": "شما در حال حذف این حساب هستید. شما می توانید بعدا آن را در تنظیمات بازیابی کنید",
   "components": {
@@ -630,5 +642,11 @@
         "body": "TRONWALLET is provided free of charge and on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND.\n"
       }
     }
+  },
+  "notifications": {
+    "title": "اطلاعیه ها"
+  },
+  "news": {
+    "title": "اخبار"
   }
 }
